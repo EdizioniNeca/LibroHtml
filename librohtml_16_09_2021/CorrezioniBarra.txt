@@ -1,0 +1,54 @@
+PROBLEMI GENERALI
+	Quando carica la pagina a volte compare il codice html prima della pagina vera e propria.OK
+
+	Mentre scorri il testo a volte compare un "pop up": Questa pagina "dice stampo blocchi sotto t3". OK
+
+	La ricerca non deve darmi il primo risultato del primo capitolo ma deve essere contestuale alla pagina che sto visualizzando.OK
+	
+	Proposte per la frase del risultato di ricerca: 
+	"Nella pagina ci sono 2 risultati di ricerca"
+	"Nella pagina 2 risultati"
+	(verificare con Franco)
+	
+	Nella ricerca devi poter cercare le parole "Codice della strada" e non solo la parola "codice".OK
+
+	I "VEICOLI" non apre il primo paragrafo.OK
+
+BARRA DESKTOP
+	La barra di ricerca che esce in un secondo momento occuperà tutto lo spazio e non ci saranno più i pulsanti "Giù", "Su", "Indice" ma sarà dedicata interamente alla ricerca.
+
+	La X chiuderà la ricerca mentre la barra si chiuderà con un click sul desktop
+	
+	Controllare il tempo di visualizzazione e scomparsa della barra
+	
+	Controllare che i tasti "Su" e "Giù" dell'indice non saltino blocchi
+	
+	Controllare che tutti i bottoni siano allineati sia in orizzontale (anche quando il testo delle occorrenze va su due righe) che in verticale (nella versione aula io ho la barra scentrata)
+	Per i CSS usare i seguenti breakpoint:
+		(min-width: 1200px) (comprende anche Galaxy Tab A Landscape)
+		(min-width: 992px) and (max-width: 1199px)
+		(min-width: 768px) and (max-width: 991px) (comprende anche Galaxy Tab A Portrait)
+		(min-width: 641px) and (max-width: 767px) (comprende anche Galaxy S8 Landscape)
+		(min-width: 552px) and (max-width: 640px) 
+		(min-width: 376px) and (max-width: 551px)
+		(max-width: 375px) (comprende anche Galaxy S8 Portrait)
+		
+	Per aula e desktop usare size-font più grandi
+
+	
+BARRA SMARTPHONE
+	La barra compare opaca come conseguenza della velocità di scroll (scroll lento la barra non si presenta, scroll veloce la barra compare)
+
+	Controllare la posizione del "fumetto" e freccetta di collegamento del "fumetto"
+	
+	Controllare la posizione della barra che a volte si distanzia qualche pixel dal basso o qualche pixel dall'alto
+	
+	Controllare i colori della barra (es. nel tablet quando fai la ricerca la barra diventa verde)
+	
+	Controllare i tempi... non sempre si riesce a scrivere l'intera parola di ricerca prima che la barra scompaia.
+	
+	
+	
+
+PER AULA SISTEMARE LA CENTRATURA DEL MENU
+	

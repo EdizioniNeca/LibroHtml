@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="Livello_5" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:cc="http://creativecommons.org/ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" sodipodi:docname="Bt_Modifica_Dw.svg" inkscape:version="0.48.4 r9939"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-120 119.5 184.7 72.3"
+	 enable-background="new -120 119.5 184.7 72.3" xml:space="preserve">
+<sodipodi:namedview  inkscape:cy="36.172001" showgrid="false" inkscape:cx="92.351997" guidetolerance="10" gridtolerance="10" inkscape:zoom="2.2019579" pagecolor="#ffffff" objecttolerance="10" bordercolor="#666666" borderopacity="1" id="namedview44" inkscape:window-x="985" inkscape:window-height="1010" inkscape:window-width="737" inkscape:pageshadow="2" inkscape:pageopacity="0" inkscape:current-layer="Livello_5" inkscape:window-maximized="0" inkscape:window-y="0">
+	</sodipodi:namedview>
+<linearGradient id="path20_1_" gradientUnits="userSpaceOnUse" x1="194.81" y1="702.0223" x2="194.81" y2="629.7967" gradientTransform="matrix(1 0 0 1 -222.4805 -510.4853)">
+	<stop  offset="0" style="stop-color:#CFE7D7"/>
+	<stop  offset="0.2241" style="stop-color:#CCE4D4;stop-opacity:0.9664"/>
+	<stop  offset="0.3973" style="stop-color:#C2DBCB;stop-opacity:0.9404"/>
+	<stop  offset="0.5534" style="stop-color:#B2CBBB;stop-opacity:0.917"/>
+	<stop  offset="0.6994" style="stop-color:#9AB5A5;stop-opacity:0.8951"/>
+	<stop  offset="0.8385" style="stop-color:#7C9989;stop-opacity:0.8742"/>
+	<stop  offset="0.9706" style="stop-color:#587767;stop-opacity:0.8544"/>
+	<stop  offset="1" style="stop-color:#4F6E5E;stop-opacity:0.85"/>
+</linearGradient>
+<path id="path20" fill="url(#path20_1_)" d="M28.5,119.2H-83.8c-20,0-36.2,16.2-36.2,36.2c0,20,16.2,36.2,36.2,36.2H28.5
+	c20,0,36.2-16.2,36.2-36.2C64.7,135.4,48.5,119.2,28.5,119.2z"/>
+<path id="path22" fill="#FFFFFF" d="M28.5,123.6H-83.8c-17.5,0-31.7,14.2-31.7,31.7c0,17.5,14.2,31.7,31.7,31.7H28.5
+	c17.5,0,31.8-14.2,31.8-31.7C60.2,137.8,46,123.6,28.5,123.6z"/>
+<path id="path24" fill="#CFE7D7" d="M28.5,126.3H-83.8c-16.1,0-29.1,13-29.1,29.1c0,16.1,13,29.1,29.1,29.1H28.5
+	c16.1,0,29.1-13,29.1-29.1C57.6,139.3,44.5,126.3,28.5,126.3z"/>
+<g enable-background="new    ">
+	<path fill="#C6C7C8" d="M-73.5,163.4v-15.7h6.7c1.7,0,2.9,0.1,3.7,0.4c0.8,0.3,1.4,0.8,1.8,1.5c0.5,0.7,0.7,1.6,0.7,2.5
+		c0,1.2-0.3,2.2-1,2.9c-0.7,0.8-1.7,1.3-3.1,1.5c0.7,0.4,1.3,0.8,1.7,1.3c0.4,0.5,1.1,1.3,1.8,2.6l1.9,3.1h-3.8l-2.3-3.4
+		c-0.8-1.2-1.4-2-1.7-2.3c-0.3-0.3-0.6-0.5-1-0.7c-0.3-0.1-0.9-0.2-1.6-0.2h-0.6v6.6H-73.5z M-70.3,154.4h2.4c1.5,0,2.5-0.1,2.9-0.2
+		c0.4-0.1,0.7-0.4,0.9-0.7s0.3-0.7,0.3-1.2c0-0.5-0.1-1-0.4-1.3c-0.3-0.3-0.7-0.5-1.2-0.6c-0.3,0-1-0.1-2.3-0.1h-2.5V154.4z"/>
+	<path fill="#C6C7C8" d="M-57.7,163.4v-15.7h3.2v15.7H-57.7z"/>
+	<path fill="#C6C7C8" d="M-47.9,163.4v-13.1h-4.7v-2.7h12.5v2.7h-4.7v13.1H-47.9z"/>
+	<path fill="#C6C7C8" d="M-39.1,155.7c0-1.6,0.2-3,0.7-4c0.4-0.8,0.8-1.5,1.5-2.2c0.6-0.6,1.3-1.1,2-1.4c1-0.4,2.1-0.6,3.4-0.6
+		c2.3,0,4.2,0.7,5.6,2.2c1.4,1.4,2.1,3.4,2.1,6c0,2.5-0.7,4.5-2.1,6c-1.4,1.4-3.2,2.2-5.5,2.2c-2.3,0-4.2-0.7-5.6-2.1
+		C-38.4,160.1-39.1,158.2-39.1,155.7z M-35.8,155.6c0,1.8,0.4,3.1,1.2,4.1c0.8,0.9,1.9,1.4,3.1,1.4s2.3-0.5,3.1-1.4
+		c0.8-0.9,1.2-2.3,1.2-4.1c0-1.8-0.4-3.2-1.2-4c-0.8-0.9-1.8-1.3-3.2-1.3s-2.4,0.4-3.2,1.3C-35.4,152.4-35.8,153.7-35.8,155.6z"/>
+	<path fill="#C6C7C8" d="M-21.3,163.4v-15.7h6.7c1.7,0,2.9,0.1,3.7,0.4c0.8,0.3,1.4,0.8,1.8,1.5c0.5,0.7,0.7,1.6,0.7,2.5
+		c0,1.2-0.3,2.2-1,2.9c-0.7,0.8-1.7,1.3-3.1,1.5c0.7,0.4,1.3,0.8,1.7,1.3s1.1,1.3,1.8,2.6l1.9,3.1H-11l-2.3-3.4
+		c-0.8-1.2-1.4-2-1.7-2.3c-0.3-0.3-0.6-0.5-1-0.7c-0.3-0.1-0.9-0.2-1.6-0.2h-0.6v6.6H-21.3z M-18.1,154.4h2.4c1.5,0,2.5-0.1,2.9-0.2
+		c0.4-0.1,0.7-0.4,0.9-0.7s0.3-0.7,0.3-1.2c0-0.5-0.1-1-0.4-1.3c-0.3-0.3-0.7-0.5-1.2-0.6c-0.3,0-1-0.1-2.3-0.1h-2.5V154.4z"/>
+	<path fill="#C6C7C8" d="M-5.4,163.4v-15.7h3.1l6.4,10.5v-10.5h3v15.7H3.9l-6.3-10.3v10.3H-5.4z"/>
+	<path fill="#C6C7C8" d="M24.7,163.4h-3.5l-1.4-3.6h-6.3l-1.3,3.6H8.9l6.1-15.7h3.4L24.7,163.4z M18.8,157.2l-2.2-5.8l-2.1,5.8H18.8
+		z"/>
+</g>
+</svg>

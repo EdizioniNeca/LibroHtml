@@ -1,0 +1,1617 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* GM CSS */
+/*COLORI CAPITOLI*/
+/*Veicoli*/
+.veicoli {
+  color: #73a42e; 
+}
+.veicoli h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #bcdf98 100%);
+  background: -o-linear-gradient(right, #fff 75% , #bcdf98 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #bcdf98 100%);
+  background: linear-gradient(to right, #fff 75% , #bcdf98 100%);
+}
+.veicoli h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #bcdf98 100%);
+  background: -o-linear-gradient(right, #fff 55% , #bcdf98 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #bcdf98 100%);
+  background: linear-gradient(to right, #fff 55% , #bcdf98 100%);
+}
+.veicoli hr {
+  background-color: #73a42e;
+  border-color: #73a42e; 
+}
+.veicoli .titolo5, .veicoli .titolo6 {
+  border-color: #73a42e;
+}
+.veicoli h4:after, .veicoli h5:after, .veicoli h6:after {
+  border-top: #73a42e;
+}
+/*media*/
+@media (max-width: 768px) {
+.veicoli h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #bcdf98, white, white, white, white, white, white, white, #bcdf98);
+  background: -o-linear-gradient(left, #bcdf98, white, white, white, white, white, white, white, #bcdf98);
+  background: -moz-linear-gradient(left, #bcdf98, white, white, white, white, white, white, white, #bcdf98);
+  background: linear-gradient(left, #bcdf98, white, white, white, white, white, white, white, #bcdf98);
+}
+.veicoli h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #bcdf98, white, white, white, white, white, white, #bcdf98);
+  background: -o-linear-gradient(left, #bcdf98, white, white, white, white, white, white, #bcdf98);
+  background: -moz-linear-gradient(left, #bcdf98, white, white, white, white, white, white, #bcdf98);
+  background: linear-gradient(left, #bcdf98, white, white, white, white, white, white, #bcdf98);
+}
+}
+/* Fine Veicoli*/
+
+/*Strada*/
+.strada {
+  color: #816714; 
+}
+.strada h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #dfc398 100%);
+  background: -o-linear-gradient(right, #fff 75% , #dfc398 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #dfc398 100%);
+  background: linear-gradient(to right, #fff 75% , #dfc398 100%);
+}
+.strada h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #dfc398 100%);
+  background: -o-linear-gradient(right, #fff 55% , #dfc398 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #dfc398 100%);
+  background: linear-gradient(to right, #fff 55% , #dfc398 100%);
+}
+.strada hr {
+  background-color: #816714;
+  border-color: #816714; 
+}
+.strada .titolo5, .strada .titolo6 {
+  border-color: #816714;
+}
+.strada h4:after, .strada h5:after, .strada h6:after {
+  border-top: #816714;
+}
+/*media*/
+@media (max-width: 768px) {
+.strada h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #dfc398, white, white, white, white, white, white, white, #dfc398);
+  background: -o-linear-gradient(left, #dfc398, white, white, white, white, white, white, white, #dfc398);
+  background: -moz-linear-gradient(left, #dfc398, white, white, white, white, white, white, white, #dfc398);
+  background: linear-gradient(left, #dfc398, white, white, white, white, white, white, white, #dfc398);
+}
+.strada h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #dfc398, white, white, white, white, white, white, #dfc398);
+  background: -o-linear-gradient(left, #dfc398, white, white, white, white, white, white, #dfc398);
+  background: -moz-linear-gradient(left, #dfc398, white, white, white, white, white, white, #dfc398);
+  background: linear-gradient(left, #dfc398, white, white, white, white, white, white, #dfc398);
+}
+}
+/*Fine Strada*/
+
+/*Segnali*/
+.segnali {
+  color: #005ea8; 
+}
+.segnali h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #4792ce 100%);
+  background: -o-linear-gradient(right, #fff 75% , #4792ce 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #4792ce 100%);
+  background: linear-gradient(to right, #fff 75% , #4792ce 100%);
+}
+.segnali h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #4792ce 100%);
+  background: -o-linear-gradient(right, #fff 55% , #4792ce 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #4792ce 100%);
+  background: linear-gradient(to right, #fff 55% , #4792ce 100%);
+}
+.segnali hr {
+  background-color: #005ea8;
+  border-color: #005ea8; 
+}
+.segnali .titolo5, .segnali .titolo6 {
+  border-color: #005ea8;
+}
+.segnali h4:after, .segnali h5:after, .segnali h6:after {
+  border-top: #005ea8;
+}
+/*media*/
+@media (max-width: 768px) {
+.segnali h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #4792ce, white, white, white, white, white, white, white, #4792ce);
+  background: -o-linear-gradient(left, #4792ce, white, white, white, white, white, white, white, #4792ce);
+  background: -moz-linear-gradient(left, #4792ce, white, white, white, white, white, white, white, #4792ce);
+  background: linear-gradient(left, #4792ce, white, white, white, white, white, white, white, #4792ce);
+}
+.segnali h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #4792ce, white, white, white, white, white, white, #4792ce);
+  background: -o-linear-gradient(left, #4792ce, white, white, white, white, white, white, #4792ce);
+  background: -moz-linear-gradient(left, #4792ce, white, white, white, white, white, white, #4792ce);
+  background: linear-gradient(left, #4792ce, white, white, white, white, white, white, #4792ce);
+}
+}
+/* Fine Segnali*/
+
+/*Equipaggiamento*/
+.equipaggiamento {
+  color: #bb9c09; 
+}
+.equipaggiamento h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #c8b55d 100%);
+  background: -o-linear-gradient(right, #fff 75% , #c8b55d 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #c8b55d 100%);
+  background: linear-gradient(to right, #fff 75% , #c8b55d 100%);
+}
+.equipaggiamento h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #c8b55d 100%);
+  background: -o-linear-gradient(right, #fff 55% , #c8b55d 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #c8b55d 100%);
+  background: linear-gradient(to right, #fff 55% , #c8b55d 100%);
+}
+.equipaggiamento hr {
+  background-color: #bb9c09;
+  border-color: #bb9c09; 
+}
+.equipaggiamento .titolo5, .equipaggiamento .titolo6 {
+  border-color: #bb9c09;
+}
+.equipaggiamento h4:after, .equipaggiamento h5:after, .equipaggiamento h6:after {
+  border-top: #bb9c09;
+}
+/*media*/
+@media (max-width: 768px) {
+.equipaggiamento h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #c8b55d, white, white, white, white, white, white, white, #c8b55d);
+  background: -o-linear-gradient(left, #c8b55d, white, white, white, white, white, white, white, #c8b55d);
+  background: -moz-linear-gradient(left, #c8b55d, white, white, white, white, white, white, white, #c8b55d);
+  background: linear-gradient(left, #c8b55d, white, white, white, white, white, white, white, #c8b55d);
+}
+.equipaggiamento h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #c8b55d, white, white, white, white, white, white, #c8b55d);
+  background: -o-linear-gradient(left, #c8b55d, white, white, white, white, white, white, #c8b55d);
+  background: -moz-linear-gradient(left, #c8b55d, white, white, white, white, white, white, #c8b55d);
+  background: linear-gradient(left, #c8b55d, white, white, white, white, white, white, #c8b55d);
+}
+}
+/* Fine Equipaggiamento*/
+
+/*Norme comportamento*/
+.norme {
+  color: #497728; 
+}
+.norme h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #698655 100%);
+  background: -o-linear-gradient(right, #fff 75% , #698655 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #698655 100%);
+  background: linear-gradient(to right, #fff 75% , #698655 100%);
+}
+.norme h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #698655 100%);
+  background: -o-linear-gradient(right, #fff 55% , #698655 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #698655 100%);
+  background: linear-gradient(to right, #fff 55% , #698655 100%);
+}
+.norme hr {
+  background-color: #497728;
+  border-color: #497728; 
+}
+.norme .titolo5, .norme .titolo6 {
+  border-color: #497728;
+}
+.norme h4:after, .norme h5:after, .norme h6:after {
+  border-top: #497728;
+}
+/*media*/
+@media (max-width: 768px) {
+.norme h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #698655, white, white, white, white, white, white, white, #698655);
+  background: -o-linear-gradient(left, #698655, white, white, white, white, white, white, white, #698655);
+  background: -moz-linear-gradient(left, #698655, white, white, white, white, white, white, white, #698655);
+  background: linear-gradient(left, #698655, white, white, white, white, white, white, white, #698655);
+}
+.norme h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #698655, white, white, white, white, white, white, #698655);
+  background: -o-linear-gradient(left, #698655, white, white, white, white, white, white, #698655);
+  background: -moz-linear-gradient(left, #698655, white, white, white, white, white, white, #698655);
+  background: linear-gradient(left, #698655, white, white, white, white, white, white, #698655);
+}
+}
+/* Fine Norme comportamento*/
+
+/*Documenti*/
+.documenti {
+  color: #d6413e; 
+}
+.documenti h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #d66b69 100%);
+  background: -o-linear-gradient(right, #fff 75% , #d66b69 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #d66b69 100%);
+  background: linear-gradient(to right, #fff 75% , #d66b69 100%);
+}
+.documenti h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #d66b69 100%);
+  background: -o-linear-gradient(right, #fff 55% , #d66b69 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #d66b69 100%);
+  background: linear-gradient(to right, #fff 55% , #d66b69 100%);
+}
+.documenti hr {
+  background-color: #d6413e;
+  border-color: #d6413e; 
+}
+.documenti .titolo5, .incidenti .titolo6 {
+  border-color: #d6413e;
+}
+.documenti h4:after, .incidenti h5:after, .incidenti h6:after {
+  border-top: #d6413e;
+}
+/*media*/
+@media (max-width: 768px) {
+.documenti h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #d66b69, white, white, white, white, white, white, white, #d66b69);
+  background: -o-linear-gradient(left, #d66b69, white, white, white, white, white, white, white, #d66b69);
+  background: -moz-linear-gradient(left, #d66b69, white, white, white, white, white, white, white, #d66b69);
+  background: linear-gradient(left, #d66b69, white, white, white, white, white, white, white, #d66b69);
+}
+.documenti h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #d66b69, white, white, white, white, white, white, #d66b69);
+  background: -o-linear-gradient(left, #d66b69, white, white, white, white, white, white, #d66b69);
+  background: -moz-linear-gradient(left, #d66b69, white, white, white, white, white, white, #d66b69);
+  background: linear-gradient(left, #d66b69, white, white, white, white, white, white, #d66b69);
+}
+}
+/* Fine Documenti*/
+
+/*Incidenti Ass*/
+.incidenti {
+  color: #00869e; 
+}
+.incidenti h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #57919c 100%);
+  background: -o-linear-gradient(right, #fff 75% , #57919c 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #57919c 100%);
+  background: linear-gradient(to right, #fff 75% , #57919c 100%);
+}
+.incidenti h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #57919c 100%);
+  background: -o-linear-gradient(right, #fff 55% , #57919c 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #57919c 100%);
+  background: linear-gradient(to right, #fff 55% , #57919c 100%);
+}
+.incidenti hr {
+  background-color: #00869e;
+  border-color: #00869e; 
+}
+.incidenti .titolo5, .incidenti .titolo6 {
+  border-color: #00869e;
+}
+.incidenti h4:after, .incidenti h5:after, .incidenti h6:after {
+  border-top: #00869e;
+}
+/*media*/
+@media (max-width: 768px) {
+.incidenti h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #57919c, white, white, white, white, white, white, white, #57919c);
+  background: -o-linear-gradient(left, #57919c, white, white, white, white, white, white, white, #57919c);
+  background: -moz-linear-gradient(left, #57919c, white, white, white, white, white, white, white, #57919c);
+  background: linear-gradient(left, #57919c, white, white, white, white, white, white, white, #57919c);
+}
+.incidenti h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #57919c, white, white, white, white, white, white, #57919c);
+  background: -o-linear-gradient(left, #57919c, white, white, white, white, white, white, #57919c);
+  background: -moz-linear-gradient(left, #57919c, white, white, white, white, white, white, #57919c);
+  background: linear-gradient(left, #57919c, white, white, white, white, white, white, #57919c);
+}
+}
+/* Fine Incidenti Ass*/
+
+/*Soccorso*/
+.soccorso {
+  color: #9a0061; 
+}
+.soccorso h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #b03c85 100%);
+  background: -o-linear-gradient(right, #fff 75% , #b03c85 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #b03c85 100%);
+  background: linear-gradient(to right, #fff 75% , #b03c85 100%);
+}
+.soccorso h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #b03c85 100%);
+  background: -o-linear-gradient(right, #fff 55% , #b03c85 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #b03c85 100%);
+  background: linear-gradient(to right, #fff 55% , #b03c85 100%);
+}
+.soccorso hr {
+  background-color: #9a0061;
+  border-color: #9a0061; 
+}
+.soccorso .titolo5, .soccorso .titolo6 {
+  border-color: #9a0061;
+}
+.soccorso h4:after, .soccorso h5:after, .soccorso h6:after {
+  border-top: #9a0061;
+}
+/*media*/
+@media (max-width: 768px) {
+.soccorso h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #b03c85, white, white, white, white, white, white, white, #b03c85);
+  background: -o-linear-gradient(left, #b03c85, white, white, white, white, white, white, white, #b03c85);
+  background: -moz-linear-gradient(left, #b03c85, white, white, white, white, white, white, white, #b03c85);
+  background: linear-gradient(left, #b03c85, white, white, white, white, white, white, white, #b03c85);
+}
+.soccorso h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #b03c85, white, white, white, white, white, white, #b03c85);
+  background: -o-linear-gradient(left, #b03c85, white, white, white, white, white, white, #b03c85);
+  background: -moz-linear-gradient(left, #b03c85, white, white, white, white, white, white, #b03c85);
+  background: linear-gradient(left, #b03c85, white, white, white, white, white, white, #b03c85);
+}
+}
+/* Fine Soccorso*/
+
+/*Sicurezza*/
+.sicurezza {
+  color: #df6f0d; 
+}
+.sicurezza h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #df9555 100%);
+  background: -o-linear-gradient(right, #fff 75% , #df9555 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #df9555 100%);
+  background: linear-gradient(to right, #fff 75% , #df9555 100%);
+}
+.sicurezza h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #df9555 100%);
+  background: -o-linear-gradient(right, #fff 55% , #df9555 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #df9555 100%);
+  background: linear-gradient(to right, #fff 55% , #df9555 100%);
+}
+.sicurezza hr {
+  background-color: #df6f0d;
+  border-color: #df6f0d; 
+}
+.sicurezza .titolo5, .sicurezza .titolo6 {
+  border-color: #df6f0d;
+}
+.sicurezza h4:after, .sicurezza h5:after, .sicurezza h6:after {
+  border-top: #df6f0d;
+}
+/*media*/
+@media (max-width: 768px) {
+.sicurezza h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #df9555, white, white, white, white, white, white, white, #df9555);
+  background: -o-linear-gradient(left, #df9555, white, white, white, white, white, white, white, #df9555);
+  background: -moz-linear-gradient(left, #df9555, white, white, white, white, white, white, white, #df9555);
+  background: linear-gradient(left, #df9555, white, white, white, white, white, white, white, #df9555);
+}
+.sicurezza h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #df9555, white, white, white, white, white, white, #df9555);
+  background: -o-linear-gradient(left, #df9555, white, white, white, white, white, white, #df9555);
+  background: -moz-linear-gradient(left, #df9555, white, white, white, white, white, white, #df9555);
+  background: linear-gradient(left, #df9555, white, white, white, white, white, white, #df9555);
+}
+}
+/* Fine Sicurezza*/
+
+/*Autoveicolo*/
+.autoveicolo {
+  color: #929494; 
+}
+.autoveicolo h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #b7b8b8 100%);
+  background: -o-linear-gradient(right, #fff 75% , #b7b8b8 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #b7b8b8 100%);
+  background: linear-gradient(to right, #fff 75% , #b7b8b8 100%);
+}
+.autoveicolo h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #b7b8b8 100%);
+  background: -o-linear-gradient(right, #fff 55% , #b7b8b8 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #b7b8b8 100%);
+  background: linear-gradient(to right, #fff 55% , #b7b8b8 100%);
+}
+.autoveicolo hr {
+  background-color: #929494;
+  border-color: #929494; 
+}
+.autoveicolo .titolo5, .autoveicolo .titolo6 {
+  border-color: #929494;
+}
+.autoveicolo h4:after, .autoveicolo h5:after, .autoveicolo h6:after {
+  border-top: #929494;
+}
+/*media*/
+@media (max-width: 768px) {
+.autoveicolo h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #b7b8b8, white, white, white, white, white, white, white, #b7b8b8);
+  background: -o-linear-gradient(left, #b7b8b8, white, white, white, white, white, white, white, #b7b8b8);
+  background: -moz-linear-gradient(left, #b7b8b8, white, white, white, white, white, white, white, #b7b8b8);
+  background: linear-gradient(left, #b7b8b8, white, white, white, white, white, white, white, #b7b8b8);
+}
+.autoveicolo h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #b7b8b8, white, white, white, white, white, white, #b7b8b8);
+  background: -o-linear-gradient(left, #b7b8b8, white, white, white, white, white, white, #b7b8b8);
+  background: -moz-linear-gradient(left, #b7b8b8, white, white, white, white, white, white, #b7b8b8);
+  background: linear-gradient(left, #b7b8b8, white, white, white, white, white, white, #b7b8b8);
+}
+}
+/* Fine Autoveicolo*/
+
+/*FINE COLORI CAPITOLI*/
+
+/*TITOLI*/
+.titolo1 {
+  vertical-align: text-top;
+  margin-bottom:10px;
+  margin-top: 20px;
+  
+}
+.titolo1 h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  letter-spacing: -2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.titolo1 hr {
+  height: 4px;
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+  margin-bottom: 0px;
+  margin-top: 0px;  
+}
+
+.titolo2 {
+  
+}
+.titolo2 h2 {
+  font-variant: small-caps;
+  font-size:45px;
+  /*margin-top: 0px;
+  margin-bottom: 0px;*/
+}
+
+.titolo3 {
+  
+}
+.titolo3 h3 {
+  font-variant: small-caps;
+  font-size:40px;
+  letter-spacing: -1px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.titolo3 hr {
+  height: 3px;
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+  margin-bottom: 0px;
+  margin-top: 0px;  
+}
+
+.titolo4 {
+  border-bottom: 10px;
+  border-color: #000000;
+}
+.titolo4 h4 {
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  font-size:30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.titolo4 h4 span {
+  background-color: white;
+  padding-right: 10px;
+}
+.titolo4 h4:after {
+  content:"";
+  position: absolute;
+  bottom: -4px;
+  left: 15px;
+  right: 15px;
+  border-top: 3px solid; 
+  height: 0.5em;
+  z-index: -1;
+}
+
+.titolo5 {
+  border-bottom: 10px;
+}
+.titolo5 h5 {
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  font-size:28px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.titolo5 h5 span {
+  background-color: white;
+  padding-right: 10px;
+}
+
+.titolo5 h5:after {
+  content:"";
+  position: absolute;
+  bottom: -4px;
+  left: 15px;
+  right: 15px;
+  height: 0.5em;
+  border-top: 3px dotted;
+  z-index: -1;
+}
+
+.titolo6 {
+  border-bottom: 10px;
+  margin-bottom: 15px;
+}
+.titolo6 h6 {
+  font-size:25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.titolo6 h6 span {
+  background-color: white;
+  padding-right: 10px;
+}
+
+.titolo6 h6:after {
+  content:"";
+  position: absolute;
+  bottom: -4px;
+  left: 15px;
+  right: 15px;
+  height: 0.5em;
+  border-top: 3px dotted;
+  z-index: -1;
+}
+
+.titolo7 {
+  border-bottom: 10px;
+  margin-bottom: 15px;
+}
+.titolo7 h7 {
+  font-size:18px;
+  letter-spacing: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.titolo7 h7 span {
+  color:#fff;
+  line-height: 1.1;
+}
+
+.titolo_testo {
+  font-family: 'Arial', sans-serif;
+  hyphens: auto; 
+  font-size: 22px;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: bold;
+  padding: 10px 15px 10px 15px;
+}
+/*FINE TITOLI*/
+
+/*TESTO e DIDASCALIE*/
+.testo {
+  font-family: 'Arial', sans-serif;
+  hyphens: auto; 
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+}
+.testo_l {
+  font-family: 'Arial', sans-serif;
+  hyphens: auto; 
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 0 15px 0 15px;
+}
+.testo_r {
+  font-family: 'Arial', sans-serif;
+  hyphens: auto; 
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 0 15px 0 15px;
+}
+.comportamento {
+  color: #5586c0;
+  font-style: italic;
+}
+.comportamento_e {
+  color: #bb9c09;
+  font-style: italic;
+}
+.rosso {
+  color: #ff0000;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.verde {
+  color: #009036;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.dida {
+  font-family: 'Arial', condensed;
+  font-size: 16px;
+  line-height: 1.3;
+  font-stretch: condensed;
+  margin-top: 5px;
+  max-width: 358px;
+}
+.dida .didatesto {
+  text-align:justify;
+  padding-left: 5px;
+}
+.dida .numero {
+  letter-spacing: -0.6px;
+  font-weight: bold;
+  float: left;
+  margin-right: 5px;
+}
+a.dida {
+  /*letter-spacing: -0.6px;*/
+  font-size: 20px;
+  font-stretch: condensed;
+  font-weight: bold;
+}
+.didaSignal {
+	margin: 0 0 -20px 0;
+	padding-top: 5px;
+	padding-left: 0px;
+	font-weight: bold;
+}
+.signalNumero {
+  font-family: 'Arial', condensed;
+  font-size: 14px;
+  line-height: 1;
+  z-index: 99999999;
+  font-weight: bold;
+  margin: 10px 0 -15px 15px ;
+  position: absolute;
+  float: left;
+}
+.signalDesc {
+  font-family: 'Arial', condensed;
+  font-size: 14px;
+  line-height: 1;
+  z-index: 99999999;
+  font-weight: bold;
+  margin: -10px 0px 20px 0px ;
+}
+/*FINE TESTO e DIDASCALIE*/
+
+/*FOTO*/
+.foto {
+	max-width: 372px;
+}
+.foto_M {
+  max-width: 372px;
+  padding: 0 0 0 0;
+  margin-top: 5px;
+}
+.foto_M img {
+	width: 372px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	background-color: #e4e4e4;
+	background-image: url(../../assets/images/Caricamento.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.foto_l {
+	max-width: 372px;
+	float:left;
+	padding: 0 0 15px 0;
+	margin: 5px 35px 0 15px;
+}
+.foto_l .foto_M img, .foto_r .foto_M img, .foto_r2 .foto_M img {
+  border:1px solid #ccc;
+  border-radius: 5px; 
+	background-color: #e4e4e4;
+	background-image: url(../../assets/images/Caricamento.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.foto_r {
+	max-width: 372px;
+	float:right;
+	margin: 5px 15px 0 35px;
+}
+.foto_r2 {
+	max-width: 372px;
+	float:right;
+	margin: 5px 0px 0 35px;
+}
+.foto_5l {
+  max-width: 200px;	
+  float:left;
+  padding: 0 0 15px 0;
+  margin: 5px 35px 0 15px;
+}
+.foto_5l img, .foto_5r img {
+  width: 200px;
+  border:1px solid #ccc;
+  border-radius: 2px;
+}
+.foto_5r {
+  max-width: 200px;
+  float:right;
+  padding: 0 0 15px 0;
+  margin: 5px 15px 0 35px;
+}
+.foto_D {
+  max-width: 554px;	
+  padding: 0 0 0 0;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  	background-color: #e4e4e4;
+	background-image: url(../../assets/images/Caricamento.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.foto_D img {
+  width: 554px;
+}
+.foto_XL {
+  max-width: 100%;	
+  padding: 0 0 0 0;
+  margin-top: 5px;
+  text-align: center;
+  	background-color: #e4e4e4;
+	background-image: url(../../assets/images/Caricamento.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/*FINE FOTO*/
+
+/*SEGNALI*/
+.signal {
+  max-width: 250px;	
+}
+.signal_M {
+  max-width: 250px;	
+  padding: 0 0 0 0;
+}
+.signal_M img {
+	width: 250px;
+}
+.signal_l {
+  max-width: 250px;
+  float:left;
+  padding: 0 0 0 0;
+  margin: 0 25px 0 15px;
+}
+.signal_r {
+  max-width: 250px;
+  float:right;
+  margin: 0 15px 0 25px;
+}
+.signal_lplus {
+  float:left;
+  padding: 5px 0 15px 0;
+  margin: 5px 25px 0 15px;
+  border:1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+.signal_rplus {
+  max-width: 372px;
+  float:right;
+  margin: 5px 15px 0 25px;
+  border:1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+.signal_Mplus {
+  max-width: 372px;	
+  padding: 0 0 0 0;
+}
+/*FINE SEGNALI*/
+
+/*TAB INDICAZIONE*/
+.inditab {
+  width: 100%;
+  margin: 5px 0 15px 0;
+}
+.inditab_l {
+  width: 300px;
+  float:left;
+  padding: 0 0 0 0;
+  margin: 0 25px 0 15px;
+  border:1px solid #000;
+}
+.inditab_testoW {
+  font-family: 'Arial', sans-serif;
+  hyphens: auto; 
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: justify;
+  color: #fff;
+}
+.inditab_testoB {
+  font-family: 'Arial', sans-serif;
+  hyphens: auto; 
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: justify;
+  color: #000;
+}
+.testo_inditab {
+  font-family: 'Arial', sans-serif;
+  hyphens: auto; 
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 0 15px 0 15px;
+}
+/*FINE TAB INDICAZIONE*/
+
+/*TABELLA LUCI*/
+.lucitab {
+  padding: 5px 0 10px 0;
+  background-color: #ebe0bf;
+}
+.lucitab_tit{
+  background-color: #ebe0bf;
+  text-align: center;
+  color: #929494;
+}
+.lucitab_titolo6 {
+  border-bottom: 10px;
+  margin-bottom: 15px;
+}
+.lucitab_titolo6 h6 {
+  font-size:25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.lucitab_titolo6 h6 span {
+  background-color: white;
+  padding-right: 10px;
+}
+
+.lucitab_titolo6 h6:after {
+  content:"";
+  position: absolute;
+  bottom: -4px;
+  left: 15px;
+  right: 15px;
+  height: 0.5em;
+  border-top: 3px dotted;
+  z-index: 999;
+}
+.lucitab_int {
+  
+}
+.lucitab_int_last {
+  margin-bottom: 25px;
+}
+.lucitab_int_tit, .lucitab_int_last_tit{
+  background-color: #d6c076;
+  text-align: center;
+  padding: 5px 0 5px 0;
+  color: #000;
+}
+.lucitab_int_img, .lucitab_int_last_img{
+  width: 100%;
+  padding: 0 0 0 0;
+}
+.lucitab_int_testo, .lucitab_int_last_testo{
+  hyphens: auto; 
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  color: #000;
+  margin: 0 0 25px 0;
+}
+/*FINE TABELLA LUCI*/
+
+/*TABELLA NORME*/
+.normetab {
+  padding: 5px 0 10px 0;
+  background-color: #eceee6;
+}
+.normetab_tit{
+  background-color: #eceee6;
+  text-align: center;
+  color: #fff;
+}
+.normetab_titolo6 {
+  border-bottom: 10px;
+  margin-bottom: 15px;
+}
+.normetab_titolo6 h6 {
+  font-size:25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.normetab_titolo6 h6 span {
+  background-color: white;
+  padding-right: 10px;
+}
+
+.normetab_titolo6 h6:after {
+  content:"";
+  position: absolute;
+  bottom: -4px;
+  left: 15px;
+  right: 15px;
+  height: 0.5em;
+  border-top: 3px dotted;
+  z-index: 999;
+}
+.normetab_int {
+  
+}
+.normetab_int_last {
+  margin-bottom: 25px;
+}
+.normetab_int_tit, .normetab_int_last_tit{
+  background-color: #a6b387;
+  text-align: center;
+  padding: 5px 0 5px 0;
+  color: #fff;
+}
+.normetab_int_img, .normetab_int_last_img{
+  width: 100%;
+  padding: 0 0 0 0;
+}
+.normetab_int_testo, .normetab_int_last_testo{
+  hyphens: auto; 
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  color: #000;
+  margin: 0 0 25px 0;
+}
+/*FINE TABELLA NORME*/
+
+/*TABELLA DOCUMENTI*/
+.docutab {
+  padding: 5px 0 10px 0;
+  background-color: #eceee6;
+}
+.docutab_tit{
+  background-color: #eceee6;
+  text-align: center;
+  color: #fff;
+}
+.docutab_titolo6 {
+  border-bottom: 10px;
+  margin-bottom: 15px;
+}
+.docutab_titolo6 h6 {
+  font-size:25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.docutab_titolo6 h6 span {
+  background-color: white;
+  padding-right: 10px;
+}
+
+.docutab_titolo6 h6:after {
+  content:"";
+  position: absolute;
+  bottom: -4px;
+  left: 15px;
+  right: 15px;
+  height: 0.5em;
+  border-top: 3px dotted;
+  z-index: 999;
+}
+.docutab_int {
+  
+}
+.docutab_int_last {
+  margin-bottom: 25px;
+}
+.docutab_int_tit, .docutab_int_last_tit{
+  background-color: #ea9f9e;
+  text-align: center;
+  padding: 5px 0 5px 0;
+  color: #fff;
+}
+.docutab_int_img, .docutab_int_last_img{
+  width: 100%;
+  padding: 0 0 0 0;
+}
+.docutab_int_testo, .docutab_int_last_testo{
+  hyphens: auto; 
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  color: #000;
+  margin: 0 0 25px 0;
+}
+/*FINE TABELLA DOCUMENTI*/
+
+/*MEDIA*/
+
+/*********titoli*********/
+@media (min-width: 769px) and (max-width: 991px) {
+.titolo1 h1 {
+  font-size: 45px;
+}
+.titolo1 hr {
+  height: 3px;
+}
+
+.titolo2 h2 {
+  font-size:40px;
+}
+
+.titolo3 h3 {
+  font-size:35px;
+}
+.titolo3 hr {
+  height: 2px;
+}
+
+.titolo4 {
+  border-bottom: 8px;
+}
+.titolo4 h4 {
+  font-size:25px;
+}
+.titolo4 h4 span {
+  background-color: white;
+  padding-right: 8px;
+}
+
+.titolo5 {
+  border-bottom: 8px;
+}
+.titolo5 h5 {
+  font-size:23px;
+}
+.titolo5 h5 span {
+  padding-right: 8px;
+}
+
+.titolo6 {
+  border-bottom: 8px;
+}
+.titolo6 h6 {
+  font-size:21px;
+}
+.titolo6 h6 span {
+  padding-right: 8px;
+}	
+}
+
+@media (min-width:552px) and (max-width: 768px) {
+.titolo1 h1 {
+  text-align: center;	
+  font-size: 40px;
+}
+.titolo1 hr {
+  height: 3px;
+}
+
+.titolo2 h2 {
+  text-align: center;
+  font-size:35px;
+}
+
+.titolo3 h3 {
+  text-align: center;
+  font-size:34px;
+}
+.titolo3 hr {
+  height: 2px;
+}
+
+.titolo4 {
+  text-align: center;
+  border-bottom: 8px;
+}
+.titolo4 h4 {
+  font-size:25px;
+}
+.titolo4 h4 span {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.titolo5 {
+  text-align: center;
+  border-bottom: 8px;
+}
+.titolo5 h5 {
+  font-size:23px;
+}
+.titolo5 h5 span {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.titolo5 h5:after {
+  border-top: 2px dotted;
+}
+
+.titolo6 {
+  text-align: center;
+  border-bottom: 8px;
+}
+.titolo6 h6 {
+  font-size:21px;
+}
+.titolo6 h6 span {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.titolo6 h6:after {
+  border-top: 2px dotted;
+}	
+}
+@media (max-width:551px) {
+.titolo1 h1 {
+  text-align: center;	
+  font-size: 38px;
+}
+.titolo1 hr {
+  height: 3px;
+}
+
+.titolo2 h2 {
+  text-align: center;
+  font-size:35px;
+}
+
+.titolo3 h3 {
+  text-align: center;
+  font-size:34px;
+}
+.titolo3 hr {
+  height: 2px;
+}
+
+.titolo4 {
+  text-align: center;
+  border-bottom: 8px;
+}
+.titolo4 h4 {
+  font-size:24px;
+}
+.titolo4 h4 span {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.titolo4 h4:after {
+  bottom: -14px;
+  border-top: 2px solid;
+}	
+
+.titolo5 {
+  text-align: center;
+  border-bottom: 8px;
+}
+.titolo5 h5 {
+  font-size:23px;
+}
+.titolo5 h5 span {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.titolo5 h5:after {
+  border-top: 2px dotted;
+  bottom: -13px;
+}
+
+.titolo6 {
+  text-align: center;
+  border-bottom: 8px;
+}
+.titolo6 h6 {
+  font-size:21px;
+}
+.titolo6 h6 span {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.titolo6 h6:after {
+  border-top: 2px dotted;
+  bottom: -13px;
+}
+
+.titolo_testo {
+  text-align: center;
+}
+}
+/*********foto segnali e testo**********/
+@media (min-width: 992px) and (max-width: 1199px) {
+.foto_5l, .foto_5r, .signal_5l, .signal_5r {
+	max-width: 180px;	
+}
+.foto_5l img, .foto_5r img, .signal_5l img, .signal_5r img {
+	max-width: 180px;	
+}
+.foto_5l, .signal_5l {
+	margin: 5px 10px 0 15px;	
+}
+.foto_5r, .signal_5r {
+	margin: 5px 15px 0 10px;	
+}
+.signal_l img, .signal_r img {
+  width: 160px;
+}
+.signal_lplus img, .signal_rplus img {
+  width: 160px;
+}
+.foto_l .foto_M img, .foto_r .foto_M img, .foto_r2 .foto_M img {
+	width: 293px;	
+}
+.signal_l .signal_M img, .signal_r .signal_M img {
+	width: 250px;
+}
+.signal_lplus .signal_Mplus img, .signal_rplus .signal_Mplus img {
+	width: 250px;
+}
+.dida {
+	max-width: 293px;
+}
+}
+@media (min-width:992px) {
+.testo, .testo_l, .testo_r {
+  font-family: 'Arial', sans-serif; 
+  font-size: 22px;
+  line-height: 1.4;
+  text-align: justify;
+  padding: 0 15px 0 15px;
+}
+}
+@media (min-width:707px) and (max-width:991px) {
+.testo, .testo_l, .testo_r {
+  font-family: 'Arial', sans-serif; 
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: justify;
+  padding: 0 15px 0 15px;
+}
+}
+@media (min-width:1200px) {
+.foto_l .foto_M img, .foto_r .foto_M img, .foto_r2 .foto_M img {
+	width: 357px;	
+}
+.signal_l .signal_M img, .signal_r .signal_M img {
+	width: 250px;	
+}
+.signal_lplus .signal_Mplus img, .signal_rplus .signal_Mplus img {
+	width: 100px;
+	margin: 30px 0 30px -5px;	
+}
+}
+@media (min-width:552px) and (max-width: 706px) {
+
+.foto_l, .signal_l {
+	margin: 5px 10px 0 15px;	
+}
+.foto_r, .signal_r {
+	margin: 5px 15px 0 10px;	
+}
+.testo, .testo_l, .testo_r {
+  font-family: 'Arial', sans-serif; 
+  font-size: 19px;
+  line-height: 1.3;
+  text-align: justify;
+  padding: 0 15px 0 15px;
+}
+a.dida {
+	font-size: 18px;
+}
+}
+@media (max-width: 360px) {
+.didaSignal {
+	margin: 5px 0 0 0;
+}
+}
+		
+@media (min-width: 552px) and (max-width: 991px) {
+.dida {
+  font-size: 12px;
+}
+.dida .didatesto {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+}
+
+@media (max-width: 551px) {
+.testo, .testo_l, .testo_r {
+  font-family: 'Arial', sans-serif;
+  word-wrap:break-word;
+  font-size: 18px;
+  line-height: 1.3;
+  text-align: justify;
+  padding: 0 15px 0 15px;
+}
+.dida {
+  font-size: 16px;
+}
+.dida .didatesto {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+a.dida {
+	font-size: 17px;
+}
+}
+
+@media (min-width:641px) and (max-width: 991px) {
+.foto_l, .foto_r, .foto_r2   {
+	width:220px;
+}
+.foto_l {
+	margin: 5px 25px -10px 15px;
+}
+.signal_l {
+	margin: 0px 25px -10px 15px;
+}
+.foto_r {
+	margin: 5px 15px 5px 25px;
+}
+.signal_r {
+	margin: 0px 15px 5px 25px;
+}
+.foto_l img, .foto_r img, .foto_r2 img {
+	max-width:220px;
+}
+.signal_l, .signal_r, .signal_l img, .signal_r img, .signal_lplus, .signal_rplus, .signal_lplus img, .signal_rplus img {
+	width:180px;
+}
+.didaSignal {
+	font-size: 12px;
+}
+}
+
+@media (min-width:551px) and (max-width: 640px) {
+.foto_l, .foto_r, .foto_r2   {
+	width:180px;
+}
+.foto_l {
+	margin: 5px 25px -10px 15px;
+}
+.signal_l {
+	margin: 0px 25px -10px 15px;
+}
+.foto_r {
+	margin: 5px 15px 5px 25px;
+}
+.signal_r {
+	margin: 0px 15px 5px 25px;
+}
+.foto_l img, .foto_r img, .foto_r2 img {
+	max-width:180px;
+}
+.signal_l, .signal_r, .signal_l img, .signal_r img, .signal_lplus, .signal_rplus, .signal_lplus img, .signal_rplus img {
+	width:140px;
+}
+}
+
+@media (max-width: 550px) {
+.foto_l, .foto_r, .foto_r2, .signal_l, .signal_r,  .signal_lplus, .signal_rplus{
+	float: none;
+	max-width: 100%;
+	margin: 5px 15px 0 15px;
+}
+.foto_M, .signal_M , .signal_Mplus{
+  padding: 0 0 0 0;
+    margin-bottom: 15px;
+}
+}
+@media (min-width: 551px) {
+.foto3 .col-sm-4 {
+	width: 33.33333333%;
+	float: left;
+}
+}
+@media (max-width: 768px) {
+.foto_M, .signal_M , .signal_Mplus {
+  margin-bottom: 10px;
+}
+}
+
+/************ tab indicazione ********************/
+@media (min-width: 551px) and (max-width: 670px) {
+.inditab_l {
+  width: 200px;
+}
+}
+@media (max-width: 550px) {
+.inditab_l {
+  width: 80%;
+  float: none;
+  margin: 5px 35px 15px 35px;
+}
+.testo_inditab {
+  font-family: 'Arial', sans-serif;
+  hyphens: auto; 
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  margin: -10px 15px 15px 0;
+  padding: 0 0 0 0;
+}
+.inditab_testoW {
+  text-align: center;
+}
+.inditab_testoB {
+  text-align: center;
+}
+}
+/************ fine tab indicazione ********************/
+
+
+/************* tab norme ****************/
+@media (max-width: 550px) {
+.normetab_int_tit, .normetab_int_last_tit {
+  font-size: 10px;
+  font-weight: bold;  
+  padding: 5px 3px;
+}
+.normetab_int_testo, .normetab_int_last_testo{
+  hyphens: auto; 
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  color: #000;
+  margin: 0 0 25px 0;
+}
+.normetab_int {
+  padding-right: 3px;
+  padding-left: 3px;
+}
+}
+/******************* fine tab norme *****************/
+
+
+/************ 5foto - da non usare ********************/
+@media (min-width: 992px) {
+.foto5M, .foto5MT, .foto5T  {
+	display: none;
+}
+}
+@media (min-width: 707px) and (max-width:991px){
+.foto5, .foto5M, .foto5MT {
+	display: none;
+}
+}
+@media (min-width: 551px) and (max-width:706px){
+.foto5, .foto5M, .foto5T  {
+	display: none;
+}
+}
+@media (max-width:550px){
+.foto5, .foto5MT, .foto5T  {
+	display: none;
+}
+}
+
+@media (max-width: 991px) {
+.foto5T .dida {
+	font-size: 9px;
+}
+.foto5T .dida .didatesto {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+}
+/******************* fine 5 foto ****************/
+/*FINE MEDIA*/
+
+/*Bootstrap 5 colonne*/
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+.col-sm-15 {
+    width: 20%;
+    float: left;
+    }
+}
+
+@media (min-width: 992px) {
+.col-md-15 {
+    width: 20%;
+    float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+.col-lg-15 {
+    width: 20%;
+    float: left;
+    }
+}
+/*FINE Bootstrap 5 colonne*/
+
+/* FINESTRE MODALI IMMAGINI*/
+ .modal-vertical-centered {
+   
+   -webkit-transform: translate(0%, 15%); 
+   -moz-transform: translate(0%, 15%);
+   -ms-transform: translate(0%, 15%);
+   -o-transform: translate(0%, 15%);
+   transform: translate(0%, 15%);
+    }
+@media (min-width: 550px) and (orientation: landscape) {
+.modal-dialog {
+    max-width: 50%;
+    margin: 40px auto;
+}
+}	
+@media (min-width: 800px) and (orientation: landscape) {
+.modal-dialog {
+    max-width: 68%;
+    margin: 40px auto;
+}
+}	
+/*FINE Finestre modali*/
+
+
+/* FINE GM CSS */

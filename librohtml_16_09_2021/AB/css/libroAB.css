@@ -1,0 +1,3591 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* GM CSS */
+/*COLORI CAPITOLI*/
+/*Veicoli*/
+.veicoli {
+  color: #73a42e; 
+}
+.veicoli h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #bcdf98 100%);
+  background: -o-linear-gradient(right, #fff 75% , #bcdf98 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #bcdf98 100%);
+  background: linear-gradient(to right, #fff 75% , #bcdf98 100%);
+}
+.veicoli h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #bcdf98 100%);
+  background: -o-linear-gradient(right, #fff 55% , #bcdf98 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #bcdf98 100%);
+  background: linear-gradient(to right, #fff 55% , #bcdf98 100%);
+}
+.veicoli hr {
+  background-color: #73a42e;
+  border-color: #73a42e; 
+}
+.veicoli .titolo5, .veicoli .titolo6 {
+  border-color: #73a42e;
+}
+.veicoli h4:after, .veicoli h5:after, .veicoli h6:after {
+  border-top: #73a42e;
+}
+/*media*/
+@media (max-width: 767px) {
+.veicoli h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #bcdf98, white, white, white, white, white, white, white, #bcdf98);
+  background: -o-linear-gradient(left, #bcdf98, white, white, white, white, white, white, white, #bcdf98);
+  background: -moz-linear-gradient(left, #bcdf98, white, white, white, white, white, white, white, #bcdf98);
+  background: linear-gradient(left, #bcdf98, white, white, white, white, white, white, white, #bcdf98);
+}
+.veicoli h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #bcdf98, white, white, white, white, white, white, #bcdf98);
+  background: -o-linear-gradient(left, #bcdf98, white, white, white, white, white, white, #bcdf98);
+  background: -moz-linear-gradient(left, #bcdf98, white, white, white, white, white, white, #bcdf98);
+  background: linear-gradient(left, #bcdf98, white, white, white, white, white, white, #bcdf98);
+}
+}
+/* Fine Veicoli*/
+
+/*Strada*/
+.strada {
+  color: #816714; 
+}
+.strada h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #dfc398 100%);
+  background: -o-linear-gradient(right, #fff 75% , #dfc398 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #dfc398 100%);
+  background: linear-gradient(to right, #fff 75% , #dfc398 100%);
+}
+.strada h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #dfc398 100%);
+  background: -o-linear-gradient(right, #fff 55% , #dfc398 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #dfc398 100%);
+  background: linear-gradient(to right, #fff 55% , #dfc398 100%);
+}
+.strada hr {
+  background-color: #816714;
+  border-color: #816714; 
+}
+.strada .titolo5, .strada .titolo6 {
+  border-color: #816714;
+}
+.strada h4:after, .strada h5:after, .strada h6:after {
+  border-top: #816714;
+}
+/*media*/
+@media (max-width: 767px) {
+.strada h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #dfc398, white, white, white, white, white, white, white, #dfc398);
+  background: -o-linear-gradient(left, #dfc398, white, white, white, white, white, white, white, #dfc398);
+  background: -moz-linear-gradient(left, #dfc398, white, white, white, white, white, white, white, #dfc398);
+  background: linear-gradient(left, #dfc398, white, white, white, white, white, white, white, #dfc398);
+}
+.strada h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #dfc398, white, white, white, white, white, white, #dfc398);
+  background: -o-linear-gradient(left, #dfc398, white, white, white, white, white, white, #dfc398);
+  background: -moz-linear-gradient(left, #dfc398, white, white, white, white, white, white, #dfc398);
+  background: linear-gradient(left, #dfc398, white, white, white, white, white, white, #dfc398);
+}
+}
+/*Fine Strada*/
+
+/*Segnali*/
+.segnali {
+  color: #005ea8; 
+}
+.segnali h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #4792ce 100%);
+  background: -o-linear-gradient(right, #fff 75% , #4792ce 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #4792ce 100%);
+  background: linear-gradient(to right, #fff 75% , #4792ce 100%);
+}
+.segnali h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #4792ce 100%);
+  background: -o-linear-gradient(right, #fff 55% , #4792ce 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #4792ce 100%);
+  background: linear-gradient(to right, #fff 55% , #4792ce 100%);
+}
+.segnali hr {
+  background-color: #005ea8;
+  border-color: #005ea8; 
+}
+.segnali .titolo5, .segnali .titolo6 {
+  border-color: #005ea8;
+}
+.segnali h4:after, .segnali h5:after, .segnali h6:after {
+  border-top: #005ea8;
+}
+/*media*/
+@media (max-width: 767px) {
+.segnali h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #4792ce, white, white, white, white, white, white, white, #4792ce);
+  background: -o-linear-gradient(left, #4792ce, white, white, white, white, white, white, white, #4792ce);
+  background: -moz-linear-gradient(left, #4792ce, white, white, white, white, white, white, white, #4792ce);
+  background: linear-gradient(left, #4792ce, white, white, white, white, white, white, white, #4792ce);
+}
+.segnali h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #4792ce, white, white, white, white, white, white, #4792ce);
+  background: -o-linear-gradient(left, #4792ce, white, white, white, white, white, white, #4792ce);
+  background: -moz-linear-gradient(left, #4792ce, white, white, white, white, white, white, #4792ce);
+  background: linear-gradient(left, #4792ce, white, white, white, white, white, white, #4792ce);
+}
+}
+/* Fine Segnali*/
+
+/*Equipaggiamento*/
+.equipaggiamento {
+  color: #bb9c09; 
+}
+.equipaggiamento h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #c8b55d 100%);
+  background: -o-linear-gradient(right, #fff 75% , #c8b55d 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #c8b55d 100%);
+  background: linear-gradient(to right, #fff 75% , #c8b55d 100%);
+}
+.equipaggiamento h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #c8b55d 100%);
+  background: -o-linear-gradient(right, #fff 55% , #c8b55d 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #c8b55d 100%);
+  background: linear-gradient(to right, #fff 55% , #c8b55d 100%);
+}
+.equipaggiamento hr {
+  background-color: #bb9c09;
+  border-color: #bb9c09; 
+}
+.equipaggiamento .titolo5, .equipaggiamento .titolo6 {
+  border-color: #bb9c09;
+}
+.equipaggiamento h4:after, .equipaggiamento h5:after, .equipaggiamento h6:after {
+  border-top: #bb9c09;
+}
+/*media*/
+@media (max-width: 767px) {
+.equipaggiamento h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #c8b55d, white, white, white, white, white, white, white, #c8b55d);
+  background: -o-linear-gradient(left, #c8b55d, white, white, white, white, white, white, white, #c8b55d);
+  background: -moz-linear-gradient(left, #c8b55d, white, white, white, white, white, white, white, #c8b55d);
+  background: linear-gradient(left, #c8b55d, white, white, white, white, white, white, white, #c8b55d);
+}
+.equipaggiamento h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #c8b55d, white, white, white, white, white, white, #c8b55d);
+  background: -o-linear-gradient(left, #c8b55d, white, white, white, white, white, white, #c8b55d);
+  background: -moz-linear-gradient(left, #c8b55d, white, white, white, white, white, white, #c8b55d);
+  background: linear-gradient(left, #c8b55d, white, white, white, white, white, white, #c8b55d);
+}
+}
+/* Fine Equipaggiamento*/
+
+/*Norme comportamento*/
+.norme {
+  color: #497728; 
+}
+.norme h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #698655 100%);
+  background: -o-linear-gradient(right, #fff 75% , #698655 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #698655 100%);
+  background: linear-gradient(to right, #fff 75% , #698655 100%);
+}
+.norme h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #698655 100%);
+  background: -o-linear-gradient(right, #fff 55% , #698655 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #698655 100%);
+  background: linear-gradient(to right, #fff 55% , #698655 100%);
+}
+.norme hr {
+  background-color: #497728;
+  border-color: #497728; 
+}
+.norme .titolo5, .norme .titolo6 {
+  border-color: #497728;
+}
+.norme h4:after, .norme h5:after, .norme h6:after {
+  border-top: #497728;
+}
+/*media*/
+@media (max-width: 767px) {
+.norme h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #698655, white, white, white, white, white, white, white, #698655);
+  background: -o-linear-gradient(left, #698655, white, white, white, white, white, white, white, #698655);
+  background: -moz-linear-gradient(left, #698655, white, white, white, white, white, white, white, #698655);
+  background: linear-gradient(left, #698655, white, white, white, white, white, white, white, #698655);
+}
+.norme h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #698655, white, white, white, white, white, white, #698655);
+  background: -o-linear-gradient(left, #698655, white, white, white, white, white, white, #698655);
+  background: -moz-linear-gradient(left, #698655, white, white, white, white, white, white, #698655);
+  background: linear-gradient(left, #698655, white, white, white, white, white, white, #698655);
+}
+}
+/* Fine Norme comportamento*/
+
+/*Documenti*/
+.documenti {
+  color: #d6413e; 
+}
+.documenti h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #d66b69 100%);
+  background: -o-linear-gradient(right, #fff 75% , #d66b69 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #d66b69 100%);
+  background: linear-gradient(to right, #fff 75% , #d66b69 100%);
+}
+.documenti h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #d66b69 100%);
+  background: -o-linear-gradient(right, #fff 55% , #d66b69 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #d66b69 100%);
+  background: linear-gradient(to right, #fff 55% , #d66b69 100%);
+}
+.documenti hr {
+  background-color: #d6413e;
+  border-color: #d6413e; 
+}
+.documenti .titolo5, .incidenti .titolo6 {
+  border-color: #d6413e;
+}
+.documenti h4:after, .incidenti h5:after, .incidenti h6:after {
+  border-top: #d6413e;
+}
+/*media*/
+@media (max-width: 767px) {
+.documenti h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #d66b69, white, white, white, white, white, white, white, #d66b69);
+  background: -o-linear-gradient(left, #d66b69, white, white, white, white, white, white, white, #d66b69);
+  background: -moz-linear-gradient(left, #d66b69, white, white, white, white, white, white, white, #d66b69);
+  background: linear-gradient(left, #d66b69, white, white, white, white, white, white, white, #d66b69);
+}
+.documenti h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #d66b69, white, white, white, white, white, white, #d66b69);
+  background: -o-linear-gradient(left, #d66b69, white, white, white, white, white, white, #d66b69);
+  background: -moz-linear-gradient(left, #d66b69, white, white, white, white, white, white, #d66b69);
+  background: linear-gradient(left, #d66b69, white, white, white, white, white, white, #d66b69);
+}
+}
+/* Fine Documenti*/
+
+/*Incidenti Ass*/
+.incidenti {
+  color: #00869e; 
+}
+.incidenti h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #57919c 100%);
+  background: -o-linear-gradient(right, #fff 75% , #57919c 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #57919c 100%);
+  background: linear-gradient(to right, #fff 75% , #57919c 100%);
+}
+.incidenti h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #57919c 100%);
+  background: -o-linear-gradient(right, #fff 55% , #57919c 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #57919c 100%);
+  background: linear-gradient(to right, #fff 55% , #57919c 100%);
+}
+.incidenti hr {
+  background-color: #00869e;
+  border-color: #00869e; 
+}
+.incidenti .titolo5, .incidenti .titolo6 {
+  border-color: #00869e;
+}
+.incidenti h4:after, .incidenti h5:after, .incidenti h6:after {
+  border-top: #00869e;
+}
+/*media*/
+@media (max-width: 767px) {
+.incidenti h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #57919c, white, white, white, white, white, white, white, #57919c);
+  background: -o-linear-gradient(left, #57919c, white, white, white, white, white, white, white, #57919c);
+  background: -moz-linear-gradient(left, #57919c, white, white, white, white, white, white, white, #57919c);
+  background: linear-gradient(left, #57919c, white, white, white, white, white, white, white, #57919c);
+}
+.incidenti h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #57919c, white, white, white, white, white, white, #57919c);
+  background: -o-linear-gradient(left, #57919c, white, white, white, white, white, white, #57919c);
+  background: -moz-linear-gradient(left, #57919c, white, white, white, white, white, white, #57919c);
+  background: linear-gradient(left, #57919c, white, white, white, white, white, white, #57919c);
+}
+}
+/* Fine Incidenti Ass*/
+
+/*Soccorso*/
+.soccorso {
+  color: #9a0061; 
+}
+.soccorso h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #b03c85 100%);
+  background: -o-linear-gradient(right, #fff 75% , #b03c85 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #b03c85 100%);
+  background: linear-gradient(to right, #fff 75% , #b03c85 100%);
+}
+.soccorso h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #b03c85 100%);
+  background: -o-linear-gradient(right, #fff 55% , #b03c85 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #b03c85 100%);
+  background: linear-gradient(to right, #fff 55% , #b03c85 100%);
+}
+.soccorso hr {
+  background-color: #9a0061;
+  border-color: #9a0061; 
+}
+.soccorso .titolo5, .soccorso .titolo6 {
+  border-color: #9a0061;
+}
+.soccorso h4:after, .soccorso h5:after, .soccorso h6:after {
+  border-top: #9a0061;
+}
+/*media*/
+@media (max-width: 767px) {
+.soccorso h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #b03c85, white, white, white, white, white, white, white, #b03c85);
+  background: -o-linear-gradient(left, #b03c85, white, white, white, white, white, white, white, #b03c85);
+  background: -moz-linear-gradient(left, #b03c85, white, white, white, white, white, white, white, #b03c85);
+  background: linear-gradient(left, #b03c85, white, white, white, white, white, white, white, #b03c85);
+}
+.soccorso h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #b03c85, white, white, white, white, white, white, #b03c85);
+  background: -o-linear-gradient(left, #b03c85, white, white, white, white, white, white, #b03c85);
+  background: -moz-linear-gradient(left, #b03c85, white, white, white, white, white, white, #b03c85);
+  background: linear-gradient(left, #b03c85, white, white, white, white, white, white, #b03c85);
+}
+}
+/* Fine Soccorso*/
+
+/*Sicurezza*/
+.sicurezza {
+  color: #df6f0d; 
+}
+.sicurezza h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #df9555 100%);
+  background: -o-linear-gradient(right, #fff 75% , #df9555 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #df9555 100%);
+  background: linear-gradient(to right, #fff 75% , #df9555 100%);
+}
+.sicurezza h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #df9555 100%);
+  background: -o-linear-gradient(right, #fff 55% , #df9555 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #df9555 100%);
+  background: linear-gradient(to right, #fff 55% , #df9555 100%);
+}
+.sicurezza hr {
+  background-color: #df6f0d;
+  border-color: #df6f0d; 
+}
+.sicurezza .titolo5, .sicurezza .titolo6 {
+  border-color: #df6f0d;
+}
+.sicurezza h4:after, .sicurezza h5:after, .sicurezza h6:after {
+  border-top: #df6f0d;
+}
+/*media*/
+@media (max-width: 767px) {
+.sicurezza h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #df9555, white, white, white, white, white, white, white, #df9555);
+  background: -o-linear-gradient(left, #df9555, white, white, white, white, white, white, white, #df9555);
+  background: -moz-linear-gradient(left, #df9555, white, white, white, white, white, white, white, #df9555);
+  background: linear-gradient(left, #df9555, white, white, white, white, white, white, white, #df9555);
+}
+.sicurezza h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #df9555, white, white, white, white, white, white, #df9555);
+  background: -o-linear-gradient(left, #df9555, white, white, white, white, white, white, #df9555);
+  background: -moz-linear-gradient(left, #df9555, white, white, white, white, white, white, #df9555);
+  background: linear-gradient(left, #df9555, white, white, white, white, white, white, #df9555);
+}
+}
+/* Fine Sicurezza*/
+
+/*Autoveicolo*/
+.autoveicolo {
+  color: #929494; 
+}
+.autoveicolo h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #b7b8b8 100%);
+  background: -o-linear-gradient(right, #fff 75% , #b7b8b8 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #b7b8b8 100%);
+  background: linear-gradient(to right, #fff 75% , #b7b8b8 100%);
+}
+.autoveicolo h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #b7b8b8 100%);
+  background: -o-linear-gradient(right, #fff 55% , #b7b8b8 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #b7b8b8 100%);
+  background: linear-gradient(to right, #fff 55% , #b7b8b8 100%);
+}
+.autoveicolo hr {
+  background-color: #929494;
+  border-color: #929494; 
+}
+.autoveicolo .titolo5, .autoveicolo .titolo6 {
+  border-color: #929494;
+}
+.autoveicolo h4:after, .autoveicolo h5:after, .autoveicolo h6:after {
+  border-top: #929494;
+}
+/*media*/
+@media (max-width: 767px) {
+.autoveicolo h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #b7b8b8, white, white, white, white, white, white, white, #b7b8b8);
+  background: -o-linear-gradient(left, #b7b8b8, white, white, white, white, white, white, white, #b7b8b8);
+  background: -moz-linear-gradient(left, #b7b8b8, white, white, white, white, white, white, white, #b7b8b8);
+  background: linear-gradient(left, #b7b8b8, white, white, white, white, white, white, white, #b7b8b8);
+}
+.autoveicolo h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #b7b8b8, white, white, white, white, white, white, #b7b8b8);
+  background: -o-linear-gradient(left, #b7b8b8, white, white, white, white, white, white, #b7b8b8);
+  background: -moz-linear-gradient(left, #b7b8b8, white, white, white, white, white, white, #b7b8b8);
+  background: linear-gradient(left, #b7b8b8, white, white, white, white, white, white, #b7b8b8);
+}
+}
+/* Fine Autoveicolo*/
+
+/*FINE COLORI CAPITOLI*/
+
+/*TITOLI*/
+.titolo1 {
+  vertical-align: text-top;
+  margin-bottom:10px;
+  margin-top: 50px;  
+}
+.titolo1 h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  letter-spacing: -2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.titolo1 hr {
+	height: 4px;
+	-webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+	margin-bottom: 0px;
+	margin-top: 0px;  
+}
+
+.titolo2 {}
+.titolo2 h2 {
+  font-variant: small-caps;
+  font-size:45px;
+}
+
+.titolo3 {}
+.titolo3 h3 {
+  font-variant: small-caps;
+  font-size:40px;
+  letter-spacing: -1px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.titolo3 hr {
+	height: 3px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+    box-sizing: content-box;
+	margin-bottom: 0px;
+	margin-top: 0px;  
+}
+
+.titolo4 {
+  border-bottom: 10px;
+  border-color: #000000;
+}
+.titolo4 h4 {
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  font-size:30px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+.titolo4 h4 span {
+  background-color: white;
+  padding-right: 10px;
+}
+.titolo4 h4:after {
+  content:"";
+  position: absolute;
+  bottom: -4px;
+  left: 15px;
+  right: 15px;
+  border-top: 3px solid; 
+  height: 0.5em;
+  z-index: -1;
+}
+
+.titolo5 {
+  border-bottom: 10px;
+}
+.titolo5 h5 {
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  font-size:28px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.titolo5 h5 span {
+  background-color: white;
+  padding-right: 10px;
+}
+
+.titolo5 h5:after {
+  content:"";
+  position: absolute;
+  bottom: -4px;
+  left: 15px;
+  right: 15px;
+  height: 0.5em;
+  border-top: 3px dotted;
+  z-index: -1;
+}
+
+.titolo6 {
+  border-bottom: 10px;
+  margin-bottom: 20px;
+}
+.titolo6 h6, .titolo6_incroci h6 {
+  font-size:25px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+.titolo6 h6 span, .titolo6_incroci h6 span {
+  background-color: white;
+  padding-right: 10px;
+}
+.titolo6 h6:after, .titolo6_incroci h6:after  {
+  content:"";
+  position: absolute;
+  bottom: -4px;
+  left: 15px;
+  right: 15px;
+  height: 0.5em;
+  border-top: 3px dotted;
+  z-index: -1;
+}
+.titolo6 hr {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.titolo6_incroci {
+  border-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+.titolo7 {
+  border-bottom: 10px;
+  margin-bottom: 15px;
+}
+.titolo7 h7 {
+  font-size: 19px;
+  letter-spacing: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.titolo7 h7 span {
+  color:#fff;
+  line-height: 1.1;
+}
+
+.titolo_testo {
+  font-family: 'Arial', sans-serif;
+  hyphens: auto; 
+  font-size: 22px;
+  line-height: 1.3;
+  text-align: left;
+  font-weight: bold;
+  padding: 0px 15px 10px 15px;
+}
+
+/*FINE TITOLI*/
+
+
+/*TESTO e DIDASCALIE*/
+.testo,
+.testo_l,
+.testo_r {
+  font-family: 'Arial', sans-serif;
+  hyphens: auto; 
+  font-size: 22px;
+  line-height: 1.4;
+  text-align: justify;
+  padding: 0 15px 0 15px;
+  word-spacing: -0.1em;
+}
+
+.comportamento {
+  color: #5586c0;
+  font-style: italic;
+}
+.comportamento_elenco, .comportamento_elenco2 {
+  color: #5586c0;
+  font-style: italic;
+}
+.comportamento_elenco  {
+  padding-inline-start: 275px;
+}
+.comportamento_elenco2  {
+  padding-inline-start: 330px;
+}
+.comportamento_e {
+  color: #bb9c09;
+  font-style: italic;
+}
+.elenco {
+  padding-inline-start: 330px;
+}
+.elenco2 {
+  padding-inline-start: 245px;
+}
+.elenco3 {
+  padding-inline-start: 160px;
+}
+
+.rosso {
+  color: #ff0000;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.verde {
+  color: #009036;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.verdeCorretti {
+  color: #009036;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+  line-height: 1.9;
+}
+.dida {
+  font-family: 'Arial', condensed;
+  font-size: 18px;
+  line-height: 1.3;
+  font-stretch: condensed;
+  margin-top: 5px;
+  max-width: 360px;
+}
+.dida .didatesto {
+  text-align:justify;
+}
+.dida .numero {
+  letter-spacing: -0.6px;
+  font-weight: bold;
+  float: left;
+  margin-right: 5px;
+}
+a.dida {
+  font-size: 20px;
+  font-stretch: condensed;
+  font-weight: bold;
+}
+.didaSignal {
+	margin: 0 0 0 0;
+	padding-top: 0px;
+	padding-left: 0px;
+	font-weight: bold;
+}
+.signalNumero {
+  font-family: 'Arial', condensed;
+  font-size: 14px;
+  line-height: 1;
+  z-index: 99999999;
+  font-weight: bold;
+  margin: 10px 0 -15px 15px ;
+  position: absolute;
+  float: left;
+}
+.signalDesc {
+  font-family: 'Arial', condensed;
+  font-size: 14px;
+  line-height: 1;
+  z-index: 99999999;
+  font-weight: bold;
+  margin: -10px 0px 20px 0px ;
+}
+
+/********Numeri segnali*********/
+
+.NumeroTriangoli,
+.NumeroTriangoli2,
+.NumeroTriangoli3,
+.NumeroRettangoli,
+.NumeroRettangoli2,
+.NumeroRettangoli3,
+.NumeroRettangoli4,
+.NumeroRettangoli5,
+.NumeroRettangoli6,
+.NumeroRettangoli7,
+.NumeroCroce,
+.NumeroCroce2,
+.NumeroCroce3,
+.NumeroCroce4,
+.NumeroCroce5,
+.NumeroQuadrati,
+.NumeroQuadrati2,
+.NumeroQuadrati3,
+.NumeroQuadrati4,
+.NumeroSpie {
+  position: relative;
+  z-index: 800;
+}
+
+.NumeroTriangoli {
+  left: 50px;
+  top: 15px;
+}
+.NumeroTriangoli2 {
+  left: 50px;
+  top: 195px;
+}
+.NumeroTriangoli3 {
+  left: 50px;
+  top: 270px;
+}
+.NumeroRettangoli {
+  left: 0px;
+  top: -5px;
+}
+.NumeroRettangoli2 {
+  left: 0px;
+  top: 175px;
+}
+.NumeroRettangoli3 {
+  left: 0px;
+  top: 230px;
+}
+.NumeroRettangoli4 {
+  left: 0px;
+  top: 250px;
+}
+.NumeroRettangoli5 {
+  left: 0px;
+  top: 135px;
+}
+.NumeroRettangoli6 {
+  left: 0px;
+  top: 165px;
+}
+.NumeroRettangoli7 {
+  left: 0px;
+  top: 210px;
+}
+.NumeroCroce {
+  left: 0px;
+  top: 15px;
+}
+.NumeroCroce2 {
+  left: 25px;
+  top: 15px;
+}
+.NumeroCroce3 {
+  left: 190px;
+  top: 15px;
+}
+.NumeroCroce4 {
+  left: 275px;
+  top: 15px;
+}
+.NumeroCroce5 {
+  left: 163px;
+  top: 15px;
+}
+.NumeroQuadrati {
+  left: 0px;
+  top: 240px;
+}
+.NumeroQuadrati2 {
+  left: 0px;
+  top: 275px;
+}
+.NumeroQuadrati3 {
+  left: 0px;
+  top: 195px;
+}
+.NumeroQuadrati4 {
+  left: 0px;
+  top: 260px;
+}
+.NumeroSpie {
+  left: 0px;
+  top: 190px;
+}
+
+/********Fine Numeri segnali*********/
+
+/*FINE TESTO e DIDASCALIE*/
+
+
+/*FOTO*/
+.foto {
+	max-width: 372px;
+}
+.foto_M {
+  max-width: 372px;
+  padding: 0 0 0 0;
+}
+.foto_MC img {
+	border:1px solid #ccc;
+	border-radius: 5px;
+	background-color: #e4e4e4;
+	background-image: url(../../assets/images/Caricamento.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.foto_M img {
+	width: 372px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	background-color: #e4e4e4;
+	background-image: url(../../assets/images/Caricamento.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.foto_l {
+	max-width: 372px;
+	float:left;
+	padding: 0 0 15px 0;
+	margin: 5px 35px 0 15px;
+}
+.foto_l .foto_M img, 
+.foto_r .foto_M img, 
+.foto_r2 .foto_M img {
+	border:1px solid #ccc;
+	border-radius: 5px; 
+	background-color: #e4e4e4;
+	background-image: url(../../assets/images/Caricamento.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 360px;
+}
+.foto_r {
+	max-width: 372px;
+	float:right;
+	margin: 5px 15px 0px 35px;
+}
+.foto_r2 {
+	max-width: 372px;
+	float:right;
+	margin: 5px 0px 0px 35px;
+}
+.foto_rComportamento,
+.foto_rComportamentoT {
+	max-width: 372px;
+	float:right;
+	margin: 5px 15px 15px 35px;
+}
+.foto_r2Comportamento,
+.foto_r2ComportamentoT {
+	max-width: 372px;
+	float:right;
+	margin: 5px 0px 15px 35px;
+}
+.foto_rComportamento .foto_M img, 
+.foto_r2Comportamento .foto_M img,
+.foto_rComportamentoT .foto_M img, 
+.foto_r2ComportamentoT .foto_M img {
+	width: 360px;	
+}
+
+.foto_5l {
+  max-width: 200px;	
+  float:left;
+  padding: 0 0 15px 0;
+  margin: 5px 35px 0 15px;
+}
+.foto_5l img, .foto_5r img {
+  width: 200px;
+  border:1px solid #ccc;
+  border-radius: 2px;
+}
+.foto_5r {
+  max-width: 200px;
+  float:right;
+  padding: 0 0 15px 0;
+  margin: 5px 15px 0 35px;
+}
+.foto_D {
+  max-width: 554px;	
+  padding: 0 0 0 0;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  	background-color: #e4e4e4;
+	background-image: url(../../assets/images/Caricamento.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.foto_D img {
+  width: 554px;
+}
+.foto_XL {
+  max-width: 100%;	
+  padding: 0 0 0 0;
+  margin-top: 5px;
+  text-align: center;
+  	background-color: #e4e4e4;
+	background-image: url(../../assets/images/Caricamento.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.foto2 {
+    float: right;
+}
+.foto2 .foto_r2, 
+.foto2 .foto_r2Comportamento,
+.foto2 .foto_r2ComportamentoT {
+    float: right;
+	margin-right:15px;
+}
+.foto2 .foto_r, 
+.foto2 .foto_rComportamento,
+.foto2 .foto_rComportamentoT {
+    float: left;
+	margin-right:-3px;	
+}
+.foto2 .foto_rComportamentoT, 
+.foto2 .foto_r2ComportamentoT {
+    margin-top:20px;	
+}
+
+
+/*FINE FOTO*/
+
+
+/*SEGNALI*/
+.signal {
+  max-width: 250px;	
+}
+.signal_M {
+  max-width: 250px;	
+  padding: 0 0 0 0;
+}
+.signal_M img {
+	width: 250px;
+}
+.signal_M3 img {
+  width: 300px;
+}
+.signal_M2 img, 
+.signal_M6 img {	
+  margin: -20px 0 0 0;
+}
+
+.signal_l, 
+.signal_l2, 
+.signal_l3, 
+.signal_l4, 
+.signal_l5, 
+.signal_l6 {
+  float:left;
+  padding: 0 0 0 0;
+}
+.signal_l {
+	width: 215px;
+	margin: -15px 30px 25px 15px;	
+}
+.signal_l2 {
+  max-width: 187px;
+  margin: -15px 30px 25px 15px;
+}
+.signal_l3 {
+  max-width: 300px;
+  margin: -15px 30px 25px 15px;
+}
+.signal_l4 {
+  width: 138px;
+  margin: -15px 0px 25px 0px;
+}
+.signal_l5 {
+  max-width: 100px;
+  margin: -15px 30px 25px 15px;
+}
+.signal_l6 {
+  width: 135px;
+  margin: 5px 30px 25px 15px;
+}
+
+.signal_r,
+.signal_r2, 
+.signal_r3 {
+  float:right;
+}
+
+.signal_r {
+	width: 215px;
+	margin: -15px 15px 25px 30px;	
+}
+.signal_r2 {
+	width: 135px;
+	margin: 5px 15px 0 25px;	
+}
+.signal_r3 {
+  max-width: 300px;
+  margin: -15px 15px 25px 30px;
+}
+
+
+.signal_lplus {
+  float:left;
+  padding: 5px 0 15px 0;
+  margin: 5px 25px 0 15px;
+  border:1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+.signal_rplus {
+  max-width: 372px;
+  float:right;
+  margin: 5px 15px 0 25px;
+  border:1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+.signal_Mplus {
+  max-width: 372px;	
+  padding: 0 0 0 0;
+}
+/*FINE SEGNALI*/
+
+
+/*TAB INDICAZIONE*/
+.inditab {
+  width: 100%;
+  margin: 5px 0 15px 0;
+}
+.inditab_l {
+  width: 200px;
+  float:left;
+  padding: 0 0 0 0;
+  margin: 0 25px 0 15px;
+  border:1px solid #000;
+}
+.inditab_testoW {
+  font-family: 'Arial', sans-serif;
+  hyphens: auto; 
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: justify;
+  color: #fff;
+}
+.inditab_testoB {
+  font-family: 'Arial', sans-serif;
+  hyphens: auto; 
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: justify;
+  color: #000;
+}
+.testo_inditab {
+  font-family: 'Arial', sans-serif;
+  hyphens: auto; 
+  font-size: 22px;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 0 15px 0 15px;
+}
+/*FINE TAB INDICAZIONE*/
+
+
+/*TABELLA LUCI*/
+.lucitab {
+  padding: 5px 0 10px 0;
+  background-color: #ebe0bf;
+}
+.lucitab_tit{
+  background-color: #ebe0bf;
+  text-align: center;
+  color: #929494;
+}
+.lucitab_titolo6 {
+  border-bottom: 10px;
+  margin-bottom: 15px;
+}
+.lucitab_titolo6 h6 {
+  font-size:25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.lucitab_titolo6 h6 span {
+  background-color: white;
+  padding-right: 10px;
+}
+
+.lucitab_titolo6 h6:after {
+  content:"";
+  position: absolute;
+  bottom: -4px;
+  left: 15px;
+  right: 15px;
+  height: 0.5em;
+  border-top: 3px dotted;
+  z-index: 999;
+}
+
+.lucitab_int_last {
+  margin-bottom: 25px;
+}
+.lucitab_int_tit, .lucitab_int_last_tit{
+  background-color: #d6c076;
+  text-align: center;
+  padding: 5px 0 5px 0;
+  color: #000;
+  font-size: 23px;
+}
+.lucitab_int_img, .lucitab_int_last_img{
+  width: 100%;
+  padding: 0 0 0 0;
+}
+.lucitab_int_testo, .lucitab_int_last_testo{
+  hyphens: auto; 
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  color: #000;
+  margin: 0 0 25px 0;
+}
+.lucitab_int img {
+    width: 260px;
+}
+
+/*FINE TABELLA LUCI*/
+
+
+/*TABELLA NORME*/
+.normetab {
+  padding: 5px 0 10px 0;
+  background-color: #eceee6;
+}
+.normetab_tit{
+  background-color: #eceee6;
+  text-align: center;
+  color: #fff;
+}
+.normetab_titolo6 {
+  border-bottom: 10px;
+  margin-bottom: 15px;
+}
+.normetab_titolo6 h6 {
+  font-size:25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.normetab_titolo6 h6 span {
+  background-color: white;
+  padding-right: 10px;
+}
+
+.normetab_titolo6 h6:after {
+  content:"";
+  position: absolute;
+  bottom: -4px;
+  left: 15px;
+  right: 15px;
+  height: 0.5em;
+  border-top: 3px dotted;
+  z-index: 999;
+}
+
+.normetab_int_last {
+  margin-bottom: 25px;
+}
+.normetab_int_tit, .normetab_int_last_tit{
+  background-color: #a6b387;
+  text-align: center;
+  padding: 5px 0 5px 0;
+  color: #fff;
+  font-size: 21px;
+}
+.normetab_int_img, .normetab_int_last_img{
+  width: 100%;
+  padding: 0 0 0 0;
+}
+.normetab_int_testo, .normetab_int_last_testo{
+  hyphens: auto; 
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  color: #000;
+  margin: 0 0 25px 0;
+}
+.normetab_int img {
+    width: 260px;
+}
+
+/*FINE TABELLA NORME*/
+
+
+/*TABELLA DOCUMENTI*/
+.docutab {
+  padding: 5px 0 10px 0;
+  background-color: #eceee6;
+}
+.docutab_tit{
+  background-color: #eceee6;
+  text-align: center;
+  color: #fff;
+}
+.docutab_titolo6 {
+  border-bottom: 10px;
+  margin-bottom: 15px;
+}
+.docutab_titolo6 h6 {
+  font-size:25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.docutab_titolo6 h6 span {
+  background-color: white;
+  padding-right: 10px;
+}
+
+.docutab_titolo6 h6:after {
+  content:"";
+  position: absolute;
+  bottom: -4px;
+  left: 15px;
+  right: 15px;
+  height: 0.5em;
+  border-top: 3px dotted;
+  z-index: 999;
+}
+.docutab_int_last {
+  margin-bottom: 25px;
+}
+.docutab_int_tit, .docutab_int_last_tit{
+  background-color: #ea9f9e;
+  text-align: center;
+  padding: 5px 0 5px 0;
+  color: #fff;
+  font-size: 23px;
+}
+.docutab_int_img, .docutab_int_last_img{
+  width: 100%;
+  padding: 0 0 0 0;
+}
+.docutab_int_testo, .docutab_int_last_testo{
+  hyphens: auto; 
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  color: #000;
+  margin: 0 0 25px 0;
+}
+/*FINE TABELLA DOCUMENTI*/
+
+
+/*MEDIA*/
+
+/*MEDIA - medium device*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+/*********titoli*********/
+.titolo1 h1 {
+  font-size: 45px;
+}
+.titolo1 hr {
+  height: 3px;
+}
+.titolo2 h2 {
+  font-size:40px;
+}
+.titolo3 h3 {
+  font-size:35px;
+}
+.titolo3 hr {
+  height: 2px;
+}
+.titolo4 {
+  border-bottom: 8px;
+}
+.titolo4 h4 {
+  font-size:25px;
+  margin-top: 10px;
+}
+.titolo4 h4 span {
+  background-color: white;
+  padding-right: 8px;
+}
+.titolo5 {
+  border-bottom: 8px;
+}
+.titolo5 h5 {
+  font-size:23px;
+}
+.titolo5 h5 span {
+  padding-right: 8px;
+}
+.titolo6 {
+  border-bottom: 8px;
+  margin-bottom: 18px;
+}
+.titolo6 h6, .titolo6_incroci h6 {
+  font-size:24px;
+  margin-top: 13px;
+}
+.titolo6 h6 span, .titolo6_incroci h6 span  {
+  padding-right: 5px;
+}
+.titolo7 h7 {
+  font-size:16px;
+}
+.titolo_testo {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+/*********testo e didascalie*********/
+.testo,
+.testo_l,
+.testo_r {
+  font-size: 20px;
+  line-height: 1.3;
+}
+.comportamento_elenco  {
+  padding-inline-start: 275px;
+}
+.comportamento_elenco2  {
+  padding-inline-start: 270px;
+}
+.elenco {
+  padding-inline-start: 270px;
+}
+.elenco2 {
+  padding-inline-start: 200px;
+}
+.elenco3 {
+  padding-inline-start: 135px;
+}
+.verdeCorretti {
+  line-height: 1.7;
+}
+.dida {
+  font-size: 16px;
+  line-height: 1.2;
+  max-width: 293px;
+}
+a.dida {
+  font-size: 18px;
+}
+.didaSignal {
+  font-size: 11px;
+}
+
+
+/*********Numeri segnali*********/
+
+.NumeroTriangoli {
+  left: 40px;
+  top: 15px;
+}
+.NumeroTriangoli2 {
+  left: 40px;
+  top: 156px;
+}
+.NumeroTriangoli3 {
+  left: 40px;
+  top: 220px;
+}
+.NumeroRettangoli {
+  left: 0px;
+  top: -5px;
+}
+.NumeroRettangoli2 {
+  left: 0px;
+  top: 145px;
+}
+.NumeroRettangoli3 {
+  left: 0px;
+  top: 185px;
+}
+.NumeroRettangoli4 {
+  left: 0px;
+  top: 205px;
+}
+.NumeroRettangoli5 {
+  left: 0px;
+  top: 110px;
+}
+.NumeroRettangoli6 {
+  left: 0px;
+  top: 133px;
+}
+.NumeroRettangoli7 {
+  left: 0px;
+  top: 169px;
+}
+.NumeroCroce {
+  left: 0px;
+  top: 13px;
+}
+.NumeroCroce2 {
+  left: 25px;
+  top: 13px;
+}
+.NumeroCroce3 {
+  left: 155px;
+  top: 13px;
+}
+.NumeroCroce4 {
+  left: 225px;
+  top: 13px;
+}
+.NumeroCroce5 {
+  left: 133px;
+  top: 13px;
+}
+.NumeroQuadrati {
+  left: 0px;
+  top: 195px;
+}
+.NumeroQuadrati2 {
+  left: 0px;
+  top: 225px;
+}
+.NumeroQuadrati3 {
+  left: 0px;
+  top: 155px;
+}
+.NumeroQuadrati4 {
+  left: 0px;
+  top: 215px;
+}
+.NumeroSpie {
+  left: 0px;
+  top: 155px;
+}
+
+
+/*********Foto*********/
+
+.foto_l .foto_M img, 
+.foto_r .foto_M img, 
+.foto_r2 .foto_M img {
+	width: 293px;
+}
+.foto_r {
+	margin: 5px 15px 0px 30px;
+}
+.foto_l {
+	margin: 5px 30px 0 15px;
+}
+.foto_rComportamento .foto_M img, 
+.foto_r2Comportamento .foto_M img,
+.foto_rComportamentoT .foto_M img, 
+.foto_r2ComportamentoT .foto_M img {
+	width: 293px;	
+}
+
+.foto_rComportamento,
+.foto_rComportamentoT {
+	margin: 5px 15px 15px 30px;
+}
+.foto_r2Comportamento,
+.foto_r2ComportamentoT  {
+	margin: 5px 0px 15px 30px;
+}
+.foto_XL {
+	margin: 5px 5px 0px 5px;
+}
+.foto2 .foto_rComportamentoT,
+.foto2 .foto_r2ComportamentoT {
+	margin-top: 15px;
+}
+
+/*********Segnali*********/
+
+.signal_l {
+	width: 175px;
+	margin: -10px 25px 30px 15px;	
+}
+.signal_l2 {
+  max-width: 152px;
+  margin: -10px 25px 30px 15px;
+}
+.signal_l3 {
+  max-width: 245px;
+  margin: -10px 25px 30px 15px;
+}
+.signal_l4 {
+  width: 112px;
+  margin: -10px 0px 30px 0px;
+}
+.signal_l5 {
+  max-width: 81px;
+  margin: -10px 25px 30px 15px;
+}
+.signal_l6 {
+  width: 110px;
+  margin: 5px 25px 30px 15px;
+}
+
+.signal_r {
+	width: 175px;
+	margin: -10px 15px 30px 25px;	
+}
+.signal_r2 {
+	width: 110px;
+	margin: 5px 15px 0 25px;	
+}
+.signal_r3 {
+  max-width: 245px;
+  margin: -10px 15px 30px 25px;
+}
+
+.signal_M2 img, 
+.signal_M6 img {	
+  margin: -15px 0 0 0;
+}
+
+
+/*********TAB Indicazione*********/
+
+.inditab_l {
+  width: 155px;
+  margin: 0 20px 0 15px;
+}
+.inditab_testoW {
+  font-size: 19px;
+}
+.inditab_testoB {
+  font-size: 19px;
+}
+.testo_inditab {
+  font-size: 19px;
+  padding: 0 10px 0 10px;
+}
+
+
+/*********TAB Luci*********/
+
+.lucitab_titolo6 h6 {
+    font-size: 22px;
+}
+.lucitab_int_tit {
+    font-size: 20px;
+}
+.lucitab_int_testo {
+    font-size: 16px;
+}
+.lucitab_int img {
+    width: 210px;
+}
+
+/*********TAB Norme*********/
+
+.normetab_titolo6 h6 {
+    font-size: 22px;
+}
+.normetab_int_tit {
+	font-size: 17px;
+}
+.normetab_int_testo {
+    font-size: 16px;
+}
+.normetab_int img {
+    width: 250px;
+}
+
+/*********TAB Documenti*********/
+
+.docutab_titolo6 h6 {
+    font-size: 22px;
+}
+.docutab_int_tit {
+    font-size: 20px;
+}
+.docutab_int_testo {
+    font-size: 16px;
+}
+
+
+}
+/*FINE MEDIA - medium device*/
+
+/*MEDIA - small device_1 (Galaxy Tab A Portrait)*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+/*********titoli*********/
+.titolo1 h1 {
+  font-size: 40px;
+}
+.titolo1 hr {
+  height: 3px;
+}
+.titolo2 h2 {
+  font-size:35px;
+}
+.titolo3 h3 {
+  font-size:30px;
+}
+.titolo3 hr {
+  height: 2px;
+}
+.titolo4 {
+  border-bottom: 7px;
+}
+.titolo4 h4 {
+  font-size:20px;
+  margin-top: 10px;
+}
+.titolo4 h4 span {
+  background-color: white;
+  padding-right: 7px;
+}
+.titolo5 {
+  border-bottom: 7px;
+}
+.titolo5 h5 {
+  font-size:21px;
+}
+.titolo5 h5 span {
+  padding-right: 7px;
+}
+.titolo6 {
+  border-bottom: 7px;
+  margin-bottom: 16px;
+}
+.titolo6 h6, .titolo6_incroci h6 {
+  font-size: 22px;
+  margin-top: 15px;
+}
+.titolo6 h6 span, .titolo6_incroci h6 span  {
+  padding-right: 5px;
+}
+.titolo7 h7 {
+  font-size:16px;
+}
+.titolo_testo {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+/*********testo e didascalie*********/
+.testo,
+.testo_l,
+.testo_r {
+  font-size: 20px;
+  line-height: 1.35;
+}
+.comportamento_elenco  {
+  padding-inline-start: 275px;
+}
+.comportamento_elenco2  {
+  padding-inline-start: 195px;
+}
+.elenco {
+  padding-inline-start: 205px;
+}
+.elenco2 {
+  padding-inline-start: 160px;
+}
+.elenco3 {
+  padding-inline-start: 103px;
+}
+.verdeCorretti {
+  line-height: 1.6;
+}
+.dida {
+  font-size: 14px;
+  line-height: 1.1;
+  max-width: 220px;
+}
+a.dida {
+  font-size: 16px;
+}
+.didaSignal {
+  font-size: 10px;
+}
+
+
+/*********Numeri segnali*********/
+
+.NumeroTriangoli {
+  left: 23px;
+  top: 13px;
+}
+.NumeroTriangoli2 {
+  left: 23px;
+  top: 103px;
+}
+.NumeroTriangoli3 {
+  left: 23px;
+  top: 145px;
+}
+.NumeroRettangoli {
+  left: 0px;
+  top: -3px;
+}
+.NumeroRettangoli2 {
+  left: 0px;
+  top: 100px;
+}
+.NumeroRettangoli3 {
+  left: 0px;
+  top: 130px;
+}
+.NumeroRettangoli4 {
+  left: 0px;
+  top: 143px;
+}
+.NumeroRettangoli5 {
+  left: 0px;
+  top: 78px;
+}
+.NumeroRettangoli6 {
+  left: 0px;
+  top: 93px;
+}
+.NumeroRettangoli7 {
+  left: 0px;
+  top: 115px;
+}
+.NumeroCroce {
+  left: 0px;
+  top: 11px;
+}
+.NumeroCroce2 {
+  left: 15px;
+  top: 11px;
+}
+.NumeroCroce3 {
+  left: 99px;
+  top: 10px;
+}
+.NumeroCroce4 {
+  left: 148px;
+  top: 10px;
+}
+.NumeroCroce5 {
+  left: 88px;
+  top: 10px;
+}
+.NumeroQuadrati {
+  left: 0px;
+  top: 135px;
+}
+.NumeroQuadrati2 {
+  left: 0px;
+  top: 155px;
+}
+.NumeroQuadrati3 {
+  left: 0px;
+  top: 107px;
+}
+.NumeroQuadrati4 {
+  left: 0px;
+  top: 148px;
+}
+.NumeroSpie {
+  left: 0px;
+  top: 110px;
+}
+
+
+/*********Foto*********/
+
+.foto_l .foto_M img, 
+.foto_r .foto_M img, 
+.foto_r2 .foto_M img {
+	width: 220px;
+}
+.foto_r {
+	margin: 5px 15px 0px 30px;
+}
+.foto_l {
+	margin: 5px 30px 0 15px;
+}
+.foto_rComportamento .foto_M img, 
+.foto_r2Comportamento .foto_M img,
+.foto_rComportamentoT .foto_M img, 
+.foto_r2ComportamentoT .foto_M img {
+	width: 220px;	
+}
+
+.foto_rComportamento,
+.foto_rComportamentoT {
+	margin: 5px 15px 15px 30px;
+}
+.foto_r2Comportamento,
+.foto_r2ComportamentoT {
+	margin: 5px 0px 15px 30px;
+}
+.foto_XL {
+	margin: 5px 5px 0px 5px;
+}
+.foto2 .foto_rComportamentoT,
+.foto2 .foto_r2ComportamentoT {
+	margin-top: 13px;
+}
+
+li img {
+	width: 10%;
+}
+
+/*********Segnali*********/
+
+.signal_l {
+	width: 118px;
+	margin: -10px 25px 25px 15px;	
+}
+.signal_l2 {
+  max-width: 105px;
+  margin: -10px 25px 25px 15px;
+}
+.signal_l3 {
+  max-width: 164px;
+  margin: -10px 25px 25px 15px;
+}
+.signal_l4 {
+  width: 75px;
+  margin: -15px 0px 30px 0px;
+}
+.signal_l5 {
+  max-width: 54px;
+  margin: -10px 25px 15px 15px;
+}
+.signal_l6 {
+  width: 78px;
+  margin: 5px 25px 30px 15px;
+}
+
+.signal_r {
+	width: 115px;
+	margin: -10px 15px 30px 25px;	
+}
+.signal_r2 {
+	width: 80px;
+	margin: 5px 15px 15px 25px;	
+}
+.signal_r3 {
+  max-width: 150px;
+  margin: -10px 15px 30px 25px;
+}
+.signal_M2 img, 
+.signal_M6 img {	
+  margin: -15px 0 0 0;
+}
+
+
+/*********TAB Indicazione*********/
+
+.inditab_l {
+  width: 130px;
+  margin: 0 10px 0 15px;
+}
+.inditab_testoW {
+  font-size: 15px;
+}
+.inditab_testoB {
+  font-size: 15px;
+}
+.testo_inditab {
+  font-size: 20px;
+  padding: 0 0 0 0;
+  padding-inline-start: 155px;
+}
+
+
+/*********TAB Luci*********/
+
+.lucitab_titolo6 h6 {
+    font-size: 18px;
+}
+.lucitab_int_tit {
+    font-size: 18px;
+}
+.lucitab_int_testo {
+    font-size: 17px;
+}
+.lucitab_int img {
+    width: 150px;
+}
+.col-md-4 {
+    width: 33.33333333%;
+	float: left;
+}
+
+
+/*********TAB Norme*********/
+
+.normetab_titolo6 h6 {
+    font-size: 18px;
+}
+.normetab_int_tit {
+	font-size: 15px;
+}
+.normetab_int_testo {
+    font-size: 17px;
+}
+.normetab_int img {
+    width: 150px;
+}
+.col-md-5 {
+    width: 41.66666667%;
+	float: left;
+	padding-right: 10px;
+    padding-left: 10px;
+}
+.col-xs-3 {
+    width: 16.66666667%;
+	float: left;
+	padding-right: 10px;
+    padding-left: 10px;
+}
+.col-xs-6 {
+    width: 25%;
+	float: left;
+	padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+/*********TAB Documenti*********/
+
+.docutab_titolo6 h6 {
+    font-size: 18px;
+}
+.docutab_int_tit {
+    font-size: 18px;
+}
+.docutab_int_testo {
+    font-size: 17px;
+	margin: 0 0 15px 0;
+}
+
+
+}
+/*FINE MEDIA - small device_1*/
+
+/*MEDIA - small device_2 (Galaxy S8 Landscape)*/
+@media (min-width: 640px) and (max-width: 767px) {
+
+/*********titoli*********/
+.titolo1 h1 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 0.9;
+}
+.titolo1 hr {
+  height: 3px;
+}
+.titolo2 h2 {
+  text-align: center;
+  font-size: 25px;
+  line-height: 0.9;
+}
+.titolo3 h3 {
+  text-align: center;	
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 0.9;
+}
+.titolo3 hr {
+  height: 1px;
+}
+.titolo4 {
+  text-align: center;		
+  border-bottom: 7px;
+}
+.titolo4 h4 {
+  font-size:17px;
+  margin-top: 10px;
+  line-height: 0.9;
+}
+.titolo4 h4 span {
+  background-color: white;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+.titolo5 {
+  text-align: center;
+  border-bottom: 7px;
+}
+.titolo5 h5 {
+  font-size: 17px;
+  line-height: 1;
+}
+.titolo5 h5 span {
+  padding-right: 7px;
+  padding-left: 7px;
+}
+.titolo5 h5:after {
+  border-top: 2px dotted;
+}
+.titolo6 {
+  text-align: center;
+  border-bottom: 7px;
+  margin-bottom: 16px;
+}
+.titolo6 h6, .titolo6_incroci h6 {
+  line-height:1; 
+  font-size: 18px;
+  margin-top: 15px;
+}
+.titolo6 h6 span, .titolo6_incroci h6 span  {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.titolo6 h6:after, .titolo6_incroci h6:after {
+  border-top: 1.5px dotted;
+}
+.titolo7 h7 {
+  font-size: 16px;
+}
+.titolo_testo {
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+/*********testo e didascalie*********/
+.testo,
+.testo_l,
+.testo_r {
+  font-size: 18px;
+  line-height: 1.4;
+}
+.comportamento_elenco  {
+  padding-inline-start: 307px;
+}
+.comportamento_elenco2  {
+  padding-inline-start: 179px;
+}
+.elenco {
+  padding-inline-start: 179px;
+}
+.elenco2 {
+  padding-inline-start: 135px;
+}
+.elenco3 {
+  padding-inline-start: 112px;
+}
+.verdeCorretti {
+  line-height: 1.5;
+}
+.dida {
+  font-size: 12px;
+  line-height: 1.2;
+  max-width: 176.66px;
+}
+a.dida {
+  font-size: 15px;
+}
+.didaSignal {
+  font-size: 8px;
+}
+
+
+/*********Numeri segnali*********/
+
+.NumeroTriangoli {
+  left: 20px;
+  top: 11px;
+}
+.NumeroTriangoli2 {
+  left: 20px;
+  top: 90px;
+}
+.NumeroTriangoli3 {
+  left: 20px;
+  top: 126px;
+}
+.NumeroRettangoli {
+  left: 0px;
+  top: -3px;
+}
+.NumeroRettangoli2 {
+  left: 0px;
+  top: 87px;
+}
+.NumeroRettangoli3 {
+  left: 0px;
+  top: 112px;
+}
+.NumeroRettangoli4 {
+  left: 0px;
+  top: 120px;
+}
+.NumeroRettangoli5 {
+  left: 0px;
+  top: 68px;
+}
+.NumeroRettangoli6 {
+  left: 0px;
+  top: 82px;
+}
+.NumeroRettangoli7 {
+  left: 0px;
+  top: 97px;
+}
+.NumeroCroce {
+  left: 0px;
+  top: 10px;
+}
+.NumeroCroce2 {
+  left: 10px;
+  top: 10px;
+}
+.NumeroCroce3 {
+  left: 85px;
+  top: 10px;
+}
+.NumeroCroce4 {
+  left: 125px;
+  top: 10px;
+}
+.NumeroCroce5 {
+  left: 76px;
+  top: 10px;
+}
+.NumeroQuadrati {
+  left: 0px;
+  top: 115px;
+}
+.NumeroQuadrati2 {
+  left: 0px;
+  top: 135px;
+}
+.NumeroQuadrati3 {
+  left: 0px;
+  top: 92px;
+}
+.NumeroQuadrati4 {
+  left: 0px;
+  top: 126px;
+}
+.NumeroSpie {
+  left: 0px;
+  top: 92px;
+}
+
+
+/*********Foto*********/
+
+.foto_l .foto_M img, 
+.foto_r .foto_M img, 
+.foto_r2 .foto_M img {
+	width: 176.66px;
+}
+.foto_r {
+	margin: 0px 15px 0px 25px;
+}
+.foto_r2 {
+	margin-top: 0px;
+}
+.foto_l {
+	margin: 0px 25px 0 15px;
+}
+.foto_rComportamento .foto_M img, 
+.foto_r2Comportamento .foto_M img,
+.foto_rComportamentoT .foto_M img, 
+.foto_r2ComportamentoT .foto_M img {
+	width: 176.66px;	
+}
+
+.foto_rComportamento,
+.foto_rComportamentoT {
+	margin: 0px 15px 15px 25px;
+}
+.foto_r2Comportamento,
+.foto_r2ComportamentoT {
+	margin: 0px 0px 15px 25px;
+}
+
+.foto2 .foto_rComportamentoT,
+.foto2 .foto_r2ComportamentoT {
+	margin-top: 13px;
+}
+
+.foto_XL {
+	margin: 0px 10px 0px 10px;
+}
+.foto3 .col-sm-3 {
+	width: 25%;
+	float: left;
+}
+.foto3 .col-sm-4 {
+	width: 33.33333333%;
+	float: left;
+}
+.foto3 .col-sm-5 {
+	width: 41.66666667%;
+	float: left;
+}
+.foto3 .assicurazione,
+.foto3 .punti {
+	width: 100%;
+	display: block;
+	float: none;
+}
+
+
+.col-sm-6 {
+	width: 50%;
+	float: left;
+}
+.col-sm-2 {
+	width: 16.66666667%;
+	float: left;
+}
+.col-sm-8 {
+	width: 50%;
+	float: left;
+}
+.col-sm-4 {
+	width: 33.33333333%;
+	float: left;
+}
+.col-sm-3 {
+	width: 25%;
+	float: left;
+}
+li img {
+	width: 10%;
+}
+
+
+
+/*********Segnali*********/
+
+.signal_l {
+	width: 101px;
+	margin: -10px 20px 20px 15px;	
+}
+.signal_l2 {
+  max-width: 90px;
+  margin: -10px 20px 20px 15px;
+}
+.signal_l3 {
+  max-width: 140px;
+  margin: -10px 20px 25px 15px;
+}
+.signal_l4 {
+  width: 65px;
+  margin: -10px 0px 30px 0px;
+}
+.signal_l5 {
+  max-width: 45px;
+  margin: -10px 20px 15px 15px;
+}
+.signal_l6 {
+  width: 73px;
+  margin: 5px 20px 30px 15px;
+}
+
+.signal_r {
+	width: 101px;
+	margin: -10px 15px 20px 20px;	
+}
+.signal_r2 {
+	width: 89.3px;
+	margin: 0px 20px 15px 20px;	
+}
+.signal_r3 {
+  max-width: 140px;
+  margin: -10px 15px 30px 20px;
+}
+.signal_M2 img, 
+.signal_M6 img {	
+  margin: -15px 0 0 0;
+}
+
+
+/*********TAB Indicazione*********/
+
+.inditab_l {
+  width: 125px;
+  margin: 0 10px 0 15px;
+}
+.inditab_testoW {
+  font-size: 16px;
+}
+.inditab_testoB {
+  font-size: 16px;
+}
+.testo_inditab {
+  font-size: 18px;
+  padding: 0 15px 0 0;
+  padding-inline-start: 155px;
+}
+
+
+/*********TAB Luci*********/
+
+.lucitab_titolo6 h6 {
+    font-size: 18px;
+}
+.lucitab_int_tit {
+    font-size: 17px;
+}
+.lucitab_int_testo {
+    font-size: 16px;
+}
+.lucitab_int img {
+    width: 140px;
+}
+
+
+/*********TAB Norme*********/
+
+.normetab_titolo6 h6 {
+    font-size: 17px;
+}
+.normetab_int_tit {
+	font-size: 14.5px;
+}
+.normetab_int_testo {
+    font-size: 16px;
+}
+.normetab_int img {
+    width: 150px;
+}
+
+
+/*********TAB Documenti*********/
+
+.docutab_titolo6 h6 {
+    font-size: 17px;
+}
+.docutab_int_tit {
+    font-size: 14.5px;
+}
+.docutab_int_testo {
+    font-size: 16px;
+	margin: 0 0 15px 0;
+}
+
+
+}
+/*FINE MEDIA - small device_2*/
+
+/*MEDIA - small device_3*/
+@media (min-width: 552px) and (max-width: 639px) {
+
+/*********titoli*********/
+.titolo1 h1 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 0.9;
+}
+.titolo1 hr {
+  height: 3px;
+}
+.titolo2 h2 {
+  text-align: center;
+  font-size: 25px;
+  line-height: 0.9;
+}
+.titolo3 h3 {
+  text-align: center;	
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 0.9;
+}
+.titolo3 hr {
+  height: 1px;
+}
+.titolo4 {
+  text-align: center;		
+  border-bottom: 7px;
+}
+.titolo4 h4 {
+  font-size:17px;
+  margin-top: 10px;
+  line-height: 0.9;
+}
+.titolo4 h4 span {
+  background-color: white;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+.titolo5 {
+  text-align: center;
+  border-bottom: 7px;
+}
+.titolo5 h5 {
+  font-size: 17px;
+  line-height: 1;
+}
+.titolo5 h5 span {
+  padding-right: 7px;
+  padding-left: 7px;
+}
+.titolo5 h5:after {
+  border-top: 2px dotted;
+}
+.titolo6 {
+  text-align: center;
+  border-bottom: 7px;
+  margin-bottom: 16px;
+}
+.titolo6 h6, .titolo6_incroci h6 {
+  line-height:1; 
+  font-size: 18px;
+  margin-top: 15px;
+}
+.titolo6 h6 span, .titolo6_incroci h6 span  {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.titolo6 h6:after, .titolo6_incroci h6:after {
+  border-top: 1.5px dotted;
+}
+.titolo7 h7 {
+  font-size: 16px;
+}
+.titolo_testo {
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+/*********testo e didascalie*********/
+.testo,
+.testo_l,
+.testo_r {
+  font-size: 16px;
+  line-height: 1.35;
+}
+.comportamento_elenco  {
+  padding-inline-start: 275px;
+}
+.comportamento_elenco2  {
+  padding-inline-start: 160px;
+}
+.elenco {
+  padding-inline-start: 160px;
+}
+.elenco2 {
+  padding-inline-start: 125px;
+}
+.elenco3 {
+  padding-inline-start: 100px;
+}
+.verdeCorretti {
+  line-height: 1.5;
+}
+.dida {
+  font-size: 12px;
+  line-height: 1.2;
+  max-width: 152px;
+}
+a.dida {
+  font-size: 15px;
+}
+.didaSignal {
+  font-size: 8px;
+}
+
+
+/*********Numeri segnali*********/
+
+.NumeroTriangoli {
+  left: 20px;
+  top: 11px;
+}
+.NumeroTriangoli2 {
+  left: 20px;
+  top: 80px;
+}
+.NumeroTriangoli3 {
+  left: 20px;
+  top: 112px;
+}
+.NumeroRettangoli {
+  left: 0px;
+  top: -3px;
+}
+.NumeroRettangoli2 {
+  left: 0px;
+  top: 78px;
+}
+.NumeroRettangoli3 {
+  left: 0px;
+  top: 100px;
+}
+.NumeroRettangoli4 {
+  left: 0px;
+  top: 107px;
+}
+.NumeroRettangoli5 {
+  left: 0px;
+  top: 63px;
+}
+.NumeroRettangoli6 {
+  left: 0px;
+  top: 75px;
+}
+.NumeroRettangoli7 {
+  left: 0px;
+  top: 87px;
+}
+.NumeroCroce {
+  left: 0px;
+  top: 10px;
+}
+.NumeroCroce2 {
+  left: 10px;
+  top: 7px;
+}
+.NumeroCroce3 {
+  left: 75px;
+  top: 7px;
+}
+.NumeroCroce4 {
+  left: 111px;
+  top: 7px;
+}
+.NumeroCroce5 {
+  left: 66px;
+  top: 7px;
+}
+.NumeroQuadrati {
+  left: 0px;
+  top: 105px;
+}
+.NumeroQuadrati2 {
+  left: 0px;
+  top: 120px;
+}
+.NumeroQuadrati3 {
+  left: 0px;
+  top: 82px;
+}
+.NumeroQuadrati4 {
+  left: 0px;
+  top: 113px;
+}
+.NumeroSpie {
+  left: 0px;
+  top: 85px;
+}
+
+
+/*********Foto*********/
+
+.foto_l .foto_M img, 
+.foto_r .foto_M img, 
+.foto_r2 .foto_M img {
+	width: 152px;
+}
+.foto_r {
+	margin: 0px 15px 0px 25px;
+}
+.foto_r2 {
+	margin-top: 0px;
+}
+.foto_l {
+	margin: 0px 25px 0 15px;
+}
+.foto_rComportamento .foto_M img, 
+.foto_r2Comportamento .foto_M img,
+.foto_rComportamentoT .foto_M img, 
+.foto_r2ComportamentoT .foto_M img {
+	width: 152px;	
+}
+
+.foto_rComportamento,
+.foto_rComportamentoT {
+	margin: 0px 15px 15px 25px;
+}
+.foto_r2Comportamento,
+.foto_r2ComportamentoT {
+	margin: 0px 0px 15px 25px;
+}
+
+.foto2 .foto_rComportamentoT,
+.foto2 .foto_r2ComportamentoT {
+	margin-top: 13px;
+}
+
+.foto_XL {
+	margin: 0px 10px 0px 10px;
+}
+.foto3 .col-sm-3 {
+	width: 25%;
+	float: left;
+}
+.foto3 .col-sm-4 {
+	width: 33.33333333%;
+	float: left;
+}
+.foto3 .col-sm-5 {
+	width: 41.66666667%;
+	float: left;
+}
+.foto3 .assicurazione,
+.foto3 .punti {
+	width: 100%;
+	display: block;
+	float: none;
+}
+.col-sm-6 {
+	width: 50%;
+	float: left;
+}
+.col-sm-2 {
+	width: 16.66666667%;
+	float: left;
+}
+.col-sm-8 {
+	width: 50%;
+	float: left;
+}
+.col-sm-4 {
+	width: 33.33333333%;
+	float: left;
+}
+.col-sm-3 {
+	width: 25%;
+	float: left;
+}
+li img {
+	width: 8%;
+}
+
+
+
+/*********Segnali*********/
+
+.signal_l {
+	width: 90px;
+	margin: -10px 20px 20px 15px;	
+}
+.signal_l2 {
+  max-width: 80px;
+  margin: -10px 20px 20px 15px;
+}
+.signal_l3 {
+  max-width: 125px;
+  margin: -10px 20px 25px 15px;
+}
+.signal_l4 {
+  width: 58px;
+  margin: -10px 0px 30px 0px;
+}
+.signal_l5 {
+  max-width: 40px;
+  margin: -10px 20px 15px 15px;
+}
+.signal_l6 {
+  width: 65px;
+  margin: 5px 20px 30px 15px;
+}
+
+.signal_r {
+	width: 90px;
+	margin: -10px 15px 20px 20px;	
+}
+.signal_r2 {
+	width: 80px;
+	margin: 0px 20px 15px 20px;	
+}
+.signal_r3 {
+  max-width: 125px;
+  margin: -10px 15px 30px 20px;
+}
+.signal_M2 img, 
+.signal_M6 img {	
+  margin: -15px 0 0 0;
+}
+
+
+/*********TAB Indicazione*********/
+
+.inditab_l {
+  width: 125px;
+  margin: 0 10px 0 15px;
+}
+.inditab_testoW {
+  font-size: 16px;
+}
+.inditab_testoB {
+  font-size: 16px;
+}
+.testo_inditab {
+  font-size: 16px;
+  padding: 0 15px 0 0;
+  padding-inline-start: 155px;
+}
+
+
+/*********TAB Luci*********/
+
+.lucitab_titolo6 h6 {
+    font-size: 16px;
+}
+.lucitab_int_tit {
+    font-size: 16px;
+}
+.lucitab_int_testo {
+    font-size: 16px;
+}
+.lucitab_int img {
+    width: 140px;
+}
+
+
+/*********TAB Norme*********/
+
+.normetab_titolo6 h6 {
+    font-size: 16px;
+}
+.normetab_int_tit {
+	font-size: 14.5px;
+}
+.normetab_int_testo {
+    font-size: 15px;
+}
+.normetab_int img {
+    width: 150px;
+}
+
+
+/*********TAB Documenti*********/
+
+.docutab_titolo6 h6 {
+    font-size: 17px;
+}
+.docutab_int_tit {
+    font-size: 14.5px;
+}
+.docutab_int_testo {
+    font-size: 15px;
+	margin: 0 0 15px 0;
+}
+
+
+}
+/*FINE MEDIA - small device_3*/
+
+/*MEDIA - phone*/
+@media (min-width: 376px) and (max-width: 551px) {
+.titolo1 h1 {
+  text-align: center;	
+  font-size: 28px;
+}
+.titolo1 hr {
+  height: 3px;
+}
+
+.titolo2 h2 {
+  text-align: center;
+  font-size:25px;
+}
+
+.titolo3 h3 {
+  text-align: center;
+  font-size: 23px;
+  margin-top: 35px;
+}
+.titolo3 hr {
+  height: 2px;
+  margin-bottom: 15px;
+}
+
+.titolo4 {
+  text-align: center;
+  border-bottom: 6px;
+}
+.titolo4 h4 {
+  font-size:20px;
+  margin-top: 30px;
+}
+.titolo4 h4 span {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.titolo4 h4:after {
+  bottom: -4px;
+  border-top: 2px solid;
+}	
+
+.titolo5 {
+  text-align: center;
+  border-bottom: 8px;
+}
+.titolo5 h5 {
+  font-size:18px;
+  margin-bottom: 5px;
+  margin-top: 25px;
+}
+.titolo5 h5 span {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.titolo5 h5:after {
+  border-top: 2px dotted;
+  bottom: -3px;
+}
+.titolo6 {
+  text-align: center;
+  border-bottom: 8px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.titolo6 h6, .titolo6_incroci h6  {
+  font-size:20px;
+  margin-top: 30px;
+}
+.titolo6 h6 span {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.titolo6 h6:after {
+  border-top: 2px dotted;
+  bottom: -3px;
+}
+.titolo6 hr {
+	width: 50%;
+	margin-bottom: 30px;
+}
+.titolo7 h7 {
+  font-size: 17px;
+}
+.titolo7 {
+  margin-top: 25px;
+}
+.titolo_testo {
+  font-size: 17px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 0 15px 0 15px;
+}
+
+/*********testo e didascalie*********/
+
+.testo, .testo_l, .testo_r {
+  font-size: 17px;
+  line-height: 1.3;
+  margin-top: 15px;
+}
+.dida {
+  font-size: 16px;
+}
+.dida .didatesto {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+a.dida {
+	font-size: 17px;
+}
+.didaSignal {
+  font-size: 12px;
+}
+
+.comportamento_elenco2  {
+  padding-inline-start: 15px;
+}
+.elenco {
+  padding-inline-start: 15px;
+}
+.elenco2 {
+  padding-inline-start: 15px;
+}
+.elenco3 {
+  padding-inline-start: 15px;
+}
+
+
+/*********Foto*********/
+
+.foto_l, 
+.foto_r, 
+.foto_r2, 
+.foto2,
+.foto_rComportamento,
+.foto_r2Comportamento,
+.foto_rComportamentoT,
+.foto_r2ComportamentoT,
+.foto_l .foto_M img, 
+.foto_r .foto_M img, 
+.foto_r2 .foto_M img,
+.foto_rComportamento .foto_M img, 
+.foto_r2Comportamento .foto_M img,
+.foto_rComportamentoT .foto_M img, 
+.foto_r2ComportamentoT .foto_M img,
+.foto2 .foto_r,
+.foto2 .foto_r2,
+.foto2 .foto_rComportamento,
+.foto2 .foto_r2Comportamento,
+.foto2 .foto_rComportamentoT,
+.foto2 .foto_r2ComportamentoT,
+.foto_M,
+.foto_XL {
+	width: 372px;
+	display: block;
+	float: none;
+	margin: 25px auto 0px auto;
+}
+
+.foto_r {
+	margin: 15px auto 25px auto;
+}
+
+.foto2 .foto_rComportamentoT,
+.foto2 .foto_r2ComportamentoT {
+	margin-top: 0px;
+}
+
+.foto3 .col-sm-3,
+.foto3 .col-sm-4,
+.foto3 .col-sm-5,
+.col-sm-6,
+.col-sm-2,
+.col-sm-8,
+.col-sm-4,
+.col-sm-3 {
+	display: block;
+	float: none;
+}
+
+.foto_D {
+	margin-top: 20px;
+}
+.foto_XL {
+	width: 97%;
+}
+.col-sm-8 {
+    margin-top: 20px;
+}
+
+
+/*********Segnali*********/
+
+.signal_l, 
+.signal_l4,
+.signal_l6,
+.signal_lplus,
+.signal_r, 
+.signal_r2,
+.signal_rplus,
+.signal_Mplus {
+	display: block;
+	float: none;
+	max-width: 80%;
+	margin: 20px auto 15px auto;
+}
+
+.signal_l2,
+.signal_M,
+.signal_l3,
+.signal_r3,
+.signal_M3 img,
+.signal_l5 {
+	display: block;
+	float: none;
+	margin: 0 auto 0px auto;
+}
+
+.signal_M {
+	width: 80%;
+}
+.signal_l3,
+.signal_r3 {
+	width: 50%;
+}
+.signal_l5 {
+	width: 20%;
+}
+.foto4 .signal_M  {
+	max-width: 215px;
+	margin: 0px auto 20px auto;
+}
+.signal_M2 img, 
+.signal_M6 img {	
+  margin: -15px 0 0 0;
+}
+
+
+/*********Numeri segnali*********/
+
+.NumeroTriangoli {
+  left: 40px;
+  top: 15px;
+}
+.NumeroTriangoli2 {
+  left: 40px;
+  top: 155px;
+}
+.NumeroTriangoli3 {
+  left: 40px;
+  top: 215px;
+}
+.NumeroRettangoli {
+  left: 0px;
+  top: 0px;
+}
+.NumeroRettangoli2,
+.NumeroRettangoli3,
+.NumeroRettangoli4,
+.NumeroRettangoli5,
+.NumeroRettangoli6,
+.NumeroRettangoli7,
+.NumeroQuadrati,
+.NumeroQuadrati2,
+.NumeroQuadrati3,
+.NumeroQuadrati4,
+.NumeroSpie {
+  left: -30px;
+  top: 15px;
+}
+.NumeroCroce,
+.NumeroCroce2,
+.NumeroCroce3,
+.NumeroCroce4 {
+  left: 0px;
+  top:15px;
+}
+.NumeroCroce5 {
+  left: 0px;
+  top: 10px;
+}
+
+
+/************ TAB indicazione ********************/
+
+.inditab_l {
+  width: 80%;
+  float: none;
+  margin: 5px auto 15px auto;
+}
+.testo_inditab {
+  font-family: 'Arial', sans-serif;
+  hyphens: auto; 
+  font-size: 17px;
+  line-height: 1.3;
+  text-align: center;
+  margin: -10px 15px 15px 15px;
+  padding: 0 0 0 0;
+}
+.inditab_testoW {
+  font-size: 17px;
+  text-align: center;
+}
+.inditab_testoB {
+  font-size: 17px;
+  text-align: center;
+}
+
+/*********TAB Luci*********/
+
+.lucitab_titolo6 h6 {
+    font-size: 23px;
+}
+.lucitab_int_tit {
+    font-size: 20px;
+}
+.lucitab_int_testo {
+    font-size: 17px;
+}
+.lucitab_int img {
+    width: 240px;
+}
+
+
+/*********TAB Norme*********/
+
+.normetab_int_tit, .normetab_int_last_tit {
+  font-size: 15px;
+  font-weight: bold;  
+  padding: 5px 3px;
+}
+.normetab_int_testo, .normetab_int_last_testo{
+  hyphens: auto; 
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  color: #000;
+  margin: 0 0 25px 0;
+}
+.normetab_int {
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+/*********TAB Documenti*********/
+
+.docutab_titolo6 h6 {
+    font-size: 23px;
+}
+.docutab_int_tit {
+    font-size: 20px;
+}
+.docutab_int_testo {
+    font-size: 17px;
+}
+.docutab {
+    margin-top: 15px;
+}
+
+
+
+}
+/*FINE MEDIA - phone*/
+
+
+/*MEDIA - small phone (Galaxy S8 Portrait)*/
+@media (max-width: 375px) {
+.titolo1 h1 {
+  text-align: center;	
+  font-size: 26px;
+}
+.titolo1 hr {
+  height: 3px;
+}
+.titolo2 h2 {
+  text-align: center;
+  font-size: 23px;
+}
+.titolo3 h3 {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 35px;
+}
+.titolo3 hr {
+  height: 2px;
+  margin-bottom: 15px;
+}
+.titolo4 {
+  text-align: center;
+  border-bottom: 6px;
+}
+.titolo4 h4 {
+  font-size: 19px;
+  margin-top: 30px;
+}
+.titolo4 h4 span {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.titolo4 h4:after {
+  bottom: -4px;
+  border-top: 1px solid;
+}	
+.titolo5 {
+  text-align: center;
+  border-bottom: 8px;
+}
+.titolo5 h5 {
+  font-size:17px;
+  margin-bottom: 5px;
+  margin-top: 25px;
+}
+.titolo5 h5 span {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.titolo5 h5:after {
+  border-top: 1px dotted;
+  bottom: -3px;
+}
+.titolo6 {
+  text-align: center;
+  border-bottom: 8px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.titolo6 h6, .titolo6_incroci h6  {
+  font-size: 20px;
+  margin-top: 30px;
+}
+.titolo6 h6 span {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.titolo6 h6:after {
+  border-top: 1px dotted;
+  bottom: -3px;
+}
+.titolo6 hr {
+	width: 50%;
+	margin-bottom: 30px;
+}
+.titolo7 h7 {
+  font-size: 18px;
+}
+.titolo7 {
+  margin-top: 25px;
+}
+.titolo_testo {
+  font-size: 19px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 0 15px 0 15px;
+}
+
+/*********testo e didascalie*********/
+
+.testo, .testo_l, .testo_r {
+  font-size: 19px;
+  line-height: 1.3;
+  margin-top: 15px;
+}
+.dida {
+  font-size: 16px;
+}
+.dida .didatesto {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+a.dida {
+	font-size: 17px;
+}
+.didaSignal {
+  font-size: 10px;
+}
+.comportamento_elenco2  {
+  padding-inline-start: 15px;
+}
+.elenco {
+  padding-inline-start: 15px;
+}
+.elenco2 {
+  padding-inline-start: 15px;
+}
+.elenco3 {
+  padding-inline-start: 15px;
+}
+
+
+/*********Foto*********/
+
+.foto_l, 
+.foto_r, 
+.foto_r2, 
+.foto2,
+.foto_rComportamento,
+.foto_r2Comportamento,
+.foto_rComportamentoT,
+.foto_r2ComportamentoT,
+.foto_l .foto_M img, 
+.foto_r .foto_M img, 
+.foto_r2 .foto_M img,
+.foto_rComportamento .foto_M img, 
+.foto_r2Comportamento .foto_M img,
+.foto_rComportamentoT .foto_M img, 
+.foto_r2ComportamentoT .foto_M img,
+.foto2 .foto_r,
+.foto2 .foto_r2,
+.foto2 .foto_rComportamento,
+.foto2 .foto_r2Comportamento,
+.foto2 .foto_rComportamentoT,
+.foto2 .foto_r2ComportamentoT,
+.foto_M,
+.foto_XL {
+	width: 290px;
+	display: block;
+	float: none;
+	margin: 25px auto 0px auto;
+}
+
+li img {
+	width: 20%;
+}
+
+.foto_r {
+	margin: 15px auto 25px auto;
+}
+
+.foto2 .foto_rComportamentoT,
+.foto2 .foto_r2ComportamentoT {
+	margin-top: 0px;
+}
+
+.foto3 .col-sm-3,
+.foto3 .col-sm-4,
+.foto3 .col-sm-5,
+.col-sm-6,
+.col-sm-2,
+.col-sm-8,
+.col-sm-4,
+.col-sm-3 {
+	display: block;
+	float: none;
+}
+
+.foto_D {
+	margin-top: 20px;
+}
+.foto_XL {
+	width: 97%;
+}
+.col-sm-8 {
+    margin-top: 20px;
+}
+
+/*********Segnali*********/
+
+.signal_l, 
+.signal_l4,
+.signal_l6,
+.signal_lplus,
+.signal_r, 
+.signal_r2,
+.signal_rplus,
+.signal_Mplus {
+	display: block;
+	float: none;
+	max-width: 80%;
+	margin: 20px auto 15px auto;
+}
+
+.signal_l2,
+.signal_M,
+.signal_l3,
+.signal_r3,
+.signal_M3 img,
+.signal_l5 {
+	display: block;
+	float: none;
+	margin: 0 auto 0px auto;
+}
+
+.signal_M {
+	width: 80%;
+}
+.signal_l3,
+.signal_r3 {
+	width: 50%;
+}
+.signal_l5 {
+	width: 20%;
+}
+.foto4 .signal_M  {
+	max-width: 215px;
+	margin: 0px auto 20px auto;
+}
+.signal_M2 img, 
+.signal_M6 img {	
+  margin: -15px 0 0 0;
+}
+
+
+/*********Numeri segnali*********/
+
+.NumeroTriangoli {
+  left: 40px;
+  top: 12px;
+}
+.NumeroTriangoli2 {
+  left: 40px;
+  top: 155px;
+}
+.NumeroTriangoli3 {
+  left: 40px;
+  top: 215px;
+}
+.NumeroRettangoli {
+  left: 0px;
+  top: 0px;
+}
+.NumeroRettangoli2,
+.NumeroRettangoli3,
+.NumeroRettangoli4,
+.NumeroRettangoli5,
+.NumeroRettangoli6,
+.NumeroRettangoli7,
+.NumeroQuadrati,
+.NumeroQuadrati2,
+.NumeroQuadrati3,
+.NumeroQuadrati4,
+.NumeroSpie {
+  left: -30px;
+  top: 12px;
+}
+.NumeroCroce,
+.NumeroCroce2,
+.NumeroCroce3,
+.NumeroCroce4 {
+  left: 0px;
+  top: 12px;
+}
+.NumeroCroce5 {
+  left: 0px;
+  top: 12px;
+}
+
+/************ TAB indicazione ********************/
+
+.inditab_l {
+  width: 80%;
+  float: none;
+  margin: 5px auto 15px auto;
+}
+.testo_inditab {
+  font-family: 'Arial', sans-serif;
+  hyphens: auto; 
+  font-size: 19px;
+  line-height: 1.2;
+  text-align: center;
+  margin: -10px 15px 15px 15px;
+  padding: 0 0 0 0;
+}
+.inditab_testoW {
+  font-size: 16px;
+  text-align: center;
+}
+.inditab_testoB {
+  font-size: 16px;
+  text-align: center;
+}
+
+/*********TAB Luci*********/
+
+.lucitab_titolo6 h6 {
+    font-size: 21px;
+}
+.lucitab_int_tit {
+    font-size: 19px;
+}
+.lucitab_int_testo {
+    font-size: 18px;
+}
+.lucitab_int img {
+    width: 165px;
+}
+
+/*********TAB Norme*********/
+
+.normetab_int_tit, .normetab_int_last_tit {
+  font-size: 11px;
+  font-weight: bold;  
+  padding: 5px 3px;
+}
+.normetab_int_testo, .normetab_int_last_testo{
+  hyphens: auto; 
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  color: #000;
+  margin: 0 0 20px 0;
+}
+.normetab_int {
+  padding-right: 3px;
+  padding-left: 3px;
+}
+.normetab_int img {
+    width: 185px;
+}
+
+/*********TAB Documenti*********/
+
+.docutab_titolo6 h6 {
+    font-size: 18px;
+}
+.docutab_int_tit {
+    font-size: 19px;
+}
+.docutab_int_testo {
+    font-size: 19px;
+}
+.docutab {
+    margin-top: 15px;
+}
+
+}	
+/*FINE MEDIA - small phone (Galaxy S8 Portrait)*/
+
+
+/*FINE MEDIA*/
+
+
+/* FINESTRE MODALI IMMAGINI*/
+ .modal-vertical-centered {
+   
+   -webkit-transform: translate(0%, 15%); 
+   -moz-transform: translate(0%, 15%);
+   -ms-transform: translate(0%, 15%);
+   -o-transform: translate(0%, 15%);
+   transform: translate(0%, 15%);
+    }
+@media (min-width: 552px) and (max-width: 639px) {
+.modal {
+    left:5%;
+	right:5%;
+}
+}
+@media (min-width: 640px) and (max-width: 767px) {
+.modal {
+    left:5%;
+	right:5%;
+}
+}	
+@media (min-width: 768px) and (max-width: 991px) {
+.modal {
+    left:5%;
+	right:5%;
+}
+.modal-dialog {
+    margin-left: 8%;
+	margin-right: 8%;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+.modal {
+    left:5%;
+	right:5%;
+}
+.modal-dialog {
+    margin-left: 10%;
+	margin-right: 10%;
+}
+}	
+@media (min-width: 1200px) {
+.modal {
+    left:5%;
+	right:5%;
+}
+.modal-dialog {
+    margin-left: 20%;
+	margin-right: 20%;
+}
+}
+/*FINE Finestre modali*/
+

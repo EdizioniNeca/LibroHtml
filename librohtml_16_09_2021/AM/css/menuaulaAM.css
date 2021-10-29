@@ -1,0 +1,345 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/*IMPOSTAZIONI GENERALI*/
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    margin: 90px 250px 20px 250px;
+}
+
+.container {
+    margin-bottom: 0px;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/*BOTTONI*/
+
+button.accordion.l1 {
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0px;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+button.accordion.l2 {
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0px;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+
+/*CONTENITORI*/
+
+.contenitore1.A,
+.contenitore1.B,
+.contenitore1.C,
+.contenitore1.D,
+.contenitore1.E,
+.contenitore1.F,
+.contenitore1.G,
+.contenitore1.H,
+.contenitore1.I,
+.contenitore1.J {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contenitore1.A {
+    background-color: #73a42e;
+}
+
+.contenitore1.B {
+    background-color: #816714;
+}
+
+.contenitore1.C {
+    background-color: #005ea8;
+}
+
+.contenitore1.D {
+    background-color: #bb9c09;
+}
+
+.contenitore1.E {
+    background-color: #497728;
+}
+
+.contenitore1.F {
+    background-color: #d6413e;
+}
+
+.contenitore1.G {
+    background-color: #00869e;
+}
+
+.contenitore1.H {
+    background-color: #9a0061;
+}
+
+.contenitore1.I {
+    background-color: #df6f0d;
+}
+
+.contenitore1.J {
+    background-color: #929494;
+}
+
+.contenitore2.A,
+.contenitore2.B,
+.contenitore2.C,
+.contenitore2.D,
+.contenitore2.E,
+.contenitore2.F,
+.contenitore2.G,
+.contenitore2.H,
+.contenitore2.I {
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+.contenitore2.A {
+    background-color: rgba(115, 164, 46, 0.7);
+}
+
+.contenitore2.B {
+    background-color: rgba(0, 94, 168, 0.7);
+}
+
+.contenitore2.C {
+    background-color: rgba(0, 94, 168, 0.7);
+}
+
+.contenitore2.D {
+    background-color: rgba(0, 94, 168, 0.7);
+}
+
+.contenitore2.E {
+    background-color: rgba(0, 94, 168, 0.7);
+}
+
+.contenitore2.F {
+    background-color: rgba(214, 65, 62, 0.7);
+}
+
+.contenitore2.G {
+    background-color: rgba(214, 65, 62, 0.7);
+}
+
+.contenitore2.H {
+    background-color: rgba(0, 134, 158, 0.7);
+}
+
+.contenitore2.I {
+    background-color: rgba(146, 148, 148, 0.7);
+}
+
+
+/*FRECCE*/
+
+.T1 {
+    background-image: url(../../assets/images/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: 99999;
+    position: relative;
+    float: right;
+    height: 90px;
+    width: 40px;
+    margin-right: 25px;
+}
+
+.T2 {
+    background-image: url(../../assets/images/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: 99999;
+    position: relative;
+    float: right;
+    height: 90px;
+    width: 40px;
+    margin-right: 25px;
+}
+
+
+/*TITOLI*/
+
+.Menu_titolo1 h1 {
+    padding-left: 45px;
+    margin: .6em 0 .4em 0;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 3em;
+    letter-spacing: 1px;
+}
+
+.Menu_titolo1 hr {
+    display: none;
+}
+
+.Menu_titolo1.col-lg-12 {
+    float: none;
+}
+
+.Menu_titolo2 h2 {
+    padding-left: 45px;
+    margin: .6em 0 .4em 0;
+    text-align: left;
+    font-variant: small-caps;
+    font-size: 3em;
+}
+
+.Menu_titolo2.col-lg-12 {
+    float: none;
+}
+
+.Menu_titolo3 h3 {
+    font-variant: normal;
+    font-size: 2.6em;
+    letter-spacing: -1px;
+    margin: 0;
+    padding: 15px 0 10px 45px;
+    border-radius: 0 0 5px 5px;
+}
+
+.Menu_titolo3 hr {
+    display: none;
+}
+
+.Menu_veicoli,
+.Menu_strada,
+.Menu_segnali,
+.Menu_equipaggiamento,
+.Menu_norme,
+.Menu_documenti,
+.Menu_incidenti,
+.Menu_soccorso,
+.Menu_sicurezza,
+.Menu_autoveicolo {
+    color: #fff;
+}
+
+
+/*TITOLI H3*/
+
+
+/*I VEICOLI*/
+
+.Menu_veicoli h3 {
+    margin-bottom: 10px;
+    color: #73a42e;
+    background-color: rgba(115, 164, 46, 0.3);
+}
+
+
+/*LA STRADA*/
+
+.Menu_strada h3 {
+    margin-bottom: 10px;
+    color: #816714;
+    background-color: rgba(129, 103, 20, 0.3);
+}
+
+
+/*SEGNALETICA STRADALE*/
+
+.Menu_segnali h3 {
+    margin-bottom: 10px;
+    color: #005ea8;
+    background-color: rgba(0, 94, 168, 0.3);
+}
+
+
+/*EQUIPAGGIAMENTO DEI VEICOLI*/
+
+.Menu_equipaggiamento h3 {
+    margin-bottom: 10px;
+    color: #bb9c09;
+    background-color: rgba(187, 156, 9, 0.3);
+}
+
+
+/*NORME DI COMPORTAMENTO*/
+
+.Menu_norme h3 {
+    margin-bottom: 10px;
+    color: #497728;
+    background-color: rgba(73, 119, 40, 0.3);
+}
+
+
+/*DOCUMENTI*/
+
+.Menu_documenti h3 {
+    margin-bottom: 10px;
+    color: #d6413e;
+    background-color: rgba(214, 65, 62, 0.3);
+}
+
+
+/*INCIDENTI E ASSICURAZIONI*/
+
+.Menu_incidenti h3 {
+    margin-bottom: 10px;
+    color: #00869e;
+    background-color: rgba(0, 134, 158, 0.3);
+}
+
+
+/*SOCCORSO*/
+
+.Menu_soccorso h3 {
+    margin-bottom: 10px;
+    color: #9a0061;
+    background-color: rgba(154, 0, 97, 0.3);
+}
+
+
+/*SICUREZZA E INQUINAMENTO*/
+
+.Menu_sicurezza h3 {
+    margin-bottom: 10px;
+    color: #df6f0d;
+    background-color: rgba(223, 111, 13, 0.3);
+}
+
+
+/*L'AUTOVEICOLO E LE SUE PARTI*/
+
+.Menu_autoveicolo h3 {
+    margin-bottom: 10px;
+    color: #929494;
+    background-color: rgba(146, 148, 148, 0.3);
+}
+
+
+/*css MAX*/
+
+div#genera {
+    margin: -25px 0px 0px 0px;
+}

@@ -1,0 +1,755 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/*IMPOSTAZIONI GENERALI*/
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    margin: 20px 0 20px 0;
+}
+
+.container {
+    margin-bottom: 0px;
+    width: 95%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/*BOTTONI*/
+
+button.accordion.l1 {
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0px;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border: none;
+    outline: none;
+    /* transition: 0.4s;*/
+}
+
+button.accordion.l2 {
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0px;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border: none;
+    outline: none;
+    /*  transition: 0.4s;*/
+}
+
+
+/*CONTENITORI*/
+
+.contenitore1.A,
+.contenitore1.B,
+.contenitore1.C,
+.contenitore1.D,
+.contenitore1.E,
+.contenitore1.F,
+.contenitore1.G,
+.contenitore1.H,
+.contenitore1.I,
+.contenitore1.J {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contenitore1.A {
+    background-color: #73a42e;
+}
+
+.contenitore1.B {
+    background-color: #816714;
+}
+
+.contenitore1.C {
+    background-color: #005ea8;
+}
+
+.contenitore1.D {
+    background-color: #bb9c09;
+}
+
+.contenitore1.E {
+    background-color: #497728;
+}
+
+.contenitore1.F {
+    background-color: #d6413e;
+}
+
+.contenitore1.G {
+    background-color: #00869e;
+}
+
+.contenitore1.H {
+    background-color: #9a0061;
+}
+
+.contenitore1.I {
+    background-color: #df6f0d;
+}
+
+.contenitore1.J {
+    background-color: #929494;
+}
+
+.contenitore2.A,
+.contenitore2.B,
+.contenitore2.C,
+.contenitore2.D,
+.contenitore2.E,
+.contenitore2.F,
+.contenitore2.G,
+.contenitore2.H,
+.contenitore2.I {
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+.contenitore2.A {
+    background-color: rgba(115, 164, 46, 0.7);
+}
+
+.contenitore2.B {
+    background-color: rgba(0, 94, 168, 0.7);
+}
+
+.contenitore2.C {
+    background-color: rgba(0, 94, 168, 0.7);
+}
+
+.contenitore2.D {
+    background-color: rgba(0, 94, 168, 0.7);
+}
+
+.contenitore2.E {
+    background-color: rgba(0, 94, 168, 0.7);
+}
+
+.contenitore2.F {
+    background-color: rgba(214, 65, 62, 0.7);
+}
+
+.contenitore2.G {
+    background-color: rgba(214, 65, 62, 0.7);
+}
+
+.contenitore2.H {
+    background-color: rgba(0, 134, 158, 0.7);
+}
+
+.contenitore2.I {
+    background-color: rgba(146, 148, 148, 0.7);
+}
+
+
+/*FRECCE*/
+
+.T1 {
+    background-image: url(../../assets/images/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: 99999;
+    position: relative;
+    float: right;
+    height: 90px;
+    width: 40px;
+    margin-right: 25px;
+}
+
+.T2 {
+    background-image: url(../../assets/images/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: 99999;
+    position: relative;
+    float: right;
+    height: 90px;
+    width: 40px;
+    margin-right: 25px;
+}
+
+
+/*TITOLI*/
+
+.Menu_titolo1 h1 {
+    margin: .6em 0 .4em 0;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 3em;
+    letter-spacing: 1px;
+}
+
+.Menu_titolo1 hr {
+    display: none;
+}
+
+.Menu_titolo1.col-lg-12 {
+    float: none;
+}
+
+.Menu_titolo2 h2 {
+    margin: .6em 0 .4em 0;
+    text-align: left;
+    font-variant: small-caps;
+    font-size: 3em;
+}
+
+.Menu_titolo2.col-lg-12 {
+    float: none;
+}
+
+.Menu_titolo3 h3 {
+    font-variant: normal;
+    font-size: 2.6em;
+    letter-spacing: -1px;
+    margin: 0;
+    padding: 15px 0 10px 45px;
+    border-radius: 0 0 5px 5px;
+}
+
+.Menu_titolo3 hr {
+    display: none;
+}
+
+.Menu_veicoli,
+.Menu_strada,
+.Menu_segnali,
+.Menu_equipaggiamento,
+.Menu_norme,
+.Menu_documenti,
+.Menu_incidenti,
+.Menu_soccorso,
+.Menu_sicurezza,
+.Menu_autoveicolo {
+    color: #fff;
+}
+
+
+/*TITOLI H3*/
+
+
+/*I VEICOLI*/
+
+.Menu_veicoli h3 {
+    margin-bottom: 10px;
+    color: #73a42e;
+    background-color: rgba(115, 164, 46, 0.3);
+}
+
+
+/*LA STRADA*/
+
+.Menu_strada h3 {
+    margin-bottom: 10px;
+    color: #816714;
+    background-color: rgba(129, 103, 20, 0.3);
+}
+
+
+/*SEGNALETICA STRADALE*/
+
+.Menu_segnali h3 {
+    margin-bottom: 10px;
+    color: #005ea8;
+    background-color: rgba(0, 94, 168, 0.3);
+}
+
+
+/*EQUIPAGGIAMENTO DEI VEICOLI*/
+
+.Menu_equipaggiamento h3 {
+    margin-bottom: 10px;
+    color: #bb9c09;
+    background-color: rgba(187, 156, 9, 0.3);
+}
+
+
+/*NORME DI COMPORTAMENTO*/
+
+.Menu_norme h3 {
+    margin-bottom: 10px;
+    color: #497728;
+    background-color: rgba(73, 119, 40, 0.3);
+}
+
+
+/*DOCUMENTI*/
+
+.Menu_documenti h3 {
+    margin-bottom: 10px;
+    color: #d6413e;
+    background-color: rgba(214, 65, 62, 0.3);
+}
+
+
+/*INCIDENTI E ASSICURAZIONI*/
+
+.Menu_incidenti h3 {
+    margin-bottom: 10px;
+    color: #00869e;
+    background-color: rgba(0, 134, 158, 0.3);
+}
+
+
+/*SOCCORSO*/
+
+.Menu_soccorso h3 {
+    margin-bottom: 10px;
+    color: #9a0061;
+    background-color: rgba(154, 0, 97, 0.3);
+}
+
+
+/*SICUREZZA E INQUINAMENTO*/
+
+.Menu_sicurezza h3 {
+    margin-bottom: 10px;
+    color: #df6f0d;
+    background-color: rgba(223, 111, 13, 0.3);
+}
+
+
+/*L'AUTOVEICOLO E LE SUE PARTI*/
+
+.Menu_autoveicolo h3 {
+    margin-bottom: 10px;
+    color: #929494;
+    background-color: rgba(146, 148, 148, 0.3);
+}
+
+
+/*MEDIA*/
+
+@media screen and (max-width: 320px) {
+    .T1 {
+        height: 60px;
+        width: 30px;
+        margin-right: 5px;
+    }
+    .Menu_titolo1 h1 {
+        margin: 1em 0 .6em .75em;
+        font-size: 1.5em;
+    }
+    .freccia1.C>.T1,
+    .freccia1.D>.T1,
+    .freccia1.E>.T1,
+    .freccia1.G>.T1,
+    .freccia1.I>.T1,
+    .freccia1.J>.T1 {
+        margin-top: 9px;
+    }
+    .Menu_segnali h1,
+    .Menu_equipaggiamento h1,
+    .Menu_norme h1,
+    .Menu_incidenti h1,
+    .Menu_sicurezza h1,
+    .Menu_autoveicolo h1 {
+        margin: .75em 0 .65em .75em;
+    }
+    .T2 {
+        height: 60px;
+        width: 30px;
+        margin-right: 5px;
+    }
+    .Menu_titolo2 h2 {
+        margin: 1em 0 .6em .75em;
+        font-size: 1.4em;
+    }
+    .freccia2.C>.T2,
+    .freccia2.D>.T2,
+    .freccia2.F>.T2,
+    .freccia2.G>.T2,
+    .freccia2.I>.T2 {
+        margin-top: 3px;
+    }
+    .contenitore2.C h2,
+    .contenitore2.D h2,
+    .contenitore2.F h2,
+    .contenitore2.G h2,
+    .contenitore2.I h2 {
+        margin: .6em 0 .6em .75em;
+    }
+    .Menu_titolo3 h3 {
+        font-size: 1.2em;
+        margin-bottom: 5px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 10px 22px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 360px) {
+    .T1 {
+        height: 60px;
+        width: 30px;
+        margin-right: 5px;
+    }
+    .Menu_titolo1 h1 {
+        margin: 1em 0 .6em .75em;
+        font-size: 1.5em;
+    }
+    .freccia1.D>.T1,
+    .freccia1.E>.T1,
+    .freccia1.G>.T1,
+    .freccia1.I>.T1,
+    .freccia1.J>.T1 {
+        margin-top: 9px;
+    }
+    .Menu_equipaggiamento h1,
+    .Menu_norme h1,
+    .Menu_incidenti h1,
+    .Menu_sicurezza h1,
+    .Menu_autoveicolo h1 {
+        margin: .75em 0 .65em .75em;
+    }
+    .T2 {
+        height: 60px;
+        width: 30px;
+        margin-right: 5px;
+    }
+    .Menu_titolo2 h2 {
+        margin: 1em 0 .6em .75em;
+        font-size: 1.5em;
+    }
+    .freccia2.C>.T2,
+    .freccia2.D>.T2,
+    .freccia2.F>.T2,
+    .freccia2.G>.T2,
+    .freccia2.I>.T2 {
+        margin-top: 3px;
+    }
+    .contenitore2.C h2,
+    .contenitore2.D h2,
+    .contenitore2.F h2,
+    .contenitore2.G h2,
+    .contenitore2.I h2 {
+        margin: .6em 0 .6em .75em;
+    }
+    .Menu_titolo3 h3 {
+        font-size: 1.3em;
+        margin-bottom: 5px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 10px 0 8px 22px;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 480px) {
+    .T1 {
+        height: 60px;
+        width: 30px;
+        margin-right: 5px;
+    }
+    .Menu_titolo1 h1 {
+        margin: .65em 0 .45em .65em;
+        font-size: 1.9em;
+    }
+    .freccia1.D>.T1,
+    .freccia1.J>.T1 {
+        margin-top: 15px;
+    }
+    .Menu_equipaggiamento h1,
+    .Menu_autoveicolo h1 {
+        margin: .75em 0 .65em .65em;
+    }
+    .T2 {
+        height: 60px;
+        width: 30px;
+        margin-right: 5px;
+    }
+    .Menu_titolo2 h2 {
+        margin: .65em 0 .45em .65em;
+        font-size: 1.9em;
+    }
+    .freccia2.C>.T2,
+    .freccia2.D>.T2,
+    .freccia2.F>.T2,
+    .freccia2.G>.T2,
+    .freccia2.I>.T2 {
+        margin-top: 13px;
+    }
+    .contenitore2.C h2,
+    .contenitore2.D h2,
+    .contenitore2.F h2,
+    .contenitore2.G h2,
+    .contenitore2.I h2 {
+        margin: .6em 0 .6em .65em;
+    }
+    .Menu_titolo3 h3 {
+        font-size: 1.6em;
+        margin-bottom: 5px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 12px 0 6px 28px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px) {
+    .T1 {
+        height: 60px;
+        width: 30px;
+        margin-right: 5px;
+    }
+    .Menu_titolo1 h1 {
+        margin: .65em 0 .45em .5em;
+        font-size: 2em;
+    }
+    .T2 {
+        height: 60px;
+        width: 30px;
+        margin-right: 5px;
+    }
+    .Menu_titolo2 h2 {
+        margin: .65em 0 .45em .5em;
+        font-size: 2em;
+    }
+    .Menu_titolo3 h3 {
+        font-size: 1.8em;
+        margin-bottom: 5px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 12px 0 6px 25px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 640px) {
+    .T1 {
+        height: 70px;
+        width: 40px;
+        margin-right: 5px;
+    }
+    .Menu_titolo1 h1 {
+        margin: .75em 0 .45em .5em;
+        font-size: 2.1em;
+    }
+    .T2 {
+        height: 70px;
+        width: 40px;
+        margin-right: 5px;
+    }
+    .Menu_titolo2 h2 {
+        margin: .75em 0 .45em .5em;
+        font-size: 2.1em;
+    }
+    .Menu_titolo3 h3 {
+        font-size: 1.9em;
+        margin-bottom: 5px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 12px 0 6px 30px;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 720px) {
+    .T1 {
+        height: 80px;
+        width: 40px;
+        margin-right: 5px;
+    }
+    .Menu_titolo1 h1 {
+        margin: .7em 0 .5em .4em;
+        font-size: 2.5em;
+    }
+    .T2 {
+        height: 80px;
+        width: 40px;
+        margin-right: 5px;
+    }
+    .Menu_titolo2 h2 {
+        margin: .7em 0 .5em .4em;
+        font-size: 2.5em;
+    }
+    .freccia2.D>.T2 {
+        margin-top: 15px;
+    }
+    .contenitore2.D h2 {
+        margin: .6em 0 .5em .4em;
+    }
+    .Menu_titolo3 h3 {
+        font-size: 2.2em;
+        margin-bottom: 5px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 10px 0 5px 30px;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 768px) {
+    .T1 {
+        height: 85px;
+        width: 40px;
+        margin-right: 5px;
+    }
+    .Menu_titolo1 h1 {
+        margin: .6em 0 .6em .4em;
+        font-size: 2.7em;
+    }
+    .T2 {
+        height: 85px;
+        width: 40px;
+        margin-right: 5px;
+    }
+    .Menu_titolo2 h2 {
+        margin: .6em 0 .6em .4em;
+        font-size: 2.7em;
+    }
+    .freccia2.C>.T2,
+    .freccia2.D>.T2,
+    .freccia2.G>.T2 {
+        margin-top: 22px;
+    }
+    .contenitore2.C h2,
+    .contenitore2.D h2,
+    .contenitore2.G h2 {
+        margin: .6em 0 .6em .4em;
+    }
+    .Menu_titolo3 h3 {
+        font-size: 2.4em;
+        margin-bottom: 5px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 10px 0 8px 30px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 800px) {
+    .T1 {
+        height: 100px;
+        width: 40px;
+        margin-right: 5px;
+    }
+    .Menu_titolo1 h1 {
+        margin: .7em 0 .5em .4em;
+        font-size: 3em;
+    }
+    .T2 {
+        height: 100px;
+        width: 40px;
+        margin-right: 5px;
+    }
+    .Menu_titolo2 h2 {
+        margin: .7em 0 .5em .4em;
+        font-size: 3em;
+    }
+    .freccia2.C>.T2,
+    .freccia2.D>.T2,
+    .freccia2.G>.T2 {
+        margin-top: 18px;
+    }
+    .contenitore2.C h2,
+    .contenitore2.D h2,
+    .contenitore2.G h2 {
+        margin: .6em 0 .5em .4em;
+    }
+    .Menu_titolo3 h3 {
+        font-size: 2.7em;
+        margin-bottom: 5px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 12px 0 6px 30px;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+    .T1 {
+        height: 85px;
+        width: 40px;
+        margin-right: 5px;
+    }
+    .Menu_titolo1 h1 {
+        margin: .7em 0 .5em .4em;
+        font-size: 2.7em;
+    }
+    .T2 {
+        height: 85px;
+        width: 40px;
+        margin-right: 5px;
+    }
+    .Menu_titolo2 h2 {
+        margin: .7em 0 .5em .4em;
+        font-size: 2.7em;
+    }
+    .Menu_titolo3 h3 {
+        font-size: 2.4em;
+        margin-bottom: 5px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 12px 0 6px 40px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .T1 {
+        height: 95px;
+        width: 40px;
+        margin-right: 5px;
+    }
+    .Menu_titolo1 h1 {
+        margin: .7em 0 .5em .4em;
+        font-size: 2.9em;
+    }
+    .T2 {
+        height: 95px;
+        width: 40px;
+        margin-right: 5px;
+    }
+    .Menu_titolo2 h2 {
+        margin: .7em 0 .5em .4em;
+        font-size: 2.9em;
+    }
+    .Menu_titolo3 h3 {
+        font-size: 2.6em;
+        margin-bottom: 8px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 14px 0 7px 45px;
+    }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+    .T1 {
+        height: 95px;
+        width: 40px;
+        margin-right: 5px;
+    }
+    .Menu_titolo1 h1 {
+        margin: .7em 0 .5em .4em;
+        font-size: 2.9em;
+    }
+    .T2 {
+        height: 95px;
+        width: 40px;
+        margin-right: 5px;
+    }
+    .Menu_titolo2 h2 {
+        margin: .7em 0 .5em .4em;
+        font-size: 2.9em;
+    }
+    .Menu_titolo3 h3 {
+        font-size: 2.6em;
+        margin-bottom: 8px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 14px 0 7px 50px;
+    }
+}

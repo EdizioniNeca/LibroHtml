@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 960 960" style="enable-background:new 0 0 960 960;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#1A171B;stroke-width:1.0966;stroke-miterlimit:2.6131;}
+	.st1{fill:none;stroke:#1A171B;stroke-width:3.6554;stroke-miterlimit:2.6131;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#1A171B;stroke:#1A171B;stroke-width:1.0966;stroke-miterlimit:2.6131;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#005EA7;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:9.8986;stroke-miterlimit:2.6131;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#005EA7;stroke-width:0.9899;stroke-miterlimit:2.6131;}
+</style>
+<g>
+	<polygon class="st0" points="257.1,643.2 702.9,643.2 702.9,838 257.1,838 257.1,643.2 	"/>
+	<path class="st1" d="M294.3,657.4H665c13.8,0,25.1,11.3,25.1,25.1V799c0,13.8-11.3,25.1-25.1,25.1H294.3
+		c-13.8,0-25.1-11.3-25.1-25.1V682.5C269.2,668.7,280.5,657.4,294.3,657.4L294.3,657.4z"/>
+	<polygon class="st2" points="383.6,803.7 324.3,741.3 384.5,678.9 409.7,678.9 362.8,729.3 446,729.3 446,753 362.8,753 412,803.7 
+		383.6,803.7 	"/>
+</g>
+<g>
+	<g>
+		<polygon class="st3" points="228.7,119.4 731.3,119.4 731.3,619.3 228.7,619.3 228.7,119.4 		"/>
+		<path class="st4" d="M271.3,134.2h418.3c15.3,0,27.8,12.5,27.8,27.8v415.6c0,15.3-12.5,27.8-27.8,27.8H271.3
+			c-15.3,0-27.8-12.5-27.8-27.8V162C243.5,146.7,256,134.2,271.3,134.2L271.3,134.2z"/>
+		<path class="st5" d="M341.2,539.8V198.6h86.1c68.7,0,145.5,1.2,183.5,54.3c17.7,30,19.4,68.9,9.3,106.6
+			c-9.7,35-54.4,69.8-97.1,69.2l-95.8-0.6v111.6H341.2L341.2,539.8z M427.6,357.1v-90.6H490c33.7,0,31.4,6.5,43.4,15.4
+			c17,17.2,12.7,52.3-2,60.9c-9,5.6-9,14.3-41.4,14.3H427.6L427.6,357.1z"/>
+	</g>
+</g>
+</svg>

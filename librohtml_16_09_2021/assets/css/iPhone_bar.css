@@ -1,0 +1,1945 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 5%;
+    border-radius: 5px;
+    position: fixed;
+    /* top: 90%;*/
+    width: 89%;
+    height: 65px;
+    background: hsl(210 66% 72% / 0.3);
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(255, 255, 255, 1);
+    text-decoration: none;
+    /* background: -webkit-gradient(linear, left bottom, left top, color-stop(0%, #999999), color-stop(100%, #cccccc)); */
+    /* background: -webkit-linear-gradient(bottom, #999999 0%, #cccccc 100%); */
+    /* background: linear-gradient(to top, #999999 0%, #cccccc 100%); */
+}
+
+.spanM {
+    color: white;
+    left: 5px;
+    position: relative;
+}
+
+.switch,
+.btn_switch_src {
+    display: none;
+}
+
+.noBackground {
+    display: none;
+}
+
+.logo {
+    color: rgb(255, 255, 255, 1);
+}
+
+.logo:hover {
+    color: rgb(255, 255, 255, 0.8);
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 0px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: rgb(255, 255, 255, 0.8);
+}
+
+button {
+    padding: 12px 35px;
+    background-color: hsl(210 66% 72% / 0.4);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+
+button:hover {
+    background-color: #8AB9E7;
+}
+
+button.back {
+    width: 130px;
+    padding: 14px 2px;
+    position: absolute;
+    left: -32px;
+}
+
+
+/*
+.search_box {
+padding: 9px 25px;
+background-color: rgba(0, 136, 169, 1);
+border: none;
+border-radius: 50px;
+cursor: pointer;
+transition: all 0.3s ease 0s;
+color: #edf0f1;
+}*/
+
+.searchin {
+    padding: 12px 35px;
+    background: hsl(210 66% 72% / 0.3);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    outline: none;
+    /*bordatura alla selezione=outline*/
+}
+
+.searchin:hover {
+    background-color: #8AB9E7;
+    color: #edf0f1;
+}
+
+.lente {
+    left: -14%;
+    position: relative;
+}
+
+.ics {
+    position: relative;
+    left: -20%;
+}
+
+.ico {
+    position: relative;
+    width: 25px;
+    top: -2px;
+}
+
+.trovati {
+    padding: 12px 35px;
+    /* background-color: rgb(153, 153, 153, 1); */
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+
+.search_links {
+    display: flex;
+    padding: 0px 0px;
+    outline: none;
+    list-style: none;
+}
+
+ ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1;
+    /* Firefox */
+}
+
+ :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #fff;
+}
+
+ ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #fff;
+}
+
+.logo {
+    color: rgb(255, 255, 255, 1);
+    width: 150px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+
+/* 
+##Device = Desktops
+##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1521px) {
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0px 0%;
+        border-radius: 5px;
+        position: fixed;
+        top: 93%;
+        width: 89%;
+        height: 58px;
+        margin: 0% 5%;
+        background: hsl(210 66% 72% / 0.3);
+        z-index: 99999999;
+        font-weight: 500;
+        font-size: 16px;
+        color: rgb(255, 255, 255, 1);
+        text-decoration: none;
+        /* background: -webkit-gradient(linear, left bottom, left top, color-stop(0%, #999999), color-stop(100%, #cccccc)); */
+        /* background: -webkit-linear-gradient(bottom, #999999 0%, #cccccc 100%); */
+        /* background: linear-gradient(to top, #999999 0%, #cccccc 100%); */
+    }
+    nav.l1 {
+        position: relative;
+        left: -3%;
+    }
+    .spanM {
+        color: white;
+        position: relative;
+        left: 10px;
+    }
+    button#myButton {
+        position: relative;
+        left: 245px;
+        padding: 14px 35px;
+    }
+    .noBackground {
+        display: none;
+    }
+    .logo {
+        color: rgb(255, 255, 255, 1);
+    }
+    .logo:hover {
+        color: rgb(255, 255, 255, 0.8);
+    }
+    .nav_links {
+        list-style: none;
+    }
+    .nav_links li {
+        display: inline-block;
+        padding: 0px 0px;
+    }
+    .nav_links li a {
+        transition: all 0.3s ease 0s;
+    }
+    .nav_links li a:hover {
+        color: rgb(255, 255, 255, 0.8);
+    }
+    button {
+        padding: 12px 35px;
+        background-color: hsl(210 66% 72% / 0.4);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        outline: none;
+    }
+    button:hover {
+        background-color: #8AB9E7;
+    }
+    /*
+.search_box {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #edf0f1;
+}*/
+    .searchin {
+        position: absolute;
+        padding: 14px 35px;
+        width: 70%;
+        background: hsl(210 66% 72% / 0.3);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        outline: none;
+    }
+    .searchin:hover {
+        background-color: #8AB9E7;
+        color: #edf0f1;
+    }
+    .lente {
+        left: -14%;
+        position: relative;
+    }
+    .ics {
+        position: relative;
+        left: -20%;
+    }
+    .ico {
+        position: relative;
+        width: 25px;
+        top: -2px;
+    }
+    .trovati {
+        padding: 12px 35px;
+        /* background-color: rgb(153, 153, 153, 1); */
+        border: none;
+        border-radius: 5px;
+        transition: all 0.3s ease 0s;
+        outline: none;
+    }
+    .search_links {
+        display: flex;
+        padding: 0px 0px;
+        outline: none;
+        list-style: none;
+        left: 5%;
+        position: relative;
+        width: 45%;
+        top: 0px;
+    }
+     ::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: rgb(255, 255, 255, 0.4);
+        opacity: 1;
+        /* Firefox */
+    }
+     :-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: rgb(255, 255, 255, 0.4);
+    }
+     ::-ms-input-placeholder {
+        /* Microsoft Edge */
+        color: rgb(255, 255, 255, 0.4);
+    }
+    .logo {
+        color: rgb(255, 255, 255, 1);
+        width: 150px;
+        border: none;
+        background: none;
+        outline: none;
+    }
+    i.fa.fa-times.ics,
+    i.fa.fa-search.lente {
+        position: absolute;
+        top: 15px;
+        left: 65%;
+    }
+    li.l3 {
+        position: relative;
+        left: 61%;
+        display: none;
+    }
+    li.cerca {
+        position: relative;
+        width: 100%;
+        top: -25px;
+    }
+    div#text_search {
+        width: 225px;
+    }
+}
+
+
+/* 
+##Device = Laptops, Desktops
+##Screen = B/w 1025px to 1280px
+*/
+
+.search_nav {
+    display: none;
+}
+
+header {
+    justify-content: normal;
+    padding: 0 0;
+    top: 85%;
+    width: 96%;
+    height: 80px;
+    -webkit-animation: fadein 1s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 1s;
+    /* Internet Explorer */
+    -o-animation: fadein 1s;
+    /* Opera < 12.1 */
+    animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Firefox < 16 */
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Safari, Chrome and Opera > 12.1 */
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Internet Explorer */
+
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Opera < 12.1 */
+
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+button {
+    padding: 10px 15px;
+    background-color: hsl(210 66% 72% / 0.4);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+
+nav.bar1 {
+    position: absolute;
+    top: 7px;
+    left: 0px;
+}
+
+ul.nav_links {
+    position: relative;
+    align-content: baseline;
+    left: -14%;
+}
+
+ul.search_links {
+    position: absolute;
+    top: 0px;
+    left: 95%;
+}
+
+a.close_book {
+    position: absolute;
+    top: 23px;
+    left: 85%;
+}
+
+i.fa.fa-search.btn_lente {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+ul.search_bar {
+    position: absolute;
+    top: -11px;
+    left: 0%;
+    display: flex;
+    padding: 0px 0px;
+    outline: none;
+    list-style: none;
+}
+
+input.search_box.searchin {
+    position: absolute;
+    width: 70%;
+    top: 7px;
+    left: 0%;
+}
+
+.searchin {
+    padding: 10px 35px;
+    background: hsl(210 66% 72% / 0.3);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    outline: none;
+    /*bordatura alla selezione=outline*/
+}
+
+li.indietro {
+    position: absolute;
+    left: 200px;
+    top: 2px;
+}
+
+li.avanti {
+    position: absolute;
+    left: 250px;
+    top: 2px;
+}
+
+li.switch {
+    position: absolute;
+    left: 295px;
+    top: 2px;
+}
+
+li.ricerca {
+    position: absolute;
+    left: 5px;
+    width: 120px;
+    font-size: 14px;
+}
+
+i.fa.fa-times.ics,
+i.fa.fa-search.lente {
+    position: absolute;
+    top: 17px;
+    left: 130px;
+}
+
+.fumetto {
+    position: relative;
+    padding: 15px;
+    margin: 1em 0 3em;
+    color: rgb(255, 255, 255, 0.8);
+    background-color: #8AB9E7;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    top: -73px;
+}
+
+.fumetto:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    /* valore = - border-top-width - border-bottom-width */
+    left: 50px;
+    /* posizionamento orizzontale */
+    border-width: 15px 15px 0;
+    border-style: solid;
+    border-color: rgb(153, 153, 153, 1) transparent;
+    /* FF3.0 fix */
+    display: block;
+    width: 0;
+}
+
+.sotto {
+    position: relative;
+    padding: 15px;
+    margin: 1em 0 3em;
+    color: rgb(255, 255, 255, 0.8);
+    background-color: #8AB9E7;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    top: 45px;
+}
+
+.sotto:after {
+    content: "";
+    position: absolute;
+    bottom: 48px;
+    /* valore = - border-top-width - border-bottom-width */
+    left: 50px;
+    /* posizionamento orizzontale */
+    border-width: 0px 15px 15px;
+    border-style: solid;
+    border-color: rgb(153, 153, 153, 1) transparent;
+    /* FF3.0 fix */
+    display: block;
+    width: 0;
+}
+
+span.ui-btn-text {
+    display: none;
+}
+
+
+/**************************************************************Da qui iPad*************************************************************/
+
+
+/*iPad*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* STYLES GO HERE */
+    header {
+        background-color: green;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* STYLES GO HERE */
+}
+
+
+/*iPad 3-4*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    /* STYLES GO HERE */
+    header {
+        background-color: blue;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    /* STYLES GO HERE */
+}
+
+
+/*iPad 1 -2*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    /* STYLES GO HERE */
+    header {
+        background: hsl(210 66% 72% / 0.3);
+        color: rgb(255, 255, 255, 1);
+        text-decoration: none;
+        z-index: 99999999999;
+        width: 100%;
+        height: 65px;
+    }
+    button {
+        padding: 14px 30px;
+    }
+    button.exit {
+        padding: 14px 26px;
+    }
+    button.back {
+        width: 130px;
+        padding: 14px 2px;
+        position: absolute;
+        left: 435px;
+    }
+    ul.nav_links {
+        position: relative;
+        align-content: baseline;
+        left: 0%;
+    }
+    ul.search_bar {
+        display: none;
+    }
+    a.cta.l3 {
+        position: absolute;
+        left: 79%;
+        top: 5px;
+    }
+    nav.bar1 {
+        position: absolute;
+        top: -9px;
+        left: 45px;
+    }
+    .switch,
+    .btn_switch_src {
+        display: block;
+    }
+    button.btn_switch_src {
+        position: absolute;
+        top: 15px;
+        left: 510px;
+    }
+    .indietro,
+    .avanti,
+    .src_ok {
+        display: none;
+    }
+    .searchin {
+        padding: 12px 35px;
+    }
+    input.search_box.searchin {
+        position: absolute;
+        width: 530px;
+        top: 2px;
+        left: 85%;
+        padding: 16px 35px;
+    }
+    i.fa.fa-times.ics,
+    i.fa.fa-search.lente {
+        position: absolute;
+        top: 20px;
+        left: 600px;
+    }
+    li.switch {
+        position: absolute;
+        left: 372px;
+        top: 2px;
+    }
+    li.ricerca {
+        position: absolute;
+        left: -16px;
+        width: 120px;
+        font-size: 14px;
+    }
+    .fumetto {
+        position: relative;
+        padding: 15px;
+        margin: 1em 0 3em;
+        color: rgb(255, 255, 255, 0.8);
+        background-color: #8AB9E7;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        top: -55px;
+        left: 40%;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    /* STYLES GO HERE */
+    header {
+        background: hsl(210 66% 72% / 0.3);
+        color: rgb(255, 255, 255, 1);
+        text-decoration: none;
+        z-index: 99999999999;
+        width: 100%;
+        height: 65px;
+        top: 93%;
+    }
+    button {
+        padding: 14px 35px;
+    }
+    ul.nav_links {
+        position: relative;
+        align-content: baseline;
+        left: 0%;
+    }
+    ul.search_bar {
+        display: none;
+    }
+    a.cta.l3 {
+        position: absolute;
+        left: 76%;
+        top: 5px;
+    }
+    nav.bar1 {
+        position: absolute;
+        top: -9px;
+        left: -10px;
+    }
+    nav.bar1 {
+        position: absolute;
+        top: -9px;
+        left: 5px;
+    }
+    .switch,
+    .btn_switch_src {
+        display: block;
+    }
+    button.btn_switch_src {
+        position: absolute;
+        top: 15px;
+        left: 438px;
+        padding: 15px 25px;
+    }
+    .indietro,
+    .avanti,
+    .src_ok {
+        display: none;
+    }
+    .searchin {
+        padding: 12px 35px;
+    }
+    i.fa.fa-times.ics,
+    i.fa.fa-search.lente {
+        position: absolute;
+        top: 20px;
+        left: 470px;
+    }
+    li.switch {
+        position: absolute;
+        left: 355px;
+        top: 2px;
+    }
+    li.ricerca {
+        position: absolute;
+        left: 0px;
+        width: 120px;
+        font-size: 14px;
+    }
+    button.back {
+        width: 130px;
+        padding: 14px 2px;
+        position: absolute;
+        left: 240px;
+    }
+    input.search_box.searchin {
+        position: absolute;
+        width: 460px;
+        top: 2px;
+        left: 40%;
+        padding: 16px 35px;
+    }
+    .fumetto {
+        position: relative;
+        padding: 15px;
+        margin: 1em 0 3em;
+        color: rgb(255, 255, 255, 0.8);
+        background-color: #8AB9E7;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        top: -73px;
+        left: 25%;
+    }
+}
+
+
+/***iPad Pro 10.5 */
+
+
+/* Portrait */
+
+
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+
+
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    header {
+        background: hsl(210 66% 72% / 0.3);
+        color: rgb(255, 255, 255, 1);
+        text-decoration: none;
+        z-index: 99999999999;
+        width: 100%;
+        height: 65px;
+        top: 93%;
+    }
+    button {
+        padding: 14px 35px;
+    }
+    ul.nav_links {
+        position: relative;
+        align-content: baseline;
+        left: 0%;
+    }
+    ul.search_bar {
+        display: none;
+    }
+    a.cta.l3 {
+        position: absolute;
+        left: 76%;
+        top: 5px;
+    }
+    nav.bar1 {
+        position: absolute;
+        top: -9px;
+        left: -10px;
+    }
+    nav.bar1 {
+        position: absolute;
+        top: -9px;
+        left: 25px;
+    }
+    .switch,
+    .btn_switch_src {
+        display: block;
+    }
+    button.btn_switch_src {
+        position: absolute;
+        top: 15px;
+        left: 460px;
+        padding: 15px 25px;
+    }
+    .indietro,
+    .avanti,
+    .src_ok {
+        display: none;
+    }
+    .searchin {
+        padding: 12px 35px;
+    }
+    i.fa.fa-times.ics,
+    i.fa.fa-search.lente {
+        position: absolute;
+        top: 20px;
+        left: 515px;
+    }
+    li.switch {
+        position: absolute;
+        left: 552px;
+        top: 2px;
+    }
+    li.ricerca {
+        position: absolute;
+        left: 0px;
+        width: 120px;
+        font-size: 14px;
+    }
+    button.back {
+        width: 130px;
+        padding: 14px 2px;
+        position: absolute;
+        left: 70px;
+    }
+    input.search_box.searchin {
+        position: absolute;
+        width: 460px;
+        top: 2px;
+        left: 65%;
+        padding: 16px 35px;
+    }
+    .fumetto {
+        position: relative;
+        padding: 15px;
+        margin: 1em 0 3em;
+        color: rgb(255, 255, 255, 0.8);
+        background-color: #8AB9E7;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        top: -73px;
+        left: 60%;
+    }
+}
+
+
+/* Landscape */
+
+
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+
+
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+
+@media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    header {
+        background: hsl(210 66% 72% / 0.3);
+        color: rgb(255, 255, 255, 1);
+        text-decoration: none;
+        z-index: 99999999999;
+        width: 100%;
+        height: 65px;
+    }
+    button {
+        padding: 14px 30px;
+    }
+    button.exit {
+        padding: 14px 26px;
+    }
+    button.back {
+        width: 130px;
+        padding: 14px 2px;
+        position: absolute;
+        left: 500px;
+    }
+    ul.nav_links {
+        position: relative;
+        align-content: baseline;
+        left: 0%;
+    }
+    ul.search_bar {
+        display: none;
+    }
+    a.cta.l3 {
+        position: absolute;
+        left: 79%;
+        top: 5px;
+    }
+    nav.bar1 {
+        position: absolute;
+        top: -9px;
+        left: 70px;
+    }
+    .switch,
+    .btn_switch_src {
+        display: block;
+    }
+    button.btn_switch_src {
+        position: absolute;
+        top: 15px;
+        left: 530px;
+    }
+    .indietro,
+    .avanti,
+    .src_ok {
+        display: none;
+    }
+    .searchin {
+        padding: 12px 35px;
+    }
+    input.search_box.searchin {
+        position: absolute;
+        width: 550px;
+        top: 2px;
+        left: 50%;
+        padding: 16px 35px;
+    }
+    i.fa.fa-times.ics,
+    i.fa.fa-search.lente {
+        position: absolute;
+        top: 20px;
+        left: 585px;
+    }
+    li.switch {
+        position: absolute;
+        left: 372px;
+        top: 2px;
+    }
+    li.ricerca {
+        position: absolute;
+        left: 50px;
+        width: 120px;
+        font-size: 14px;
+    }
+    .fumetto {
+        position: relative;
+        padding: 15px;
+        margin: 1em 0 3em;
+        color: rgb(255, 255, 255, 0.8);
+        background-color: #8AB9E7;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        top: -55px;
+        left: 48%;
+    }
+}
+
+
+/***iPad Pro 12.9 */
+
+
+/* Portrait */
+
+
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+
+
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    header {
+        background: hsl(210 66% 72% / 0.3);
+        color: rgb(255, 255, 255, 1);
+        text-decoration: none;
+        z-index: 99999999999;
+        width: 100%;
+        height: 65px;
+        top: 93%;
+    }
+    button {
+        padding: 14px 35px;
+    }
+    ul.nav_links {
+        position: relative;
+        align-content: baseline;
+        left: 0%;
+    }
+    ul.search_bar {
+        display: none;
+    }
+    a.cta.l3 {
+        position: absolute;
+        left: 76%;
+        top: 5px;
+    }
+    nav.bar1 {
+        position: absolute;
+        top: -9px;
+        left: -10px;
+    }
+    nav.bar1 {
+        position: absolute;
+        top: -9px;
+        left: 55px;
+    }
+    .switch,
+    .btn_switch_src {
+        display: block;
+    }
+    button.btn_switch_src {
+        position: absolute;
+        top: 15px;
+        left: 516px;
+        padding: 15px 25px;
+    }
+    .indietro,
+    .avanti,
+    .src_ok {
+        display: none;
+    }
+    .searchin {
+        padding: 12px 35px;
+    }
+    i.fa.fa-times.ics,
+    i.fa.fa-search.lente {
+        position: absolute;
+        top: 20px;
+        left: 590px;
+    }
+    li.switch {
+        position: absolute;
+        left: 552px;
+        top: 2px;
+    }
+    li.ricerca {
+        position: absolute;
+        left: 0px;
+        width: 120px;
+        font-size: 14px;
+    }
+    button.back {
+        width: 130px;
+        padding: 14px 2px;
+        position: absolute;
+        left: 230px;
+    }
+    input.search_box.searchin {
+        position: absolute;
+        width: 540px;
+        top: 2px;
+        left: 80%;
+        padding: 16px 35px;
+    }
+    .fumetto {
+        position: relative;
+        padding: 15px;
+        margin: 1em 0 3em;
+        color: rgb(255, 255, 255, 0.8);
+        background-color: #8AB9E7;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        top: -73px;
+        left: 90%;
+    }
+}
+
+
+/* Landscape */
+
+
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+
+
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    header {
+        background: hsl(210 66% 72% / 0.3);
+        color: rgb(255, 255, 255, 1);
+        text-decoration: none;
+        z-index: 99999999999;
+        width: 100%;
+        height: 65px;
+    }
+    button {
+        padding: 14px 30px;
+    }
+    button.exit {
+        padding: 14px 26px;
+    }
+    button.back {
+        width: 130px;
+        padding: 14px 2px;
+        position: absolute;
+        left: 700px;
+    }
+    ul.nav_links {
+        position: relative;
+        align-content: baseline;
+        left: 0%;
+    }
+    ul.search_bar {
+        display: none;
+    }
+    a.cta.l3 {
+        position: absolute;
+        left: 79%;
+        top: 5px;
+    }
+    nav.bar1 {
+        position: absolute;
+        top: -9px;
+        left: 110px;
+    }
+    .switch,
+    .btn_switch_src {
+        display: block;
+    }
+    button.btn_switch_src {
+        position: absolute;
+        top: 15px;
+        left: 615px;
+    }
+    .indietro,
+    .avanti,
+    .src_ok {
+        display: none;
+    }
+    .searchin {
+        padding: 12px 35px;
+    }
+    input.search_box.searchin {
+        position: absolute;
+        width: 630px;
+        top: 2px;
+        left: 85%;
+        padding: 16px 35px;
+    }
+    i.fa.fa-times.ics,
+    i.fa.fa-search.lente {
+        position: absolute;
+        top: 20px;
+        left: 700px;
+    }
+    li.switch {
+        position: absolute;
+        left: 372px;
+        top: 2px;
+    }
+    li.ricerca {
+        position: absolute;
+        left: 50px;
+        width: 120px;
+        font-size: 14px;
+    }
+    .fumetto {
+        position: relative;
+        padding: 15px;
+        margin: 1em 0 3em;
+        color: rgb(255, 255, 255, 0.8);
+        background-color: #8AB9E7;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        top: -55px;
+        left: 70%;
+    }
+}
+
+
+/**************************************************************Da qui iPhone**********************************************************/
+
+
+/*Iphone X */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    /* STYLES GO HERE */
+    header {
+        background: hsl(210 66% 72% / 0.3);
+        color: rgb(255, 255, 255, 1);
+        text-decoration: none;
+        z-index: 99999999999;
+        width: 100%;
+        height: 65px;
+    }
+    button {
+        padding: 14px 30px;
+    }
+    button.exit {
+        padding: 14px 26px;
+    }
+    button.back {
+        width: 130px;
+        padding: 14px 2px;
+        position: absolute;
+        left: 260px;
+    }
+    ul.nav_links {
+        position: relative;
+        align-content: baseline;
+        left: 0%;
+    }
+    ul.search_bar {
+        display: none;
+    }
+    a.cta.l3 {
+        position: absolute;
+        left: 79%;
+        top: 5px;
+    }
+    nav.bar1 {
+        position: absolute;
+        top: -9px;
+        left: 0px;
+    }
+    .switch,
+    .btn_switch_src {
+        display: block;
+    }
+    button.btn_switch_src {
+        position: absolute;
+        top: 15px;
+        left: 450px;
+    }
+    .indietro,
+    .avanti,
+    .src_ok {
+        display: none;
+    }
+    .searchin {
+        padding: 12px 35px;
+    }
+    input.search_box.searchin {
+        position: absolute;
+        width: 500px;
+        top: 2px;
+        left: 45%;
+        padding: 16px 35px;
+    }
+    i.fa.fa-times.ics,
+    i.fa.fa-search.lente {
+        position: absolute;
+        top: 20px;
+        left: 505px;
+    }
+    li.switch {
+        position: absolute;
+        left: 372px;
+        top: 2px;
+    }
+    li.ricerca {
+        position: absolute;
+        left: -16px;
+        width: 120px;
+        font-size: 14px;
+    }
+}
+
+
+/*Iphone X portrait*/
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+    /* STYLES GO HERE */
+}
+
+
+/*Iphone 6-7-8 */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+    /* STYLES GO HERE */
+    header {
+        background-color: pink;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+    /* STYLES GO HERE */
+    header {
+        /* background: rgba(153, 153, 153, 0.6);*/
+        background: hsl(210 66% 72% / 0.3);
+        color: rgb(255, 255, 255, 1);
+        text-decoration: none;
+        z-index: 99999999999;
+        width: 100%;
+    }
+    button {
+        padding: 10px 10px;
+    }
+    ul.search_bar {
+        display: none;
+    }
+    a.cta.l3 {
+        position: absolute;
+        left: 74%;
+        top: 17px;
+    }
+    nav.bar1 {
+        position: absolute;
+        top: 2px;
+        left: -6px;
+    }
+    .switch,
+    .btn_switch_src {
+        display: block;
+    }
+    button.btn_switch_src {
+        position: absolute;
+        top: 15px;
+        left: 238px;
+    }
+    .indietro,
+    .avanti,
+    .src_ok {
+        display: none;
+    }
+    .searchin {
+        padding: 12px 35px;
+    }
+    input.search_box.searchin {
+        position: absolute;
+        width: 240px;
+        top: 15px;
+        left: 0%;
+    }
+    i.fa.fa-times.ics,
+    i.fa.fa-search.lente {
+        position: absolute;
+        top: 30px;
+        left: 210px;
+    }
+    li.switch {
+        position: absolute;
+        left: 276px;
+        top: 15px;
+    }
+    ul.nav_links {
+        position: relative;
+        align-content: baseline;
+        left: -11%;
+    }
+    button.btn_switch_src {
+        padding: 11px 11px;
+        left: 222px;
+    }
+    button.back {
+        width: 93px;
+        padding: 10px 1px;
+        position: absolute;
+        left: 0px;
+    }
+    .spanM {
+        color: white;
+        left: 2px;
+        position: relative;
+    }
+    .fumetto {
+        position: relative;
+        padding: 15px;
+        margin: 1em 0 3em;
+        color: rgb(255, 255, 255, 0.8);
+        background-color: #8AB9E7;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        top: -62px;
+    }
+}
+
+
+/*Iphone 6-7-8 Plus */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+    /* STYLES GO HERE */
+    header {
+        background: hsl(210 66% 72% / 0.3);
+        color: rgb(255, 255, 255, 1);
+        text-decoration: none;
+        z-index: 99999999999;
+        width: 100%;
+        height: 65px;
+    }
+    button {
+        padding: 14px 30px;
+    }
+    button.exit {
+        padding: 14px 26px;
+    }
+    button.back {
+        width: 130px;
+        padding: 14px 2px;
+        position: absolute;
+        left: 200px;
+    }
+    ul.nav_links {
+        position: relative;
+        align-content: baseline;
+        left: 0%;
+    }
+    ul.search_bar {
+        display: none;
+    }
+    a.cta.l3 {
+        position: absolute;
+        left: 79%;
+        top: 5px;
+    }
+    nav.bar1 {
+        position: absolute;
+        top: -9px;
+        left: -12px;
+    }
+    .switch,
+    .btn_switch_src {
+        display: block;
+    }
+    button.btn_switch_src {
+        position: absolute;
+        top: 15px;
+        left: 430px;
+    }
+    .indietro,
+    .avanti,
+    .src_ok {
+        display: none;
+    }
+    .searchin {
+        padding: 12px 35px;
+    }
+    input.search_box.searchin {
+        position: absolute;
+        width: 460px;
+        top: 2px;
+        left: 42%;
+        padding: 16px 35px;
+    }
+    i.fa.fa-times.ics,
+    i.fa.fa-search.lente {
+        position: absolute;
+        top: 20px;
+        left: 470px;
+    }
+    li.switch {
+        position: absolute;
+        left: 372px;
+        top: 2px;
+    }
+    li.ricerca {
+        position: absolute;
+        left: -16px;
+        width: 120px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+    /* STYLES GO HERE */
+    header {
+        background: hsl(210 66% 72% / 0.3);
+        color: rgb(255, 255, 255, 1);
+        text-decoration: none;
+        z-index: 99999999999;
+        width: 100%;
+    }
+    button {
+        padding: 15px 15px;
+    }
+    ul.search_bar {
+        display: none;
+    }
+    a.cta.l3 {
+        position: absolute;
+        left: 75%;
+        top: 17px;
+    }
+    nav.bar1 {
+        position: absolute;
+        top: 2px;
+        left: 3px;
+    }
+    .switch,
+    .btn_switch_src {
+        display: block;
+    }
+    button.btn_switch_src {
+        position: absolute;
+        top: 15px;
+        left: 238px;
+    }
+    .indietro,
+    .avanti,
+    .src_ok {
+        display: none;
+    }
+    .searchin {
+        padding: 15px 35px;
+    }
+    input.search_box.searchin {
+        position: absolute;
+        width: 280px;
+        top: 15px;
+        left: 0%;
+    }
+    i.fa.fa-times.ics,
+    i.fa.fa-search.lente {
+        position: absolute;
+        top: 32px;
+        left: 253px;
+    }
+    li.switch {
+        position: absolute;
+        left: 276px;
+        top: 15px;
+    }
+    ul.nav_links {
+        position: relative;
+        align-content: baseline;
+        left: -14%;
+    }
+    button.btn_switch_src {
+        padding: 15px 15px;
+        left: 240px;
+    }
+    button.back {
+        width: 105px;
+        padding: 13px 1px;
+        position: absolute;
+        left: 28px;
+    }
+    .spanM {
+        color: white;
+        left: 2px;
+        position: relative;
+    }
+    .fumetto {
+        position: relative;
+        padding: 15px;
+        margin: 1em 0 3em;
+        color: rgb(255, 255, 255, 0.8);
+        background-color: #8AB9E7;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        top: -62px;
+    }
+}
+
+
+/*Iphone 5 & 5s*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+    /* STYLES GO HERE */
+    header {
+        background: hsl(210 66% 72% / 0.3);
+        color: rgb(255, 255, 255, 1);
+        text-decoration: none;
+        z-index: 99999999999;
+        width: 100%;
+        height: 65px;
+    }
+    button {
+        padding: 14px 20px;
+    }
+    button.exit {
+        padding: 14px 20px;
+    }
+    button.back {
+        width: 130px;
+        padding: 14px 2px;
+        position: absolute;
+        left: 54px;
+    }
+    ul.nav_links {
+        position: relative;
+        align-content: baseline;
+        left: 0%;
+    }
+    ul.search_bar {
+        display: none;
+    }
+    a.cta.l3 {
+        position: absolute;
+        left: 79%;
+        top: 5px;
+    }
+    nav.bar1 {
+        position: absolute;
+        top: -9px;
+        left: -29px;
+    }
+    .switch,
+    .btn_switch_src {
+        display: block;
+    }
+    button.btn_switch_src {
+        position: absolute;
+        top: 15px;
+        left: 344px;
+    }
+    .indietro,
+    .avanti,
+    .src_ok {
+        display: none;
+    }
+    .searchin {
+        padding: 12px 35px;
+    }
+    input.search_box.searchin {
+        position: absolute;
+        width: 360px;
+        top: 2px;
+        left: 22%;
+        padding: 16px 35px;
+    }
+    i.fa.fa-times.ics,
+    i.fa.fa-search.lente {
+        position: absolute;
+        top: 20px;
+        left: 350px;
+    }
+    li.switch {
+        position: absolute;
+        left: 372px;
+        top: 2px;
+    }
+    li.ricerca {
+        position: absolute;
+        left: -16px;
+        width: 120px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) {
+    /* STYLES GO HERE */
+    header {
+        background: hsl(210 66% 72% / 0.3);
+        color: rgb(255, 255, 255, 1);
+        text-decoration: none;
+        z-index: 99999999999;
+        width: 100%;
+    }
+    button {
+        padding: 10px 5px;
+    }
+    ul.search_bar {
+        display: none;
+    }
+    a.cta.l3 {
+        position: absolute;
+        left: 74%;
+        top: 17px;
+    }
+    nav.bar1 {
+        position: absolute;
+        top: 2px;
+        left: -6px;
+    }
+    .switch,
+    .btn_switch_src {
+        display: block;
+    }
+    button.btn_switch_src {
+        position: absolute;
+        top: 15px;
+        left: 238px;
+    }
+    .indietro,
+    .avanti,
+    .src_ok {
+        display: none;
+    }
+    .searchin {
+        padding: 12px 35px;
+    }
+    input.search_box.searchin {
+        position: absolute;
+        width: 170px;
+        top: 15px;
+        left: 5%;
+    }
+    i.fa.fa-times.ics,
+    i.fa.fa-search.lente {
+        position: absolute;
+        top: 30px;
+        left: 150px;
+    }
+    li.switch {
+        position: absolute;
+        left: 248px;
+        top: 15px;
+    }
+    ul.nav_links {
+        position: relative;
+        align-content: baseline;
+        left: -11%;
+    }
+    button.btn_switch_src {
+        padding: 11px 8px;
+        left: 190px;
+    }
+    button.back {
+        width: 93px;
+        padding: 10px 1px;
+        position: absolute;
+        left: -27px;
+    }
+    .spanM {
+        color: white;
+        left: 2px;
+        position: relative;
+    }
+    .fumetto {
+        position: relative;
+        padding: 15px;
+        margin: 1em 0 3em;
+        color: rgb(255, 255, 255, 0.8);
+        background-color: #8AB9E7;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        top: -62px;
+    }
+}
+
+
+/*Iphone 4 e più piccoli*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+    /* STYLES GO HERE */
+    header {
+        background: hsl(210 66% 72% / 0.3);
+        color: rgb(255, 255, 255, 1);
+        text-decoration: none;
+        z-index: 99999999999;
+        width: 100%;
+        height: 65px;
+    }
+    button {
+        padding: 14px 20px;
+    }
+    button.exit {
+        padding: 14px 20px;
+    }
+    ul.nav_links {
+        position: relative;
+        align-content: baseline;
+        left: 0%;
+    }
+    ul.search_bar {
+        display: none;
+    }
+    a.cta.l3 {
+        position: absolute;
+        left: 76%;
+        top: 5px;
+    }
+    nav.bar1 {
+        position: absolute;
+        top: -9px;
+        left: -29px;
+    }
+    .switch,
+    .btn_switch_src {
+        display: block;
+    }
+    button.btn_switch_src {
+        position: absolute;
+        top: 15px;
+        left: 310px;
+    }
+    .indietro,
+    .avanti,
+    .src_ok {
+        display: none;
+    }
+    .searchin {
+        padding: 12px 35px;
+    }
+    input.search_box.searchin {
+        position: absolute;
+        width: 320px;
+        top: 2px;
+        left: 22%;
+        padding: 16px 35px;
+    }
+    i.fa.fa-times.ics,
+    i.fa.fa-search.lente {
+        position: absolute;
+        top: 20px;
+        left: 460px;
+    }
+    li.switch {
+        position: absolute;
+        left: 372px;
+        top: 2px;
+    }
+    li.ricerca {
+        position: absolute;
+        left: -16px;
+        width: 120px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 480px) and (orientation: portrait) {
+    /* STYLES GO HERE */
+    header {
+        background: hsl(210 66% 72% / 0.3);
+        color: rgb(255, 255, 255, 1);
+        text-decoration: none;
+        z-index: 99999999999;
+        width: 100%;
+    }
+    button {
+        padding: 10px 5px;
+    }
+    ul.search_bar {
+        display: none;
+    }
+    a.cta.l3 {
+        position: absolute;
+        left: 74%;
+        top: 17px;
+    }
+    nav.bar1 {
+        position: absolute;
+        top: 2px;
+        left: -6px;
+    }
+    .switch,
+    .btn_switch_src {
+        display: block;
+    }
+    button.btn_switch_src {
+        position: absolute;
+        top: 15px;
+        left: 238px;
+    }
+    .indietro,
+    .avanti,
+    .src_ok {
+        display: none;
+    }
+    .searchin {
+        padding: 12px 35px;
+    }
+    input.search_box.searchin {
+        position: absolute;
+        width: 170px;
+        top: 15px;
+        left: 5%;
+    }
+    i.fa.fa-times.ics,
+    i.fa.fa-search.lente {
+        position: absolute;
+        top: 30px;
+        left: 150px;
+    }
+    li.switch {
+        position: absolute;
+        left: 248px;
+        top: 16px;
+    }
+    ul.nav_links {
+        position: relative;
+        align-content: baseline;
+        left: -15%;
+    }
+    button.btn_switch_src {
+        padding: 11px 8px;
+        left: 187px;
+    }
+    button.back {
+        width: 93px;
+        padding: 9px 1px;
+        position: absolute;
+        left: -27px;
+    }
+    .fumetto {
+        position: relative;
+        padding: 15px;
+        margin: 1em 0 3em;
+        color: rgb(255, 255, 255, 0.8);
+        background-color: #8AB9E7;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        top: -62px;
+    }
+}

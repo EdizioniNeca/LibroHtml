@@ -1,0 +1,773 @@
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5px 5%;
+        border-radius: 5px;
+        position: fixed;
+        height: 75px;
+        /* top: 90%;*/
+        top: 0%;
+        width: 89%;
+        background: #C5DBF3;
+        font-weight: 500;
+        font-size: 16px;
+        color: rgb(255, 255, 255, 1);
+        text-decoration: none;
+        /* background: -webkit-gradient(linear, left bottom, left top, color-stop(0%, #999999), color-stop(100%, #cccccc)); */
+        /* background: -webkit-linear-gradient(bottom, #999999 0%, #cccccc 100%); */
+        /* background: linear-gradient(to top, #999999 0%, #cccccc 100%); */
+    }
+    
+    .switch,
+    .btn_switch_src {
+        display: none;
+    }
+    
+    .noBackground {
+        display: none;
+    }
+    
+    .nav_links {
+        list-style: none;
+    }
+    
+    .nav_links li {
+        display: inline-block;
+        padding: 0px 0px;
+    }
+    
+    .nav_links li a {
+        transition: all 0.3s ease 0s;
+    }
+    
+    .nav_links li a:hover {
+        color: rgb(255, 255, 255, 0.8);
+    }
+    
+    button {
+        padding: 12px 35px;
+        background-color: #8AB9E7;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        /*  transition: all 0.3s ease 0s;*/
+        outline: none;
+    }
+    
+    button:hover {
+        background-color: #6AA5E1;
+    }
+    /*
+.search_box {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #edf0f1;
+}*/
+    
+    .searchin {
+        padding: 12px 35px;
+        background: #8AB9E7;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        outline: none;
+        /*bordatura alla selezione=outline*/
+    }
+    
+    .searchin:hover {
+        background-color: #6AA5E1;
+        color: #edf0f1;
+    }
+    
+    .lente {
+        left: -14%;
+        position: relative;
+    }
+    
+    .ics {
+        position: relative;
+        left: -20%;
+    }
+    
+    .ico {
+        position: relative;
+        width: 25px;
+        top: 0px;
+    }
+    
+    .trovati {
+        padding: 12px 35px;
+        /* background-color: rgb(153, 153, 153, 1); */
+        border: none;
+        border-radius: 5px;
+        transition: all 0.3s ease 0s;
+        outline: none;
+    }
+    
+    .search_links {
+        display: flex;
+        padding: 0px 0px;
+        outline: none;
+        list-style: none;
+    }
+    
+     ::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #fff;
+        opacity: 1;
+        /* Firefox */
+    }
+    
+     :-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: #fff;
+    }
+    
+     ::-ms-input-placeholder {
+        /* Microsoft Edge */
+        color: #fff;
+    }
+    
+    .logo {
+        color: rgb(255, 255, 255, 1);
+        width: 150px;
+        border: none;
+        background: none;
+        outline: none;
+    }
+    /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+    
+    @media (min-width: 1200px) {
+        header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0px 0%;
+            border-radius: 5px;
+            position: fixed;
+            /* top: 93%; */
+            width: 89%;
+            height: 75px;
+            margin: 0% 5%;
+            background: #C5DBF3;
+            z-index: 99999999;
+            font-weight: 500;
+            font-size: 16px;
+            color: rgb(255, 255, 255, 1);
+            text-decoration: none;
+            /* background: -webkit-gradient(linear, left bottom, left top, color-stop(0%, #999999), color-stop(100%, #cccccc)); */
+            /* background: -webkit-linear-gradient(bottom, #999999 0%, #cccccc 100%); */
+            /* background: linear-gradient(to top, #999999 0%, #cccccc 100%); */
+        }
+        nav.l1 {
+            position: relative;
+            left: -55px;
+        }
+        .spanM {
+            color: white;
+            position: relative;
+            left: 10px;
+        }
+        button#myButton {
+            position: relative;
+            left: 245px;
+            padding: 14px 35px;
+        }
+        .noBackground {
+            display: none;
+        }
+        .nav_links {
+            list-style: none;
+        }
+        .nav_links li {
+            display: inline-block;
+            padding: 0px 0px;
+        }
+        .nav_links li a {
+            transition: all 0.3s ease 0s;
+        }
+        .nav_links li a:hover {
+            color: rgb(255, 255, 255, 0.8);
+        }
+        button {
+            padding: 12px 35px;
+            background-color: #8AB9E7;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            /*transition: all 0.3s ease 0s;*/
+            outline: none;
+        }
+        button:hover {
+            background-color: #6AA5E1;
+        }
+        /*
+    .search_box {
+        padding: 9px 25px;
+        background-color: rgba(0, 136, 169, 1);
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        color: #edf0f1;
+    }*/
+        .searchin {
+            position: absolute;
+            padding: 14px 35px;
+            width: 100%;
+            background-color: #8AB9E7;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease 0s;
+            outline: none;
+        }
+        .searchin:hover {
+            background-color: #6AA5E1;
+            color: #edf0f1;
+        }
+        .lente {
+            left: -14%;
+            position: relative;
+        }
+        .ics {
+            position: relative;
+            left: -20%;
+        }
+        .ico {
+            position: relative;
+            width: 25px;
+            top: 0px;
+        }
+        .trovati {
+            padding: 12px 35px;
+            /* background-color: rgb(153, 153, 153, 1); */
+            border: none;
+            border-radius: 5px;
+            transition: all 0.3s ease 0s;
+            outline: none;
+        }
+        .search_links {
+            display: flex;
+            padding: 0px 0px;
+            outline: none;
+            list-style: none;
+            left: -2%;
+            position: relative;
+            width: 45%;
+            top: 0px;
+        }
+         ::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: rgb(255, 255, 255, 0.4);
+            opacity: 1;
+            /* Firefox */
+        }
+         :-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: rgb(255, 255, 255, 0.4);
+        }
+         ::-ms-input-placeholder {
+            /* Microsoft Edge */
+            color: rgb(255, 255, 255, 0.4);
+        }
+        .logo {
+            color: rgb(255, 255, 255, 1);
+            width: 150px;
+            border: none;
+            background: none;
+            outline: none;
+        }
+        i.fa.fa-times.ics,
+        i.fa.fa-search.lente {
+            position: absolute;
+            top: 15px;
+            left: 90%;
+        }
+        li.l3 {
+            position: relative;
+            left: 61%;
+            display: none;
+        }
+        li.cerca {
+            position: relative;
+            width: 100%;
+            top: -25px;
+        }
+        div#text_search {
+            width: 225px;
+        }
+        button#uscita_barra {
+            position: relative;
+            left: 15px;
+        }
+    }
+    
+    @media (min-width: 1024px) and (max-width: 1199px) {
+        header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0px 0%;
+            border-radius: 5px;
+            position: fixed;
+            /* top: 93%; */
+            width: 89%;
+            height: 75px;
+            margin: 0% 5%;
+            background: #C5DBF3;
+            z-index: 99999999;
+            font-weight: 500;
+            font-size: 16px;
+            color: rgb(255, 255, 255, 1);
+            text-decoration: none;
+            /* background: -webkit-gradient(linear, left bottom, left top, color-stop(0%, #999999), color-stop(100%, #cccccc)); */
+            /* background: -webkit-linear-gradient(bottom, #999999 0%, #cccccc 100%); */
+            /* background: linear-gradient(to top, #999999 0%, #cccccc 100%); */
+        }
+        nav.l1 {
+            position: relative;
+            left: -38px;
+        }
+        .spanM {
+            color: white;
+            position: relative;
+            left: 10px;
+        }
+        button#myButton {
+            position: relative;
+            left: 245px;
+            padding: 14px 35px;
+        }
+        .noBackground {
+            display: none;
+        }
+        .nav_links {
+            list-style: none;
+        }
+        .nav_links li {
+            display: inline-block;
+            padding: 0px 0px;
+        }
+        .nav_links li a {
+            transition: all 0.3s ease 0s;
+        }
+        .nav_links li a:hover {
+            color: rgb(255, 255, 255, 0.8);
+        }
+        button {
+            padding: 12px 35px;
+            background-color: #8AB9E7;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            /*transition: all 0.3s ease 0s;*/
+            outline: none;
+        }
+        button:hover {
+            background-color: #6AA5E1;
+        }
+        /*
+    .search_box {
+        padding: 9px 25px;
+        background-color: rgba(0, 136, 169, 1);
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        color: #edf0f1;
+    }*/
+        .searchin {
+            position: absolute;
+            padding: 14px 35px;
+            width: 100%;
+            background-color: #8AB9E7;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease 0s;
+            outline: none;
+        }
+        .searchin:hover {
+            background-color: #6AA5E1;
+            color: #edf0f1;
+        }
+        .lente {
+            left: -14%;
+            position: relative;
+        }
+        .ics {
+            position: relative;
+            left: -20%;
+        }
+        .ico {
+            position: relative;
+            width: 25px;
+            top: 0px;
+        }
+        .trovati {
+            padding: 12px 35px;
+            /* background-color: rgb(153, 153, 153, 1); */
+            border: none;
+            border-radius: 5px;
+            transition: all 0.3s ease 0s;
+            outline: none;
+        }
+        .search_links {
+            display: flex;
+            padding: 0px 0px;
+            outline: none;
+            list-style: none;
+            left: -2%;
+            position: relative;
+            width: 45%;
+            top: 0px;
+        }
+         ::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: rgb(255, 255, 255, 0.4);
+            opacity: 1;
+            /* Firefox */
+        }
+         :-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: rgb(255, 255, 255, 0.4);
+        }
+         ::-ms-input-placeholder {
+            /* Microsoft Edge */
+            color: rgb(255, 255, 255, 0.4);
+        }
+        .logo {
+            color: rgb(255, 255, 255, 1);
+            width: 150px;
+            border: none;
+            background: none;
+            outline: none;
+        }
+        i.fa.fa-times.ics,
+        i.fa.fa-search.lente {
+            position: absolute;
+            top: 15px;
+            left: 90%;
+        }
+        li.l3 {
+            position: relative;
+            left: 61%;
+            display: none;
+        }
+        li.cerca {
+            position: relative;
+            width: 100%;
+            top: -25px;
+        }
+        div#text_search {
+            width: 225px;
+        }
+        button#uscita_barra {
+            position: relative;
+            left: 0px;
+        }
+    }
+    /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+    /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+    
+    @media (min-width: 991px) and (max-width: 1024px) {
+        header {
+            justify-content: normal;
+            padding: 0 0;
+            /*top: 92%;*/
+            width: 95%;
+            height: 75px;
+            left: 3%;
+            z-index: 99999999999;
+        }
+        nav.l1 {
+            position: absolute;
+            top: -2px;
+            width: 45%;
+            left: -3%;
+        }
+        input.search_box.searchin {
+            position: absolute;
+            left: 41%;
+            top: 13px;
+            width: 44%;
+            height: 50px;
+        }
+        li.l3 {
+            position: relative;
+            top: 30px;
+            left: 10%;
+            display: none;
+        }
+        button.exit {
+            position: absolute;
+            top: 3px;
+            left: 84%;
+            display: none;
+        }
+        a.cta.l3.close_bar {
+            position: relative;
+            top: 0px;
+            left: 88.5%;
+        }
+        .lente,
+        .ics {
+            position: absolute;
+            left: 80%;
+            top: 39%;
+        }
+        .spanM {
+            color: white;
+            left: 5px;
+            position: relative;
+        }
+         ::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: rgb(255, 255, 255, 0.4);
+            opacity: 1;
+            /* Firefox */
+        }
+         :-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: rgb(255, 255, 255, 0.4);
+        }
+         ::-ms-input-placeholder {
+            /* Microsoft Edge */
+            color: rgb(255, 255, 255, 0.4);
+        }
+    }
+    /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+    
+    @media (min-width: 770px) and (max-width: 991px) {
+        header {
+            justify-content: normal;
+            padding: 0 0;
+            /*  top: 376px;*/
+            width: 92%;
+            height: 110px;
+            left: 5%;
+            z-index: 999999999999999999999;
+        }
+        button {
+            padding: 12px 69px;
+            background-color: #8AB9E7;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            /*  transition: all 0.3s ease 0s;*/
+            outline: none;
+        }
+        button:hover {
+            background-color: #6AA5E1;
+        }
+        ul.nav_links {
+            position: absolute;
+            left: -4%;
+        }
+        nav.l1 {
+            position: absolute;
+            top: -8px;
+            width: 100%;
+        }
+        ul.search_links.l2 {
+            position: relative;
+            top: 58px;
+            left: 10px;
+            width: 58%;
+        }
+        input.search_box.searchin {
+            position: absolute;
+            width: 544px;
+            top: -48px;
+        }
+        .trovati {
+            display: none;
+        }
+        li.l3 {
+            position: relative;
+            top: 0px;
+            left: -32px;
+            padding: 1px;
+        }
+        button.exit {
+            position: relative;
+            top: 27px;
+            left: 145px;
+            padding: 11px 38px;
+            display: none;
+        }
+        a.cta.l3.close_bar {
+            position: relative;
+            top: 27px;
+            left: 19%;
+        }
+        .lente,
+        .ics {
+            left: 510px;
+            top: -33px;
+            position: absolute;
+        }
+        .spanM {
+            color: white;
+            left: 5px;
+            position: relative;
+        }
+         ::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: rgb(255, 255, 255, 0.4);
+            opacity: 1;
+            /* Firefox */
+        }
+         :-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: rgb(255, 255, 255, 0.4);
+        }
+         ::-ms-input-placeholder {
+            /* Microsoft Edge */
+            color: rgb(255, 255, 255, 0.4);
+        }
+    }
+    
+    @media (min-width: 320px) and (max-width: 770px) {
+        header {
+            justify-content: normal;
+            padding: 0 0;
+            /*  top: 376px;*/
+            width: 92%;
+            height: 110px;
+            left: 5%;
+            z-index: 999999999999999999999;
+        }
+        button {
+            padding: 12px 78px;
+            background-color: #8AB9E7;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            /* transition: all 0.3s ease 0s; */
+            outline: none;
+        }
+        button:hover {
+            background-color: #6AA5E1;
+        }
+        ul.nav_links {
+            position: absolute;
+            left: -4%;
+        }
+        nav.l1 {
+            position: absolute;
+            top: -8px;
+            width: 100%;
+        }
+        ul.search_links.l2 {
+            position: relative;
+            top: 58px;
+            left: 15px;
+            width: 52.5%;
+        }
+        input.search_box.searchin {
+            position: absolute;
+            width: 125%;
+            top: -48px;
+        }
+        .trovati {
+            display: none;
+        }
+        li.l3 {
+            position: relative;
+            top: 0px;
+            left: -32px;
+            padding: 1px;
+        }
+        button.exit {
+            position: relative;
+            top: 27px;
+            left: 145px;
+            padding: 11px 38px;
+            display: none;
+        }
+        a.cta.l3.close_bar {
+            position: relative;
+            top: 27px;
+            left: 16%;
+        }
+        .lente,
+        .ics {
+            left: 115%;
+            top: -33px;
+            position: absolute;
+        }
+        .spanM {
+            color: white;
+            left: 5px;
+            position: relative;
+        }
+         ::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: rgb(255, 255, 255, 0.4);
+            opacity: 1;
+            /* Firefox */
+        }
+         :-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: rgb(255, 255, 255, 0.4);
+        }
+         ::-ms-input-placeholder {
+            /* Microsoft Edge */
+            color: rgb(255, 255, 255, 0.4);
+        }
+        button#uscita_barra {
+            padding: 10px 78px;
+            position: absolute;
+            top: -21px;
+        }
+    }
+    /*
+@media (min-width: 320px) and (max-width: 500px) and (max-height: 950px) {
+    header {
+        top: 83%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 500px) and (max-height: 800px) {
+    header {
+        top: 80%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 500px) and (max-height: 650px) {
+    header {
+        top: 75%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 500px) and (max-height: 500px) {
+    header {
+        top: 67%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 500px) and (max-height: 350px) {
+    header {
+        top: 45%;
+    }
+}*/

@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+    <script defer class="sezioni"></script>
+    <script src="assets/js/jquery.js"></script>
+
+    <!--META-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--Link-->
+
+    <link rel="shortcut icon" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <!--<link rel="stylesheet" href="assets/css/barraDesk6.css">-->
+    <!-- <link rel="stylesheet" href="assets/css/nav_bar.css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/navAM.css">-->
+    <!--  <link rel="stylesheet" class="navAB">-->
+    <link rel="stylesheet" class="menuaulaAB">
+    <link rel="stylesheet" class="libroaulaAB">
+    <link rel="stylesheet" class="menuaulaAM">
+    <link rel="stylesheet" class="libroaulaAM">
+    <!--<link rel="stylesheet" class="navAM">-->
+    <link rel="stylesheet" class="menuaulaCDE">
+    <link rel="stylesheet" class="libroaulaCDE">
+    <link rel="stylesheet" class="menuAB">
+    <link rel="stylesheet" class="libroAB">
+    <link rel="stylesheet" class="menuAM">
+    <link rel="stylesheet" class="libroAM">
+    <link rel="stylesheet" class="menuCDE">
+    <link rel="stylesheet" class="libroCDE">
+    <title>Manuale 2020</title>
+
+
+    <!--<script type="text/javascript">
+
+  var hyphenate=createHyphenator(hyphenationPatternsIt
+    ,{debug:true,hyphenChar:'-'}
+  );
+
+
+</script>-->
+    <style>
+         ::-webkit-scrollbar {
+            background-color: transparent;
+            width: 8px;
+            background: url("assets/images/circle_g.svg");
+        }
+        
+         ::-webkit-scrollbar-thumb {
+            background: lightgray;
+            border-radius: 10px;
+            box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+            width: 8px;
+        }
+        
+        body {
+            overflow-y: overlay;
+            overflow-x: hidden;
+        }
+        
+         ::-webkit-scrollbar:hover,
+         ::-webkit-scrollbar:active {
+            width: 14px;
+        }
+        
+         ::-webkit-scrollbar-thumb:hover,
+         ::-webkit-scrollbar-thumb:active {
+            width: 14px;
+        }
+        
+         ::-webkit-scrollbar-thumb:active,
+         ::-webkit-scrollbar-thumb:hover {
+            width: 14px;
+        }
+        
+         ::-webkit-scrollbar-thumb:hover,
+         ::-webkit-scrollbar-thumb:active {
+            width: 14px;
+        }
+        
+         ::-webkit-scrollbar:hover::-webkit-scrollbar:active {
+            width: 14px;
+        }
+        
+         ::-webkit-scrollbar-button {
+            display: block;
+            width: 10px;
+            height: 10px;
+        }
+        
+         ::-webkit-scrollbar-thumb {
+            min-width: 10px;
+            min-height: 10px;
+        }
+        
+         ::-webkit-scrollbar-thumb:hover,
+         ::-webkit-scrollbar-thumb:active {
+            width: 14px;
+        }
+        
+         ::-webkit-scrollbar-track:hover,
+         ::-webkit-scrollbar-track:active {
+            width: 14px;
+        }
+        
+         ::-webkit-scrollbar-track:hover::-webkit-scrollbar-track:active {
+            width: 14px;
+        }
+        
+         ::-webkit-scrollbar-track:active::-webkit-scrollbar-track:hover {
+            width: 14px;
+        }
+        
+         ::-webkit-scrollbar:hover::-webkit-resizer {
+            width: 14px;
+        }
+        
+         ::-webkit-scrollbar:hover,
+         ::-webkit-scrollbar-button:hover,
+         ::-webkit-scrollbar-corner:hover,
+         ::-webkit-scrollbar-thumb:hover,
+         ::-webkit-scrollbar-track:hover,
+         ::-webkit-scrollbar-track-piece:hover,
+         ::-webkit-resizer:active,
+         ::-webkit-scrollbar:active,
+         ::-webkit-scrollbar-button:active,
+         ::-webkit-scrollbar-corner:active,
+         ::-webkit-scrollbar-thumb:active,
+         ::-webkit-scrollbar-track:active,
+         ::-webkit-scrollbar-track-piece:active {
+            width: 14px;
+        }
+        
+        div#marginDX:hover::-webkit-scrollbar,
+        div#marginDX:hover::-webkit-scrollbar-button,
+        div#marginDX:hover::-webkit-scrollbar-corner,
+        div#marginDX:hover::-webkit-scrollbar-thumb,
+        div#marginDX:hover::-webkit-scrollbar-track,
+        div#marginDX:hover::-webkit-scrollbar-track-piece,
+        div#marginDX:hover::-webkit-resizer,
+        div#marginDX:hover::-webkit-scrollbar,
+        div#marginDX:hover::-webkit-scrollbar-button,
+        div#marginDX:hover::-webkit-scrollbar-corner,
+        div#marginDX:hover::-webkit-scrollbar-thumb,
+        div#marginDX:hover::-webkit-scrollbar-track,
+        div#marginDX:hover::-webkit-scrollbar-track-piece {
+            width: 14px;
+        }
+        /* .loader {
+            display: none;
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background: #fafafa url(assets/images/page-loader.gif) no-repeat center center;
+            text-align: center;
+            color: #999;
+        }*/
+    </style>
+
+</head>
+
+<body>
+    <!--<div class="scrollbox">-->
+    <!-- <div id="#loader" class="loader">LOADING...</div>-->
+    <header class="noBackground barra_enter">
+        <!--<div class="logo "><img class="logo" src="img/man1.png"> </div>-->
+        <nav class="l1 bar1">
+            <ul class="nav_links ">
+                <li><a href="#"><button onClick="indietro()"><img class="su ico" data-src="assets/images/ico/Su.svg"> </button></a></li>
+                <li><a href="#"><button class="indice" id="idx_button2"> <img class="ico" data-src="assets/images/ico/indice.svg">  <span class=" spanM idx">Indice</span></span></img></button></a></li>
+                <li><a href="#"><button onClick="avanti()"><img class="giu ico" data-src="assets/images/ico/Giu.svg"> </button></a></li>
+            </ul>
+            <button class="btn_switch_src"><img class="lente2 ico" data-src="assets/images/ico/Bt_Ricerca.svg"></button>
+        </nav>
+        <ul class="search_links l2 search_bar">
+            <li class="cerca ricerca">
+
+                <input type="text" class="search_box searchin scrivi_cerca" id="search-in" onClick="tastiera()" placeholder="Cerca parola nel libro...">
+                <i class="fa fa-search lente" aria-hidden="true" style="visibility: visible;"></i>
+                <i class="fa fa-times ics" aria-hidden="true" style="visibility: hidden;"></i>
+            </li>
+            <li class="l3 src_back indietro"><a href="#"><button class="btn_prev" onClick="backsearch()"><img class="destra ico" data-src="assets/images/ico/indietro.svg"></button></a></li>
+            <li class="l3 src_ok">
+                <div class="trovati text-area fumetto" id="text_search"></div>
+            </li>
+            <li class="l3 src_next avanti"><a href="# "><button class="btn_next" onClick="nextsearch()"><img class="sinistra ico " data-src="assets/images/ico/avanti.svg "></button></a></li>
+            <li class="switch ">
+                <a href="#">
+                    <button class="back">
+                        <img class="ico back_ico" data-src="assets/images/ico/arrow_switch.svg"><span class="spanM">Indietro</span>
+                    </button>
+                </a>
+            </li>
+        </ul>
+        <a class="cta l3 close_book">
+            <button class="exit" id="uscita">
+                <img class="back_all ico" data-src="assets/images/ico/menu/IndietroW2.svg "><span class=" spanM">Uscita</span>
+            </button>
+        </a>
+        <a class="cta l3 close_bar" style="display: none;">
+            <button class="exit_bar" id="uscita_barra">
+                <img class="back_all ico" data-src="assets/images/close.svg">
+            </button>
+        </a>
+    </header>
+
+
+    <div id="marginSX" class="margin"></div>
+    <div id="genera" class="hyphenate scrollbox-content" lang="it"></div>
+    <div id="marginDX" class="margin"></div>
+
+
+    <!-- <div class="scrollbar_y"></div>
+     </div>-->
+</body>
+
+<script src="assets/js/mobile-detect.min.js"></script>
+<script src="assets/js/hammer.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/engineV7.js"></script>
+<script src="assets/js/barraD.js"></script>
+<!-- <script src="assets/js/Sillabazione/hyphen-master/hyphen.js"></script> -->
+
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 960 960" style="enable-background:new 0 0 960 960;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:1.000000e-002;fill:#FFFFFF;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#008E43;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:11.816;stroke-miterlimit:2.6131;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#1A171B;}
+</style>
+<rect class="st0" width="1" height="1"/>
+<rect x="959" y="959" class="st0" width="1" height="1"/>
+<g>
+	<g>
+		<polygon class="st1" points="180,181.7 780,181.7 780,778.3 180,778.3 180,181.7 		"/>
+		<path class="st2" d="M230.8,199.3h499.3c18.3,0,33.2,14.9,33.2,33.2v496.1c0,18.3-14.9,33.2-33.2,33.2H230.8
+			c-18.3,0-33.2-14.9-33.2-33.2V232.5C197.6,214.2,212.6,199.3,230.8,199.3L230.8,199.3z"/>
+		<path class="st3" d="M666.1,627.5h-371c-15.8-29.5-24.4-63-24.4-98.9c0-115.8,94.5-210.3,210.3-210.3
+			c115.4,0,209.9,94.5,209.9,210.3C690.9,564.5,681.9,598,666.1,627.5L666.1,627.5z"/>
+		<path class="st4" d="M586.6,547.2c0-23.6-20.1-43.3-44.5-43.3c-23.6,0-43.3,19.7-43.3,43.3v25.2L316,616.9h-14.6
+			c-13-26.4-20.1-55.9-20.1-87.4c0-109.5,89.4-198.9,198.9-198.9c109.1,0,198.5,89.4,198.5,198.9c0,31.5-7.5,61-20.5,87.4h-5.1
+			l-66.6-44.5l-0.4-24.4L586.6,547.2L586.6,547.2z"/>
+	</g>
+</g>
+</svg>

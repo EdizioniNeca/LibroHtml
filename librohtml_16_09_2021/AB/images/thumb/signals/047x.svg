@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 445.6 805.6" style="enable-background:new 0 0 445.6 805.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;enable-background:new    ;}
+	.st1{font-family:'ArialMT';}
+	.st2{font-size:53.7146px;}
+	.st3{fill:#FFFFFF;stroke:#1A171B;stroke-width:0.8736;stroke-miterlimit:2.6131;}
+	.st4{fill:#E1001A;}
+	.st5{fill:#FFFFFF;stroke:#E1001A;stroke-width:2.9119;stroke-miterlimit:2.6131;}
+	.st6{fill:#1A171B;stroke:#1A171B;stroke-width:0.8736;stroke-miterlimit:2.6131;}
+	.st7{fill:#FFFFFF;stroke:#1A171B;stroke-width:0.7704;stroke-miterlimit:2.6131;}
+	.st8{fill:none;stroke:#1A171B;stroke-width:7.7038;stroke-miterlimit:2.6131;}
+	.st9{fill:#1A171B;stroke:#1A171B;stroke-width:0.7704;stroke-miterlimit:2.6131;}
+</style>
+<text transform="matrix(0.9757 0 0 1 8.9429 848.6501)" class="st0 st1 st2">Preavviso di STOP</text>
+<g>
+	<g>
+		<g>
+			<path class="st3" d="M410.2,388.4c20.3-0.8,32.5-16,29.3-36.2l-0.7-3.1l-1.2-3.3l-1.4-3.2L249.9,19.4
+				C240.5,5,227.4-3.1,210.2,4.1c-6.5,3.6-11.3,8.7-15.1,14.8L9.1,341c-6.8,12.7-9.4,26.1,0.9,37.8c8.2,8.7,18.4,9.6,29.9,9.6
+				l365.8-0.1h4.5L410.2,388.4L410.2,388.4z"/>
+			<path class="st4" d="M405.7,379c5.7-0.1,11.3,0.6,17.2-3.8s11.4-15.5,5-28.3L241.8,24.3C231.4,6,213,6.5,203,23.8L17.3,345.7
+				c-3.9,6.9-7.2,16.6-2.7,23.8c5.9,9.5,15.3,9.5,25.4,9.6L405.7,379L405.7,379z"/>
+			<polygon class="st5" points="380.9,341.2 222.1,66.4 63.7,341.2 			"/>
+			<polygon class="st6" points="222.3,146.9 251,174.9 251,219.6 291.3,219.6 291.3,247.6 251,247.6 251,320.2 222.3,292.4 
+				193.5,320.2 193.5,247.6 153.4,247.6 153.4,219.6 193.5,219.6 193.5,174.9 			"/>
+		</g>
+	</g>
+	<g>
+		<polygon class="st7" points="25.3,409.3 416.6,409.3 416.6,798.4 25.3,798.4 		"/>
+		<path class="st8" d="M58.5,420.8h325.6c11.9,0,21.6,9.7,21.6,21.6v323.5c0,11.9-9.7,21.6-21.6,21.6H58.5
+			c-11.9,0-21.6-9.7-21.6-21.6V442.4C36.8,430.5,46.6,420.8,58.5,420.8L58.5,420.8z"/>
+		<polygon class="st9" points="59,579.6 59,549.8 176.9,549.8 176.9,579.6 		"/>
+		<polygon class="st9" points="266.2,662.5 266.2,632.7 383,632.7 383,662.5 		"/>
+		<polygon class="st9" points="196,764.6 247,764.6 247,442.7 196,442.7 		"/>
+	</g>
+</g>
+</svg>

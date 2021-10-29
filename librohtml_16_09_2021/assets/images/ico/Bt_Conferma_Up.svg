@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="Livello_5" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:cc="http://creativecommons.org/ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" sodipodi:docname="Bt_Conferma_Up.svg" inkscape:version="0.48.4 r9939"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-120 119.5 184.7 72.3"
+	 enable-background="new -120 119.5 184.7 72.3" xml:space="preserve">
+<sodipodi:namedview  inkscape:cy="36.172001" showgrid="false" inkscape:cx="92.351997" guidetolerance="10" gridtolerance="10" inkscape:zoom="2.0470873" pagecolor="#ffffff" objecttolerance="10" bordercolor="#666666" borderopacity="1" id="namedview44" inkscape:window-x="-8" inkscape:window-height="1027" inkscape:window-width="1920" inkscape:pageshadow="2" inkscape:pageopacity="0" inkscape:current-layer="Livello_5" inkscape:window-maximized="1" inkscape:window-y="-8">
+	</sodipodi:namedview>
+<linearGradient id="path20_1_" gradientUnits="userSpaceOnUse" x1="-27.7885" y1="191.276" x2="-27.7885" y2="119.142" gradientTransform="matrix(1 0 0 -1 0 310.742)">
+	<stop  offset="0" style="stop-color:#CFE7D7"/>
+	<stop  offset="0.2241" style="stop-color:#CCE4D4;stop-opacity:0.9664"/>
+	<stop  offset="0.3973" style="stop-color:#C2DBCB;stop-opacity:0.9404"/>
+	<stop  offset="0.5534" style="stop-color:#B2CBBB;stop-opacity:0.917"/>
+	<stop  offset="0.6994" style="stop-color:#9AB5A5;stop-opacity:0.8951"/>
+	<stop  offset="0.8385" style="stop-color:#7C9989;stop-opacity:0.8742"/>
+	<stop  offset="0.9706" style="stop-color:#587767;stop-opacity:0.8544"/>
+	<stop  offset="1" style="stop-color:#4F6E5E;stop-opacity:0.85"/>
+</linearGradient>
+<path id="path20" fill="url(#path20_1_)" d="M28.3,119.5H-83.9c-20,0-36.1,16.2-36.1,36.1c0,20,16.2,36.1,36.1,36.1H28.3
+	c20,0,36.1-16.2,36.1-36.1C64.4,135.6,48.3,119.5,28.3,119.5z"/>
+<path id="path22" fill="#FFFFFF" d="M28.3,123.9H-83.9c-17.5,0-31.7,14.2-31.7,31.7c0,17.5,14.2,31.7,31.7,31.7H28.3
+	c17.5,0,31.7-14.2,31.7-31.7C60,138.1,45.8,123.9,28.3,123.9z"/>
+<path id="path24" fill="#CFE7D7" d="M28.3,126.5H-83.9c-16,0-29,13-29,29.1c0,16,13,29.1,29,29.1H28.3c16,0,29-13,29-29.1
+	C57.3,139.5,44.3,126.5,28.3,126.5z"/>
+<g enable-background="new    ">
+	<path fill="#262769" d="M-51.4,158.9l3.1,1c-0.5,1.7-1.3,3-2.4,3.8c-1.1,0.8-2.5,1.3-4.2,1.3c-2.1,0-3.8-0.7-5.2-2.1
+		c-1.3-1.4-2-3.4-2-5.9c0-2.6,0.7-4.7,2-6.1c1.4-1.4,3.1-2.2,5.3-2.2c1.9,0,3.5,0.6,4.7,1.7c0.7,0.7,1.3,1.6,1.6,2.9l-3.1,0.8
+		c-0.2-0.8-0.6-1.5-1.2-1.9s-1.3-0.7-2.2-0.7c-1.2,0-2.1,0.4-2.8,1.3c-0.7,0.8-1.1,2.2-1.1,4.1c0,2,0.4,3.4,1.1,4.3
+		c0.7,0.8,1.6,1.3,2.8,1.3c0.8,0,1.6-0.3,2.2-0.8C-52.1,160.9-51.7,160-51.4,158.9z"/>
+	<path fill="#262769" d="M-45.6,164.7v-15.7h3.2v6.2h6.2v-6.2h3.2v15.7h-3.2v-6.9h-6.2v6.9H-45.6z"/>
+	<path fill="#262769" d="M-29.8,164.7v-15.7h3.2v15.7H-29.8z"/>
+	<path fill="#262769" d="M-23.6,148.9h3.2v8.5c0,1.4,0,2.2,0.1,2.6c0.1,0.6,0.5,1.2,1,1.6c0.5,0.4,1.2,0.6,2.1,0.6
+		c0.9,0,1.6-0.2,2-0.6c0.5-0.4,0.7-0.8,0.8-1.4c0.1-0.5,0.1-1.4,0.1-2.7v-8.7h3.2v8.3c0,1.9-0.1,3.2-0.3,4s-0.5,1.4-1,2
+		s-1.1,1-1.9,1.3c-0.8,0.3-1.8,0.5-3,0.5c-1.5,0-2.6-0.2-3.4-0.5c-0.8-0.3-1.4-0.8-1.8-1.4c-0.5-0.6-0.7-1.1-0.9-1.7
+		c-0.2-0.9-0.3-2.2-0.3-4V148.9z"/>
+	<path fill="#262769" d="M-7.7,148.9h5.8c1.3,0,2.3,0.1,3,0.3c0.9,0.3,1.7,0.8,2.4,1.5c0.7,0.7,1.2,1.5,1.5,2.6
+		c0.3,1,0.5,2.2,0.5,3.7c0,1.3-0.2,2.4-0.5,3.4c-0.4,1.1-1,2.1-1.7,2.8c-0.6,0.5-1.3,1-2.2,1.3c-0.7,0.2-1.6,0.3-2.8,0.3h-6V148.9z
+		 M-4.6,151.6V162h2.4c0.9,0,1.5,0,1.9-0.2c0.5-0.1,0.9-0.3,1.3-0.7s0.6-0.8,0.8-1.5c0.2-0.7,0.3-1.7,0.3-2.9c0-1.2-0.1-2.2-0.3-2.8
+		s-0.5-1.2-0.9-1.5s-0.9-0.6-1.5-0.7c-0.4-0.1-1.3-0.2-2.6-0.2H-4.6z"/>
+	<path fill="#262769" d="M8.1,164.7v-15.7h3.2v15.7H8.1z"/>
+</g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 960 960" style="enable-background:new 0 0 960 960;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFEC00;stroke:#1A171B;stroke-width:0.9239;stroke-miterlimit:2.6131;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFEC00;stroke:#1A171B;stroke-width:9.2387;stroke-miterlimit:2.6131;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#1A171B;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#E1001A;stroke:#1A171B;stroke-width:0.9239;stroke-miterlimit:2.6131;}
+</style>
+<g>
+	<g>
+		<polygon class="st0" points="804.4,120 155.6,120 155.6,840 804.4,840 804.4,120 		"/>
+		<path class="st1" d="M754.2,134.5H205.8c-20.9,0-37.6,17.9-37.6,37.6v616.5c0,19.7,17.9,37.6,37.6,37.6h548.4
+			c19.7,0,37.6-16.6,37.6-37.6V172C791.8,151.1,775.2,134.5,754.2,134.5L754.2,134.5z"/>
+		<path class="st2" d="M501.2,163.5h-49v50c0,14.1,20,35.3,24.1,35.2c4.2-0.1,24.9-20.8,24.9-35.2V163.5L501.2,163.5z"/>
+		<path class="st2" d="M459.1,790.3h49v-50c0-14.1-19.9-35.3-24.1-35.2c-4.2,0.1-24.9,20.8-24.9,35.2V790.3L459.1,790.3z"/>
+		<polygon class="st3" points="568.5,163.5 533.4,163.5 533.4,308.8 723.8,643.6 723.8,790.2 758.9,790.2 758.9,638 568.5,303 
+			568.5,163.5 		"/>
+		<polygon class="st3" points="236.6,163.5 201.5,163.5 201.5,308.8 391.9,643.6 391.9,790.2 427,790.2 427,638 236.6,303 
+			236.6,163.5 		"/>
+		<path class="st2" d="M303.2,201.3l42.5,72.4c0,2.2,0,4.3-4.3,4.3l-25.3-4.3v53.2c0,10.9,10.2,20.8,15.9,28.7l230.6,302.2
+			c11,13,21.4,27.8,21.3,42.1v90.2h-25.3v-85.9c-0.2-13.8-8.3-21.2-12.4-26.6l-235-307.6c-14.5-18.3-20.4-28.3-20.4-43v-53.4
+			l-25.3,4.3c-4.3,0-4.3-2.5-4.3-4.3L303.2,201.3L303.2,201.3z"/>
+		<path class="st2" d="M406.1,201.3l42.5,72.4c0,2.2,0,4.3-4.3,4.3l-25.3-4.3v53.2c0,10.9,10.2,20.8,15.9,28.7l216.7,302.2
+			c10.9,13,21.4,27.8,21.3,42.1v90.2h-25.3v-85.9c-0.2-13.8-8.3-21.2-12.4-26.6L414.3,370.2c-14.5-18.3-20.4-28.3-20.4-43v-53.4
+			l-25.3,4.3c-4.3,0-4.3-2.5-4.3-4.3L406.1,201.3L406.1,201.3z"/>
+	</g>
+</g>
+</svg>

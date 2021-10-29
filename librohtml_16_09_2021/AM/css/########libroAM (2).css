@@ -1,0 +1,685 @@
+@charset "utf-8";
+/* CSS Document */
+/*INIZIO MENU ACCORDION*/
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 20px 0 20px 0;
+
+}
+
+button.accordion.l1,
+button.accordion.l2 {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    height: 33%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+	z-index: 1;
+
+}
+
+button.accordion.active,
+button.accordion:hover {
+    background-color: #bcdf98;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+
+section.linker:hover {
+    padding: 0 18px;
+    background-color: #bcdf98;
+    transition: 0.4s;
+}
+
+button.accordion:after {
+
+    /* (+) */
+    font-size: 13px;
+    color: #777;
+    float: left;
+    margin-left: 5px;
+}
+
+/*CSS MAX*/
+ 
+.freccia1{
+	    background: url("../../images/assets/arrow.png");
+    position: relative;
+    margin: 0 auto;
+    float: right;
+    top: -100px;
+    height: 48px;
+    width: 100px;
+	right: 365px;
+}
+
+.freccia2{
+     background: url("../../images/assets/arrow.png");
+    position: relative;
+    margin: 0 auto;
+    float: right;
+    top: -78px;
+    height: 48px;
+    width: 100px;
+	right: 365px;
+}
+
+.freccia3{
+     background: url("../../images/assets/arrow.png");
+    position: relative;
+    margin: 0 auto;
+    float: right;
+    top: -95px;
+    height: 38px;
+    width: 100px;
+	right: 365px;
+}
+
+.T1{
+	
+
+}
+    	
+
+
+.T2{	
+
+    
+}	
+
+.T3{
+
+	
+}
+
+
+
+@media (max-width: 768px) {
+	
+	.freccia1{
+		left: -20px;
+    top: -25px;
+    
+}
+
+.freccia2{
+	left: -20px;
+    top: -75px;
+}
+
+.freccia3{
+   left: -20px;
+    top: -75px;
+}
+	
+	
+	
+	
+}
+/*FINE CSS MAX*/
+/*FINE MENU ACCORDION*/
+/*###########################################
+###########################################*/
+
+/*iNIZIO BOOTSTRAP MENU GM*/
+/*I VEICOLI*/
+.Menu_veicoli {
+  color: #73a42e; 
+}
+.Menu_veicoli h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #bcdf98 100%);
+  background: -o-linear-gradient(right, #fff 75% , #bcdf98 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #bcdf98 100%);
+  background: linear-gradient(to right, #fff 75% , #bcdf98 100%);
+}
+.Menu_veicoli h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #bcdf98 100%);
+  background: -o-linear-gradient(right, #fff 55% , #bcdf98 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #bcdf98 100%);
+  background: linear-gradient(to right, #fff 55% , #bcdf98 100%);
+}
+.Menu_veicoli hr {
+  background-color: #73a42e;
+  border-color: #73a42e; 
+}
+
+/*media*/
+@media (max-width: 768px) {
+.Menu_veicoli h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #bcdf98, white, white, white, white, white, white, white, #bcdf98);
+  background: -o-linear-gradient(left, #bcdf98, white, white, white, white, white, white, white, #bcdf98);
+  background: -moz-linear-gradient(left, #bcdf98, white, white, white, white, white, white, white, #bcdf98);
+  background: linear-gradient(left, #bcdf98, white, white, white, white, white, white, white, #bcdf98);
+}
+.Menu_veicoli h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #bcdf98, white, white, white, white, white, white, #bcdf98);
+  background: -o-linear-gradient(left, #bcdf98, white, white, white, white, white, white, #bcdf98);
+  background: -moz-linear-gradient(left, #bcdf98, white, white, white, white, white, white, #bcdf98);
+  background: linear-gradient(left, #bcdf98, white, white, white, white, white, white, #bcdf98);
+}
+}
+
+
+/*LA STRADA*/
+.Menu_strada {
+  color: #816714; 
+}
+.Menu_strada h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #dfc398 100%);
+  background: -o-linear-gradient(right, #fff 75% , #dfc398 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #dfc398 100%);
+  background: linear-gradient(to right, #fff 75% , #dfc398 100%);
+}
+.Menu_strada h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #dfc398 100%);
+  background: -o-linear-gradient(right, #fff 55% , #dfc398 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #dfc398 100%);
+  background: linear-gradient(to right, #fff 55% , #dfc398 100%);
+}
+.Menu_strada hr {
+  background-color: #816714;
+  border-color: #816714; 
+}
+
+@media (max-width: 768px) {
+.Menu_strada h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #dfc398, white, white, white, white, white, white, white, #dfc398);
+  background: -o-linear-gradient(left, #dfc398, white, white, white, white, white, white, white, #dfc398);
+  background: -moz-linear-gradient(left, #dfc398, white, white, white, white, white, white, white, #dfc398);
+  background: linear-gradient(left, #dfc398, white, white, white, white, white, white, white, #dfc398);
+}
+.Menu_stradah2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #dfc398, white, white, white, white, white, white, #dfc398);
+  background: -o-linear-gradient(left, #dfc398, white, white, white, white, white, white, #dfc398);
+  background: -moz-linear-gradient(left, #dfc398, white, white, white, white, white, white, #dfc398);
+  background: linear-gradient(left, #dfc398, white, white, white, white, white, white, #dfc398);
+}
+}
+
+
+/*SEGNALETICA STRADALE*/
+.Menu_segnali {
+  color: #005ea8; 
+}
+.Menu_segnali h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #4792ce 100%);
+  background: -o-linear-gradient(right, #fff 75% , #4792ce 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #4792ce 100%);
+  background: linear-gradient(to right, #fff 75% , #4792ce 100%);
+}
+.Menu_segnali h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #4792ce 100%);
+  background: -o-linear-gradient(right, #fff 55% , #4792ce 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #4792ce 100%);
+  background: linear-gradient(to right, #fff 55% , #4792ce 100%);
+}
+.Menu_segnali hr {
+  background-color: #005ea8;
+  border-color: #005ea8; 
+}
+
+/*media*/
+@media (max-width: 768px) {
+.Menu_segnali h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #4792ce, white, white, white, white, white, white, white, #4792ce);
+  background: -o-linear-gradient(left, #4792ce, white, white, white, white, white, white, white, #4792ce);
+  background: -moz-linear-gradient(left, #4792ce, white, white, white, white, white, white, white, #4792ce);
+  background: linear-gradient(left, #4792ce, white, white, white, white, white, white, white, #4792ce);
+}
+.Menu_segnali h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #4792ce, white, white, white, white, white, white, #4792ce);
+  background: -o-linear-gradient(left, #4792ce, white, white, white, white, white, white, #4792ce);
+  background: -moz-linear-gradient(left, #4792ce, white, white, white, white, white, white, #4792ce);
+  background: linear-gradient(left, #4792ce, white, white, white, white, white, white, #4792ce);
+}
+}
+
+/*EQUIPAGGIAMENTO DEI VEICOLI*/
+
+.Menu_equipaggiamento {
+  color: #bb9c09; 
+}
+.Menu_equipaggiamento h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #c8b55d 100%);
+  background: -o-linear-gradient(right, #fff 75% , #c8b55d 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #c8b55d 100%);
+  background: linear-gradient(to right, #fff 75% , #c8b55d 100%);
+}
+.Menu_equipaggiamento h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #c8b55d 100%);
+  background: -o-linear-gradient(right, #fff 55% , #c8b55d 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #c8b55d 100%);
+  background: linear-gradient(to right, #fff 55% , #c8b55d 100%);
+}
+.Menu_equipaggiamento hr {
+  background-color: #bb9c09;
+  border-color: #bb9c09; 
+}
+
+/*media*/
+@media (max-width: 768px) {
+.Menu_equipaggiamento h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #c8b55d, white, white, white, white, white, white, white, #c8b55d);
+  background: -o-linear-gradient(left, #c8b55d, white, white, white, white, white, white, white, #c8b55d);
+  background: -moz-linear-gradient(left, #c8b55d, white, white, white, white, white, white, white, #c8b55d);
+  background: linear-gradient(left, #c8b55d, white, white, white, white, white, white, white, #c8b55d);
+}
+.Menu_equipaggiamento h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #c8b55d, white, white, white, white, white, white, #c8b55d);
+  background: -o-linear-gradient(left, #c8b55d, white, white, white, white, white, white, #c8b55d);
+  background: -moz-linear-gradient(left, #c8b55d, white, white, white, white, white, white, #c8b55d);
+  background: linear-gradient(left, #c8b55d, white, white, white, white, white, white, #c8b55d);
+}
+}
+
+/*NORME DI COMPORTAMENTO*/
+
+.Menu_norme {
+  color: #497728; 
+}
+.Menu_norme h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #698655 100%);
+  background: -o-linear-gradient(right, #fff 75% , #698655 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #698655 100%);
+  background: linear-gradient(to right, #fff 75% , #698655 100%);
+}
+.Menu_norme h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #698655 100%);
+  background: -o-linear-gradient(right, #fff 55% , #698655 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #698655 100%);
+  background: linear-gradient(to right, #fff 55% , #698655 100%);
+}
+.Menu_norme hr {
+  background-color: #497728;
+  border-color: #497728; 
+}
+
+/*media*/
+@media (max-width: 768px) {
+.Menu_norme h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #698655, white, white, white, white, white, white, white, #698655);
+  background: -o-linear-gradient(left, #698655, white, white, white, white, white, white, white, #698655);
+  background: -moz-linear-gradient(left, #698655, white, white, white, white, white, white, white, #698655);
+  background: linear-gradient(left, #698655, white, white, white, white, white, white, white, #698655);
+}
+.Menu_norme h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #698655, white, white, white, white, white, white, #698655);
+  background: -o-linear-gradient(left, #698655, white, white, white, white, white, white, #698655);
+  background: -moz-linear-gradient(left, #698655, white, white, white, white, white, white, #698655);
+  background: linear-gradient(left, #698655, white, white, white, white, white, white, #698655);
+}
+}
+
+/*DOCUMENTI*/
+.Menu_documenti {
+  color: #d6413e; 
+}
+.Menu_documenti h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #d66b69 100%);
+  background: -o-linear-gradient(right, #fff 75% , #d66b69 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #d66b69 100%);
+  background: linear-gradient(to right, #fff 75% , #d66b69 100%);
+}
+.Menu_documenti h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #d66b69 100%);
+  background: -o-linear-gradient(right, #fff 55% , #d66b69 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #d66b69 100%);
+  background: linear-gradient(to right, #fff 55% , #d66b69 100%);
+}
+.Menu_documenti hr {
+  background-color: #d6413e;
+  border-color: #d6413e; 
+}
+
+/*media*/
+@media (max-width: 768px) {
+.Menu_documenti h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #d66b69, white, white, white, white, white, white, white, #d66b69);
+  background: -o-linear-gradient(left, #d66b69, white, white, white, white, white, white, white, #d66b69);
+  background: -moz-linear-gradient(left, #d66b69, white, white, white, white, white, white, white, #d66b69);
+  background: linear-gradient(left, #d66b69, white, white, white, white, white, white, white, #d66b69);
+}
+.Menu_documenti h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #d66b69, white, white, white, white, white, white, #d66b69);
+  background: -o-linear-gradient(left, #d66b69, white, white, white, white, white, white, #d66b69);
+  background: -moz-linear-gradient(left, #d66b69, white, white, white, white, white, white, #d66b69);
+  background: linear-gradient(left, #d66b69, white, white, white, white, white, white, #d66b69);
+}
+}
+
+/*INCIDENTI E ASSICURAZIONI*/
+
+.Menu_incidenti {
+  color: #00869e; 
+}
+.Menu_Menu_incidenti h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #57919c 100%);
+  background: -o-linear-gradient(right, #fff 75% , #57919c 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #57919c 100%);
+  background: linear-gradient(to right, #fff 75% , #57919c 100%);
+}
+.Menu_incidenti h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #57919c 100%);
+  background: -o-linear-gradient(right, #fff 55% , #57919c 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #57919c 100%);
+  background: linear-gradient(to right, #fff 55% , #57919c 100%);
+}
+.Menu_incidenti hr {
+  background-color: #00869e;
+  border-color: #00869e; 
+}
+
+/*media*/
+@media (max-width: 768px) {
+.Menu_incidenti h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #57919c, white, white, white, white, white, white, white, #57919c);
+  background: -o-linear-gradient(left, #57919c, white, white, white, white, white, white, white, #57919c);
+  background: -moz-linear-gradient(left, #57919c, white, white, white, white, white, white, white, #57919c);
+  background: linear-gradient(left, #57919c, white, white, white, white, white, white, white, #57919c);
+}
+.Menu_incidenti h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #57919c, white, white, white, white, white, white, #57919c);
+  background: -o-linear-gradient(left, #57919c, white, white, white, white, white, white, #57919c);
+  background: -moz-linear-gradient(left, #57919c, white, white, white, white, white, white, #57919c);
+  background: linear-gradient(left, #57919c, white, white, white, white, white, white, #57919c);
+}
+}
+
+/*SOCCORSO*/
+.Menu_soccorso {
+  color: #9a0061; 
+}
+.Menu_soccorso h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #b03c85 100%);
+  background: -o-linear-gradient(right, #fff 75% , #b03c85 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #b03c85 100%);
+  background: linear-gradient(to right, #fff 75% , #b03c85 100%);
+}
+.Menu_soccorso h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #b03c85 100%);
+  background: -o-linear-gradient(right, #fff 55% , #b03c85 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #b03c85 100%);
+  background: linear-gradient(to right, #fff 55% , #b03c85 100%);
+}
+.Menu_soccorso hr {
+  background-color: #9a0061;
+  border-color: #9a0061; 
+}
+
+/*media*/
+@media (max-width: 768px) {
+.Menu_soccorso h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #b03c85, white, white, white, white, white, white, white, #b03c85);
+  background: -o-linear-gradient(left, #b03c85, white, white, white, white, white, white, white, #b03c85);
+  background: -moz-linear-gradient(left, #b03c85, white, white, white, white, white, white, white, #b03c85);
+  background: linear-gradient(left, #b03c85, white, white, white, white, white, white, white, #b03c85);
+}
+.Menu_soccorso h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #b03c85, white, white, white, white, white, white, #b03c85);
+  background: -o-linear-gradient(left, #b03c85, white, white, white, white, white, white, #b03c85);
+  background: -moz-linear-gradient(left, #b03c85, white, white, white, white, white, white, #b03c85);
+  background: linear-gradient(left, #b03c85, white, white, white, white, white, white, #b03c85);
+}
+}
+
+/*SICUREZZA E INQUINAMENTO*/
+
+.Menu_sicurezza {
+  color: #df6f0d; 
+}
+.Menu_sicurezza h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #df9555 100%);
+  background: -o-linear-gradient(right, #fff 75% , #df9555 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #df9555 100%);
+  background: linear-gradient(to right, #fff 75% , #df9555 100%);
+}
+.Menu_sicurezza h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #df9555 100%);
+  background: -o-linear-gradient(right, #fff 55% , #df9555 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #df9555 100%);
+  background: linear-gradient(to right, #fff 55% , #df9555 100%);
+}
+.Menu_sicurezza hr {
+  background-color: #df6f0d;
+  border-color: #df6f0d; 
+}
+
+/*media*/
+@media (max-width: 768px) {
+.Menu_sicurezza h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #df9555, white, white, white, white, white, white, white, #df9555);
+  background: -o-linear-gradient(left, #df9555, white, white, white, white, white, white, white, #df9555);
+  background: -moz-linear-gradient(left, #df9555, white, white, white, white, white, white, white, #df9555);
+  background: linear-gradient(left, #df9555, white, white, white, white, white, white, white, #df9555);
+}
+.Menu_sicurezza h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #df9555, white, white, white, white, white, white, #df9555);
+  background: -o-linear-gradient(left, #df9555, white, white, white, white, white, white, #df9555);
+  background: -moz-linear-gradient(left, #df9555, white, white, white, white, white, white, #df9555);
+  background: linear-gradient(left, #df9555, white, white, white, white, white, white, #df9555);
+}
+}
+
+/*L'AUTOVEICOLO E LE SUE PARTI*/
+
+.Menu_autoveicolo {
+  color: #929494; 
+}
+.Menu_autoveicolo h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 75% , #b7b8b8 100%);
+  background: -o-linear-gradient(right, #fff 75% , #b7b8b8 100%);
+  background: -moz-linear-gradient(right, #fff 75% , #b7b8b8 100%);
+  background: linear-gradient(to right, #fff 75% , #b7b8b8 100%);
+}
+.Menu_autoveicolo h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #fff 55% , #b7b8b8 100%);
+  background: -o-linear-gradient(right, #fff 55% , #b7b8b8 100%);
+  background: -moz-linear-gradient(right, #fff 55% , #b7b8b8 100%);
+  background: linear-gradient(to right, #fff 55% , #b7b8b8 100%);
+}
+.Menu_autoveicolo hr {
+  background-color: #929494;
+  border-color: #929494; 
+}
+
+@media (max-width: 768px) {
+.Menu_autoveicolo h1 {
+  background: white;
+  background: -webkit-linear-gradient(left, #b7b8b8, white, white, white, white, white, white, white, #b7b8b8);
+  background: -o-linear-gradient(left, #b7b8b8, white, white, white, white, white, white, white, #b7b8b8);
+  background: -moz-linear-gradient(left, #b7b8b8, white, white, white, white, white, white, white, #b7b8b8);
+  background: linear-gradient(left, #b7b8b8, white, white, white, white, white, white, white, #b7b8b8);
+}
+.Menu_autoveicolo h2 {
+  background: white;
+  background: -webkit-linear-gradient(left, #b7b8b8, white, white, white, white, white, white, #b7b8b8);
+  background: -o-linear-gradient(left, #b7b8b8, white, white, white, white, white, white, #b7b8b8);
+  background: -moz-linear-gradient(left, #b7b8b8, white, white, white, white, white, white, #b7b8b8);
+  background: linear-gradient(left, #b7b8b8, white, white, white, white, white, white, #b7b8b8);
+}
+}
+
+
+.Menu_titolo1 {
+  vertical-align: text-top;
+  margin-bottom:10px;
+  margin-top: 20px;
+  
+}
+
+.Menu_titolo1 h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  letter-spacing: -2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.Menu_titolo1 hr {
+  height: 4px;
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+  margin-bottom: 0px;
+  margin-top: 0px;  
+}
+
+.Menu_titolo2 {
+  
+}
+.Menu_titolo2 h2 {
+  font-variant: small-caps;
+  font-size:45px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.Menu_titolo3 {
+  
+}
+.Menu_titolo3 h3 {
+  font-variant: small-caps;
+  font-size:40px;
+  letter-spacing: -1px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.Menu_titolo3 hr {
+  height: 3px;
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+  margin-bottom: 0px;
+  margin-top: 0px;  
+}
+
+
+
+@media (min-width: 769px) and (max-width: 991px) {
+.Menu_titolo1 h1 {
+  font-size: 45px;
+}
+.Menu_titolo1 hr {
+  height: 3px;
+}
+
+.Menu_titolo2 h2 {
+  font-size:40px;
+}
+
+.Menu_titolo3 h3 {
+  font-size:35px;
+}
+.Menu_titolo3 hr {
+  height: 2px;
+}
+}
+	
+@media (min-width:552px) and (max-width: 768px) {
+
+.Menu_titolo1 h1 {
+  text-align: center;	
+  font-size: 40px;
+}
+.Menu_titolo1 hr {
+  height: 3px;
+}
+
+.Menu_titolo2 h2 {
+  text-align: center;
+  font-size:35px;
+}
+
+.Menu_titolo3 h3 {
+  text-align: center;
+  font-size:34px;
+}
+.Menu_titolo3 hr {
+  height: 2px;
+}
+}
+	
+@media (max-width:551px) {
+.Menu_titolo1 h1 {
+  text-align: center;	
+  font-size: 40px;
+}
+.Menu_titolo1 hr {
+  height: 3px;
+}
+
+.Menu_titolo2 h2 {
+  text-align: center;
+  font-size:35px;
+}
+
+.Menu_titolo3 h3 {
+  text-align: center;
+  font-size:34px;
+}
+.Menu_titolo3 hr {
+  height: 2px;
+}
+}
+
+.Menu_titolo_testo {
+  text-align: center;
+}
+
+
+/*FINE BOOTSTRAP MENU GM*/
+
+
+
+
+
+	

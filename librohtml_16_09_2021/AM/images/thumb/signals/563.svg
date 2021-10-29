@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 960 960" style="enable-background:new 0 0 960 960;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:none;stroke:#1A171B;stroke-width:1.061;stroke-miterlimit:2.6131;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#CECFD1;}
+	.st3{fill:none;stroke:#1A171B;stroke-width:3.5366;stroke-miterlimit:2.6131;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+<polygon class="st0" points="914.2,329 45,329 45,292.9 623.9,292.9 623.7,229.9 880,229.9 880.2,292.9 914.2,292.9 "/>
+<polygon class="st0" points="914.2,631.5 45,631.5 45,667.6 623.9,667.6 623.7,730.6 880,730.6 880.2,667.6 914.2,667.6 "/>
+<g>
+	<g>
+		<path class="st1" d="M915,324.4h-33.6c-21.4,0-31.5-10.3-31.5-31.5v-63"/>
+		<path class="st1" d="M915,635.8h-33.6c-21.4,0-31.5,10.3-31.5,31.5v63"/>
+		<path class="st2" d="M914.2,635.8V324.4h-32.7c-21.4,0-31.5-10.3-31.5-31.5v-63.2H654.5v63.2c0,21.2-10.1,31.5-31.5,31.5H45v311.4
+			h577.9c21.4,0,31.5,10.3,31.5,31.5l0.2,63h195.3v-63c0-21.2,10.1-31.5,31.5-31.5H914.2L914.2,635.8z"/>
+		<path class="st3" d="M45,667.3h577.9v63 M45,292.9h577.9v-63.2 M881.2,730.4v-63H915 M881.2,229.6v63.2H915"/>
+		<path class="st1" d="M45,324.4h577.9c21.4,0,31.5-10.3,31.5-31.5v-63"/>
+		<polygon class="st4" points="654.8,475.1 356.6,475.1 356.6,487.9 654.8,487.9 654.8,475.1 		"/>
+		<polygon class="st4" points="314.4,475.1 256.8,475.1 256.8,487.9 314.4,487.9 314.4,475.1 		"/>
+		<polygon class="st4" points="213.4,475.1 155.9,475.1 155.9,487.9 213.4,487.9 213.4,475.1 		"/>
+		<polygon class="st4" points="112.5,475.1 54.9,475.1 54.9,487.9 112.5,487.9 112.5,475.1 		"/>
+		<polygon class="st4" points="622.9,475.2 654.5,475.2 654.5,663 622.9,663 622.9,475.2 		"/>
+		<path class="st1" d="M45,635.8h577.9c21.4,0,31.5,10.3,31.5,31.5v63"/>
+	</g>
+</g>
+</svg>
