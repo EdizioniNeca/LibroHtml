@@ -1,5 +1,5 @@
     header {
-        display: flex;
+        /* display: flex;*/
         justify-content: space-around;
         align-items: center;
         padding: 5px 5%;
@@ -9,7 +9,7 @@
         /* top: 90%;*/
         top: 0%;
         width: 89%;
-        background: #C5DBF3;
+        /*background: #C5DBF3;*/
         font-weight: 500;
         font-size: 16px;
         color: rgb(255, 255, 255, 1);
@@ -68,8 +68,7 @@
     transition: all 0.3s ease 0s;
     color: #edf0f1;
 }*/
-    
-    .searchin {
+    /* .searchin {
         padding: 12px 35px;
         background: #8AB9E7;
         border: none;
@@ -78,7 +77,7 @@
         transition: all 0.3s ease 0s;
         outline: none;
         /*bordatura alla selezione=outline*/
-    }
+    /* }
     
     .searchin:hover {
         background-color: #6AA5E1;
@@ -99,12 +98,11 @@
         position: relative;
         width: 25px;
         top: 0px;
-    }
-    
-    .trovati {
+    }*/
+    /* .trovati {
         padding: 12px 35px;
         /* background-color: rgb(153, 153, 153, 1); */
-        border: none;
+    /*      border: none;
         border-radius: 5px;
         transition: all 0.3s ease 0s;
         outline: none;
@@ -119,19 +117,19 @@
     
      ::placeholder {
         /* Chrome, Firefox, Opera, Safari 10.1+ */
-        color: #fff;
+    /*      color: #fff;
         opacity: 1;
         /* Firefox */
-    }
+    /* }
     
      :-ms-input-placeholder {
         /* Internet Explorer 10-11 */
-        color: #fff;
+    /*      color: #fff;
     }
     
      ::-ms-input-placeholder {
         /* Microsoft Edge */
-        color: #fff;
+    /*      color: #fff;
     }
     
     .logo {
@@ -148,7 +146,6 @@
     
     @media (min-width: 1200px) {
         header {
-            display: flex;
             justify-content: space-around;
             align-items: center;
             padding: 0px 0%;
@@ -158,7 +155,7 @@
             width: 89%;
             height: 75px;
             margin: 0% 5%;
-            background: #C5DBF3;
+            background: transparent;
             z-index: 99999999;
             font-weight: 500;
             font-size: 16px;
@@ -249,7 +246,7 @@
             top: 0px;
         }
         .trovati {
-            padding: 12px 35px;
+            padding: 12px 28px;
             /* background-color: rgb(153, 153, 153, 1); */
             border: none;
             border-radius: 5px;

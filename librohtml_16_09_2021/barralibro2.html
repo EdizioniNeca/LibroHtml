@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+    <script defer class="sezioni"></script>
+    <script src="assets/js/jquery.js"></script>
+
+    <!--META-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--Link-->
+    <link rel="shortcut icon" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <style>
+        .container-book {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: -120px;
+            left: 45%;
+        }
+        
+        .navbar-book {
+            position: fixed;
+            top: 93%;
+            left: 2%;
+        }
+        
+        .dots-btn {
+            width: 7rem;
+            height: 7rem;
+            background-color: #3c97de;
+            top: 50%;
+            left: 0%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 1rem 3rem rgba(13, 83, 57, 0.4);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            z-index: 99;
+        }
+        
+        .dot {
+            width: 1rem;
+            height: 1rem;
+            background-color: #fff;
+            border-radius: 50%;
+            transition: all 0.3s;
+        }
+        
+        .change .dot-1 {
+            height: 5rem;
+            width: 0.5rem;
+            border-radius: 1rem;
+            transform: rotate( -45deg) translate(1.2rem, 1.5rem);
+        }
+        
+        .change .dot-2 {
+            opacity: 0;
+        }
+        
+        .change .dot-3 {
+            height: 5rem;
+            width: 0.5rem;
+            border-radius: 1rem;
+            transform: rotate( 45deg) translate(-1.4rem, 1.6rem);
+        }
+        
+        .nav-menu-book {
+            background-color: #6AA5E1;
+            padding: 3rem 4rem;
+            border-top-right-radius: 5rem;
+            border-bottom-right-radius: 5rem;
+            box-shadow: 0 1rem 3rem rgb(37 172 120 / 40%);
+            transition: width 1.5s;
+            z-index: 1;
+            position: relative;
+            left: -65%;
+            display: none;
+        }
+        
+        .change .nav-menu-book {
+            display: block;
+            width: 62rem;
+            top: -99px;
+            left: 35px;
+            z-index: 1;
+        }
+        
+        .nav-menu-link-book {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s;
+        }
+        
+        .change .nav-menu-link-book {
+            opacity: 1;
+            visibility: visible;
+            transition: all 0.3s 0.3s;
+        }
+        
+        .nav-menu-link-book:nth-child(1) {
+            left: 1rem;
+            width: 30%;
+        }
+        
+        .nav-menu-link-book:nth-child(3) {
+            right: 33rem;
+        }
+        
+        .nav-menu-link-book:nth-child(4) {
+            right: 4rem;
+        }
+        
+        .nav-menu-link-book i {
+            font-size: 4rem;
+            color: #fff;
+        }
+        
+        .img-search3 {
+            left: -10px;
+            position: relative;
+            top: -2px;
+        }
+        
+        .invisible {
+            left: -999px;
+            overflow: hidden;
+            position: absolute;
+            top: -999px;
+        }
+        /* helpers/align.css */
+        
+        .align {
+            display: grid;
+            place-items: center;
+        }
+        /* layout/base.css */
+        
+         :root {
+            --body-background-color: #82a8ee;
+            --body-color: #97adc6;
+        }
+        /* modules/anchor.css */
+        
+        a {
+            color: inherit;
+            outline: 0;
+        }
+        /* modules/icon.css */
+        
+        .icons {
+            display: none;
+        }
+        
+        .icon-book {
+            block-size: 1em;
+            display: inline-block;
+            fill: currentcolor;
+            inline-size: 1em;
+            vertical-align: middle;
+        }
+        
+        .icon--2x-book {
+            font-size: 2rem;
+        }
+        
+        .pls {
+            display: inline-block;
+            text-align: center;
+            border-radius: 4px;
+            margin: 2px;
+            height: 56px;
+            width: 56px;
+            vertical-align: middle;
+        }
+        
+        button.btn-bar-book {
+            background-color: #2f87cc;
+            float: left;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .btn-bar-book:hover {
+            background-color: #2f87cc;
+            opacity: 0.8;
+        }
+        
+        button.btn.btn-secondary.btn-bar-book {
+            border-radius: 5px!important;
+        }
+        
+        button.btn.btn-secondary.btn-bar-book:active {
+            background-color: #2f87cc;
+            box-shadow: 0 5px #3c97de;
+            transform: translateY(4px);
+        }
+        
+        button.btn.btn-secondary.btn-bar-book:focus {
+            outline: none!important;
+        }
+        
+        .form-src-book {
+            position: relative;
+        }
+        
+        input.search-argomento {
+            background: #F7F7F7;
+            width: 100%;
+            border: 0;
+            padding: 10px 40px 10px 16px;
+            border-radius: 26px;
+            font-size: 14px;
+            max-width: 420px;
+        }
+        
+        .wrapper-search-book span {
+            position: absolute;
+            top: 7px;
+            left: 355px;
+        }
+        
+        .nav-menu-link-book:nth-child(2) {
+            left: 20rem;
+            width: 20rem;
+        }
+        
+        .svg-grey-filter {
+            filter: invert(44%) sepia(4%) saturate(60%) hue-rotate( 338deg) brightness(87%) contrast(89%);
+        }
+        
+        .wrapper-search-book.wrap-src {
+            width: 400px;
+        }
+        
+        button.btn.btn-secondary.btn-bar-book {
+            margin-top: 0px;
+            margin-right: 3px;
+            margin-bottom: 3px;
+            margin-left: 0px;
+            width: 52px;
+            height: 52px;
+        }
+        
+        .pls img {
+            display: inline-block;
+            width: 36px;
+            height: 36px;
+            margin: -5px;
+        }
+        
+        button.btn.btn-secondary.btn-bar-book {
+            border: none;
+        }
+        
+        .btn-secondary:active {
+            background-color: #2f87cc;
+        }
+        
+        .container-book {
+            position: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-book animazione3">
+        <nav class="navbar-book">
+            <div class="dots-btn">
+                <div class="dot dot-1"></div>
+                <div class="dot dot-2"></div>
+                <div class="dot dot-3"></div>
+            </div>
+            <div class="nav-menu-book">
+                <a href="#" class="nav-menu-link-book pls">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary btn-bar-book">
+                            <img class="icon-book icon--2x-book" src="assets/images/ico/icon_arrow-up_white.svg" alt="">
+                        </button>
+                        <button type="button" class="btn btn-secondary btn-bar-book">
+                            <img class="icon-book icon--2x-book" src="assets/images/ico/icon_multimedia-book.svg" alt="">
+                        </button>
+                        <button type="button" class="btn btn-secondary btn-bar-book">
+                            <img class="icon-book icon--2x-book" src="assets/images/ico/icon_arrow-down_white.svg" alt="">
+                        </button>
+                    </div>
+                </a>
+                <a href="#" class="nav-menu-link-book nav-src">
+                    <form class="form-search form-src">
+                        <div class="wrapper-search-book wrap-src">
+                            <input name="keyword" type="text" class="search-argomento" placeholder="Cerca nel libro..." aria-label="" aria-describedby="">
+                            <span>
+                                <img class="svg-grey-filter" src="assets/images/ico/Bt_lente.svg" width="24" height="24">
+                            </span></div>
+                    </form>
+                </a>
+            </div>
+        </nav>
+    </div>
+
+</body>
+<script>
+    document.querySelector(".dots-btn").addEventListener("click", () => {
+        document.querySelector(".container-book").classList.toggle("change");
+    });
+</script>
+
+</html>

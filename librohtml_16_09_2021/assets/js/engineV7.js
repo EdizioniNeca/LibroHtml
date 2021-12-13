@@ -10,6 +10,7 @@ I manuali per lavorare hanno bisogno di diversi parametri passati nella url con 
 7)search:è la paroila ricercata, indica che la ricerca è attiva e vengono sottolineate tutte le occorrenze della parola cercata se presente, altrimenti spunta un messaggio di parola 			non trovata.
 8)pos: è un parametro per la gestione delle parole successive della ricerca, se schiacci next-search il parametro di pos viene incrementato ogni volta
 9)segnale: oltre che per blocco e per id è possibile caricare la pagina per numero di segnale.
+10)tipoEs: serve per il colore di contesto che può essere nullo/es normale/es difficile.
 
 */
 var $body = $("body");
@@ -57,25 +58,11 @@ $(document).ready(function() {
     pos = getParam("pos");
     segn = getParam("segnale");
     ultimo = getParam("ultimo");
+    tipoEs = getParam("tipoEsercitazione");
     vis_menu();
     gesture();
     nascondiMenu();
-    $(window).keydown(function(event) { //ogni volta che viene pemuto invio se la barra di ricerca non è vuota inizia la ricerca, se la ricerca è vuota non fa nulla
-        var scrivi = document.getElementById("search-in");
-        if (event.keyCode == 13) {
-            if (scrivi.value == undefined || scrivi.value == "" || scrivi.value == " ") {
-                event.preventDefault();
-                return false;
-
-            } else {
-                new_ricerca();
-                // ricerca();
-                return;
-
-            }
-            //Se corrisponde al tasto invio 
-        }
-    }); //event= Event {isTrusted: true, type: "DOMContentLoaded", target: document, currentTarget: document, eventPhase: 2, …}--> carica gli elementi del DOM
+    //event= Event {isTrusted: true, type: "DOMContentLoaded", target: document, currentTarget: document, eventPhase: 2, …}--> carica gli elementi del DOM
     $(document).bind("contextmenu", function(e) {
         return false;
     });
@@ -97,12 +84,9 @@ $(document).ready(function() {
 $(window).load(function() {
     allBlocks = new Blocks(sezioni);
     var firstblock = "";
-    if (barra == 1) {
-        vis_menu(1);
-    }
-    if (barra == 0 || barra == undefined) {
-        vis_menu(0);
-    }
+
+    tipoEsercitazione(tipoEs);
+
     if (blockId) {
         if (listato == undefined || listato == "AB") {
             var link1 = document.getElementsByClassName("menuAB");
@@ -250,121 +234,7 @@ $(window).load(function() {
     allBlocks.loadPage(lastblock.id); //plugin jQuery per caricare dinamicamente le pagine puoi scegliere quale file caricare, effetto di dissolvenza e durata
     margini(blockId);
 
-    //Inizio script riguardante la ricerca delle parole	 
-    if (cerca != undefined) {
-        "use strict";
-        ricerca_attiva = true;
-        var estratto = cerca;
-        var trovato = true;
-        var cont = 0;
 
-
-        var re = new RegExp(cerca, 'gi');
-        var targetHtml = $('#genera').html();
-
-        /*TENERE FUORI AL RENDER della pagina le IMMAGINI */
-
-
-        if (re.test(targetHtml)) {
-            var matches = targetHtml.match(re);
-            var no = (matches.length == 1) ? 'corrispondenza' : 'corrispondenze';
-            var finds = (matches.length == 1) ? 'trovata' : 'trovate';
-            var quante = matches.length;
-
-            //trovare le parole cecate nel testo e sottolinearle tenendo conto di non prendere elementi interni ai tag html se descrittivi es. alt='ricerca'
-            $("#genera").find('*').contents().filter(function() {
-                if (this.nodeType === 3) {
-
-                    if ((this != undefined) && (this.textContent.trim() != "") && (this.textContent.trim() != " ")) {
-
-                        //  console.log("$THIS", $(this).text());
-
-                        var target = $(this).text();
-                        if (re.test(target)) {
-                            var matches = target.match(re);
-                            var no = (matches.length == 1) ? 'corrispondenza' : 'corrispondenze';
-                            var finds = (matches.length == 1) ? 'trovata' : 'trovate';
-                            // var quante = matches.length;                          
-
-                            for (var i = 0; i < $(this).length; i++) {
-                                var parent = $(this)[i].parentElement;
-                                target = $(parent).html();
-                                $(parent).html(target.replace(re, '<span class="highlight">' + matches[0] + '</span>'));
-                                cont++;
-                            }
-
-
-                            if (trovato == true) {
-                                //bloccare context menu del mouse
-                                $(document).bind("contextmenu", function(e) {
-                                    return false;
-                                });
-
-                                $(".noBackground").css("display", "flex");
-                                $(".noBackground").addClass("open");
-                                $(".searchin").val(cerca);
-                                $(".searchin").focusin();
-                                $(".ics").css("visibility", "visible");
-
-                                $ics.click(function() {
-                                    $searchin.val("");
-                                    $searchin.focus();
-                                    $lente.css("visibility", "visible");
-                                    $ics.css("visibility", "hidden");
-                                    $ics.css("left", "90%");
-                                    var url = "index.html?id=" + lastblockid + "&tit=yes&lis=" + listato + "&menu=1";
-                                    location.href = url;
-                                });
-
-                                if (cont == 1) {
-
-                                    var testo = document.getElementsByClassName("text-area");
-                                    $(testo).text("trovata un'occorrenza");
-                                    if (pos == ultimo) {
-                                        var solo = document.getElementsByClassName("next-search");
-                                        $(solo).attr("style", "visibility:hidden");
-                                    }
-
-                                } else {
-
-                                    var testo = document.getElementsByClassName("text-area");
-                                    $(testo).text(" trovate " + cont + " occorrenze");
-                                    if (pos == ultimo) {
-                                        var solo = document.getElementsByClassName("next-search");
-                                        $(solo).attr("style", "visibility:hidden");
-                                    }
-                                }
-                                if (cont >= 1) {
-                                    var area = document.getElementsByClassName("box");
-                                    $(area).removeAttr("style");
-                                }
-
-                            }
-
-                        }
-
-
-                    }
-                }
-            });
-
-        }
-
-        $(".highlight").css("background", "yellow");
-
-        if ((navigator.userAgent.match(/Android/i) || (navigator.userAgent.match(/iPhone/i)))) {
-            console.log("BARRA MOBILE");
-            barra_ricerca_mobile();
-        } else {
-            console.log("BARRA DESKTOP");
-            barra_ricerca_desktop();
-        }
-    } else {
-        //alert("salva variabile back");
-        //tasto di previous che appare se link cliccato or ricerca andata avanti; 
-        /*if(ricerca attiva e pos>1 oppure link !=undefined*/
-
-    }
     /* All' apertura della modale blocca lo scroll di pagina */
     var keys = { 37: 1, 38: 1, 39: 1, 40: 1 };
 
@@ -381,90 +251,6 @@ $(window).load(function() {
             return false;
         }
     }
-
-    function barra_ricerca_desktop() {
-        $barra_menu.css("display", "flex");
-        $searchin.focus();
-        $searchin.val(cerca);
-        $('.l3').css("display", "block");
-        $('.l3').css("top", "20px");
-        $('.l3').css("left", "15%");
-        $searchin.css("width", "100%");
-        $('.cerca').css("top", "20px");
-        $('.lente').css("visibility", "hidden");
-        $ics.css("visibility", "visible");
-        $ics.css("left", "90%");
-        $('.search_links ').css("top", "-20px");
-        $('.search_links ').css("left", "-5%");
-        if (pos == 0) {
-            $('.src_back').css("display", "none");
-        } else {
-            $('.src_back').css("display", "block");
-        }
-        if (pos == ultimo) {
-            $('.src_next').css("display", "none");
-        } else {
-            $('.src_next').css("display", "block");
-        }
-        $ics.click(function() {
-            $searchin.val("");
-            $searchin.focus();
-            $lente.css("visibility", "visible");
-            $ics.css("visibility", "hidden");
-            $ics.css("left", "90%");
-            var url = "index.html?id=" + lastblockid + "&tit=yes&lis=" + listato + "&menu=1";
-            location.href = url;
-        });
-    }
-
-    function barra_ricerca_mobile() {
-        $barra_menu.css("display", "flex");
-        $searchin.focus();
-        $searchin.val(cerca);
-        $(".search_bar").css("display", "block");
-        $(".bar1").css("display", "none");
-        $(".close_book").css("display", "none");
-        $(".src_back ").css("display", "block");
-        $(".src_next ").css("display", "block");
-        $(".src_ok ").css("display", "block");
-        $('.lente').css("visibility", "hidden");
-        $(".exit").css("display", "none");
-        $ics.css("visibility", "visible");
-        if (pos == 0) {
-            $('.src_back').css("display", "none");
-        } else {
-            $('.src_back').css("display", "block");
-        }
-        if (pos == ultimo) {
-            $('.src_next').css("display", "none");
-        } else {
-            $('.src_next').css("display", "block");
-        }
-        $ics.click(function() {
-            $searchin.val("");
-            $searchin.focus();
-            $lente.css("visibility", "visible");
-            $ics.css("visibility", "hidden");
-            $ics.css("left", "90%");
-            window.location.assign("index.html?id=" + lastblockid + "&tit=yes&lis=" + listato + "&menu=yes");
-
-        });
-        $back.click(function() {
-            $searchin.val("");
-            $searchin.focus();
-            $lente.css("visibility", "visible");
-            $ics.css("visibility", "hidden");
-            $ics.css("left", "90%");
-            window.location.assign("index.html?id=" + lastblockid + "&tit=yes&lis=" + listato + "&menu=1");
-        });
-
-
-        // $(".close_bar").css("display", "none");
-
-    }
-
-
-
 
     function disableScroll() {
         if (window.addEventListener) // older FF
@@ -2701,6 +2487,61 @@ $("#idx_button2").click(function() {
 });
 
 
+
+
+$("#idx_button3").click(function() {
+    if ($("#genera").hasClass("SIDMode") == false) {
+        if (listato == undefined || listato == "AB") {
+            var link1 = document.getElementsByClassName("menuAB");
+            var link2 = document.getElementsByClassName("libroAB");
+            $(link1).attr("href", "AB/css/menuAB.css");
+            $(link2).removeAttr("href");
+        }
+        if (listato == "AM") {
+            var link1 = document.getElementsByClassName("menuAM");
+            var link2 = document.getElementsByClassName("libroAM");
+            $(link1).attr("href", "AM/css/menuAM.css");
+            $(link2).removeAttr("href");
+        }
+        if (listato == "CDE") {
+            var link1 = document.getElementsByClassName("menuCDE");
+            var link2 = document.getElementsByClassName("libroCDE");
+            $(link1).attr("href", "CDE/css/menuCDE.css");
+            $(link2).removeAttr("href");
+        }
+        if (listato == "aulaAB") {
+            var link1 = document.getElementsByClassName("menuaulaAB");
+            var link2 = document.getElementsByClassName("libroaulaAB");
+            $(link1).attr("href", "AB/css/menuaulaAB.css");
+            $(link2).removeAttr("href");
+
+        }
+        if (listato == "aulaAM") {
+            var link1 = document.getElementsByClassName("menuaulaAM");
+            var link2 = document.getElementsByClassName("libroaulaAM");
+            $(link1).attr("href", "AM/css/menuaulaAM.css");
+            $(link2).removeAttr("href");
+        }
+        if (listato == "aulaCDE") {
+            var link1 = document.getElementsByClassName("menuaulaCDE");
+            var link2 = document.getElementsByClassName("libroaulaCDE");
+            $(link1).attr("href", "AM/css/menuaulaAM.css");
+            $(link2).removeAttr("href");
+        }
+
+
+        $("#genera").addClass("SIDMode");
+        $("#genera").html("");
+
+        setTimeout(function() {
+            preventFadeBar();
+            indexBuilder();
+        }, 50);
+
+
+    }
+});
+
 function indexBuilder() {
     var indexComponent = [];
     var indexType;
@@ -3331,344 +3172,6 @@ function isScrolledIntoView(elem) {
 
 
 
-
-//INIZIO FUNZIONI DI VISUALIZZAZIONE E USABILITY DELLA BARRA MENU
-
-function vis_menu(barra) {
-
-    $(document).on("keyup", function(e) {
-        var code = e.keyCode || e.which;
-        console.log("codice:", code);
-        switch (code) {
-            case 27: //Tasto ESC
-                if (cerca != undefined) {
-                    var url = "index.html?id=" + lastblockid + "&tit=yes&lis=" + listato + "&menu=1";
-                    location.href = url;
-                } else {
-                    uscitaLibro();
-                }
-                break;
-            case 40:
-                avanti();
-                break;
-            case 38:
-                indietro();
-                break;
-            case 39:
-                if (cerca != undefined) {
-                    nextsearch();
-                } else {
-                    $(".noBackground").fadeIn();
-                }
-                break;
-            case 37:
-                if (cerca != undefined) {
-                    backsearch();
-                } else {
-                    $(".noBackground").fadeIn();
-                }
-                break;
-                /* case 17:
-                     window.location.assign("index.html");
-                     break;*/
-
-        }
-    });
-    setTimeout(function() {
-        if (barra == 1) {
-            $(".noBackground").css("display", "flex");
-            $(".noBackground").addClass("open");
-        }
-    }, 1000);
-
-}
-
-
-function indietro() {
-
-    var offset = window.pageYOffset;
-    offset -= 1000;
-    $('html, body').animate({ scrollTop: offset }, 1000);
-    allBlocks.loadPrevius();
-    return false;
-
-}
-
-function avanti() {
-    var offset = window.pageYOffset;
-    offset += 1000;
-    $('html, body').animate({ scrollTop: offset }, 1000);
-    allBlocks.loadNext();
-    return false;
-}
-
-
-var ricerca_attiva = false;
-
-function new_ricerca() {
-    var input = $("#search-in").val();
-
-
-    var container = sezioni["sezioni"];
-    var contenuti, matches, no, finds;
-    var re = new RegExp(input, 'gi');
-    console.log("re", re);
-    //console.log("re2", re2);
-    var cont = 0;
-    var array_trovate = [];
-    var arr_id = []
-    var tutti = new Array();
-    var contenuti2, id_cont, id, id_pars, tutti_pars;
-
-    for (var i = 0; i < container.length; i++) {
-
-        contenuti = container[i].contenuti;
-        id_cont = container[i].id;
-
-        $(contenuti).find('*').contents().filter(function() {
-            if (this.nodeType === 3) {
-
-                if ((this != undefined) && (this.textContent.trim() != "") && (this.textContent.trim() != " ")) {
-                    contenuti2 = this.textContent;
-                    matches = contenuti2.match(re);
-                    cont++;
-                    eccolo = contenuti2.search(input);
-
-                    if (eccolo > -1) {
-
-                        trovato = true;
-                        ricerca_attiva = true;
-                        if ($.inArray(id_cont, tutti) < 0) {
-                            console.log("id_cont", id_cont);
-
-                            tutti = tutti.concat(id_cont);
-                            eccolo = -1;
-                            cont++;
-                        }
-                    }
-                }
-            }
-        });
-        if ((matches != null) || (matches != undefined)) {
-            no = (matches.length == 1) ? 'corrispondenza' : 'corrispondenze';
-            finds = (matches.length == 1) ? 'trovata' : 'trovate';
-            console.log("matches: ", matches);
-            array_trovate.push(container[i]);
-
-        }
-
-        if (cont > 0) {
-            trovato = true;
-            ricerca_attiva = true;
-        }
-        if (listato == "AB" || listato == "") {
-            var link1 = document.getElementsByClassName("menuAB");
-            var link2 = document.getElementsByClassName("libroAB");
-        } else if (listato == "AM") {
-            var link1 = document.getElementsByClassName("menuAM");
-            var link2 = document.getElementsByClassName("libroAM");
-        }
-    }
-
-    if (tutti[0] != undefined) {
-
-        for (var j = 0; j < tutti.length; j++) {
-
-            if (blockId == tutti[j]) {
-                id = blockId;
-                window.location.assign("index.html?id=" + id + "&lis=" + listato + "&tit=yes&search=" + input + "&menu=1&pos=" + 0);
-                return;
-            } else {
-                if (id == undefined) {
-                    id_pars = parseInt(blockId);
-                    tutti_pars = parseInt(tutti[j]);
-
-                    if (tutti_pars > id_pars) {
-                        id = tutti[j];
-                        window.location.assign("index.html?id=" + id + "&lis=" + listato + "&tit=yes&search=" + input + "&menu=1&pos=" + 0);
-                        return;
-                    } else {
-
-                        if (j == tutti.length - 1) {
-
-                            id = tutti[0];
-                            window.location.assign("index.html?id=" + id + "&lis=" + listato + "&tit=yes&search=" + input + "&menu=1&pos=" + 0);
-                            return;
-                        }
-                    }
-
-                }
-
-            }
-        }
-    }
-    if (array_trovate.length == 0) {
-        nontrovato();
-    }
-
-
-}
-
-
-function nontrovato() {
-    $(".src_ok").css("display", "block");
-    $(".src_ok").css("left", "6%");
-    $("#text_search").text("non è presente in questo libro!");
-    $(".cerca").css("top", "10px");
-}
-
-
-function nextsearch(cerca) {
-    var container = sezioni["sezioni"];
-    var cerca = getParam("search");
-    var array = getParam("array");
-    var pos = getParam("pos");
-    trovato = false;
-    var eccolo = 0;
-    cont = -1;
-    var tutti = new Array();
-    var contenuti, id_cont, contenitore, contenitore2, id_pars, tutti_pars;
-    if (cerca == "" || cerca == undefined) {
-        alert("Inserire parola nella barra di ricerca!");
-        return;
-    } else {
-        for (var i = 0; i < container.length; i++) {
-            contenuti = container[i].contenuti;
-            id_cont = container[i].id;
-            //solo testo non img alt=ricerca
-            $(contenuti).find('*').contents().filter(function() {
-                if (this.nodeType === 3) {
-                    if ((this != undefined) && (this.textContent.trim() != "") && (this.textContent.trim() != " ")) {
-                        contenuti2 = this.textContent;
-                        // id_cont = container[i].id;
-                        eccolo = contenuti2.search(cerca);
-
-                        if (eccolo > -1) {
-
-                            trovato = true;
-                            ricerca_attiva = true;
-                            if ($.inArray(id_cont, tutti) < 0) {
-                                tutti = tutti.concat(id_cont);
-                                eccolo = -1;
-                                cont++;
-                            }
-
-                        }
-
-                    }
-                }
-            });
-        }
-        for (var j = 0; j < tutti.length; j++) {
-            if (tutti[0]) {
-
-                if (listato == "AB" || listato == "") {
-                    var link1 = document.getElementsByClassName("menuAB");
-                    var link2 = document.getElementsByClassName("libroAB");
-                } else if (listato == "AM") {
-                    var link1 = document.getElementsByClassName("menuAM");
-                    var link2 = document.getElementsByClassName("libroAM");
-                }
-                $(link1).removeAttr("href");
-
-                id_pars = parseInt(blockId);
-                tutti_pars = parseInt(tutti[j]);
-                if (tutti_pars > id_pars) {
-                    id = tutti[j];
-                    pos++;
-                    window.location.assign("index.html?id=" + id + "&lis=" + listato + "&tit=yes&search=" + cerca + "&menu=1&pos=" + pos + "&ultimo=" + cont);
-                    return;
-                } else {
-
-                    if (j == tutti.length - 1) {
-                        id = tutti[0];
-                        pos++;
-                        window.location.assign("index.html?id=" + id + "&lis=" + listato + "&tit=yes&search=" + cerca + "&menu=1&pos=" + pos + "&ultimo=" + cont);
-                        return;
-                    }
-                }
-
-
-            }
-        }
-    }
-}
-
-function backsearch(cerca) {
-    var container = sezioni["sezioni"];
-    var cerca = getParam("search");
-    var array = getParam("array");
-    var pos = getParam("pos");
-    var ultimo = getParam("ultimo");
-    trovato = false;
-    var eccolo = 0;
-    cont = -1;
-    var contenitore, contenitore2;
-    var tutti = new Array();
-    if (cerca == "" || cerca == undefined) {
-        alert("Inserire parola nella barra di ricerca!");
-        return;
-    } else {
-        for (var i = 0; i < container.length; i++) {
-            var contenuti = container[i].contenuti;
-            var id_cont = container[i].id;
-            $(contenuti).find('*').contents().filter(function() {
-                if (this.nodeType === 3) {
-                    if ((this != undefined) && (this.textContent.trim() != "") && (this.textContent.trim() != " ")) {
-                        contenuti2 = this.textContent;
-                        // id_cont = container[i].id;
-                        eccolo = contenuti2.search(cerca);
-
-                        if (eccolo > -1) {
-                            trovato = true;
-                            ricerca_attiva = true;
-                            if ($.inArray(id_cont, tutti) < 0) {
-                                tutti = tutti.concat(id_cont);
-                                eccolo = -1;
-                                cont++;
-                            }
-                        }
-
-                    }
-                }
-            });
-
-            if (listato == "AB" || listato == "") {
-                var link1 = document.getElementsByClassName("menuAB");
-                var link2 = document.getElementsByClassName("libroAB");
-            } else if (listato == "AM") {
-                var link1 = document.getElementsByClassName("menuAM");
-                var link2 = document.getElementsByClassName("libroAM");
-            }
-            $(link1).removeAttr("href");
-
-            for (var j = 0; j < tutti.length; j++) {
-
-                id_pars = parseInt(blockId);
-                tutti_pars = parseInt(tutti[j]);
-
-                if (tutti_pars == id_pars) {
-
-                    if (j > 0) {
-                        id = tutti[j - 1];
-                        $(".src_next").css("display", "block");
-                        window.location.assign("index.html?id=" + id + "&lis=" + listato + "&tit=yes&search=" + cerca + "&menu=1&pos=" + pos + "&ultimo=" + cont);
-                        return;
-                    } else {
-
-                        $(".src_next").css("display", "block");
-                        $(".src_back ").css("display", "none");
-                    }
-
-                }
-
-            }
-
-
-        }
-    }
-}
-
 function gesture() {
     var deviDetect = new MobileDetect(window.navigator.userAgent);
     var device = deviceType(deviDetect);
@@ -3721,10 +3224,6 @@ function chiudi() {
     }
 }
 
-function tastiera() {
-    var scrivi = document.getElementById("search-in");
-    $(scrivi).focus();
-}
 
 /*Attivando la funzione Sillabare abbiamo la possibilità anche con chrome di avere la sillabazione */
 //sillabare();
@@ -3868,34 +3367,6 @@ $(function() {
     });
 
 });
-
-function nascondiMenu() {
-    /*funzione che non fa vedere la barra del menu e disabilita il click sulle barre laterali*/
-    $("#idx_button2").click(function(e) {
-
-        $(".barra_enter").css("display", "none");
-        $(".margin").css("display", "none");
-
-        $("#marginSX").click(function(e) {
-            e.preventDefault;
-        });
-        $("#marginDX").click(function(e) {
-            e.preventDefault;
-        });
-    });
-
-}
-
-(function($) {
-    $(window).on("load", function() {
-        /*Sull' indice la barra non serve quindi non viene visualizzata*/
-        if ($("#genera").hasClass("SIDMode")) {
-            $(".barra_enter").css("display", "none");
-            $(".margin").css("display", "none");
-        }
-
-    });
-})(jQuery);
 
 function addEvent(obj, type, fn) {
     if (obj.addEventListener) {

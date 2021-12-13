@@ -15,7 +15,7 @@
 
     <link rel="shortcut icon" href="assets/css/bootstrap.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <!--<link rel="stylesheet" href="assets/css/barraDesk6.css">-->
+    <!--<link rel="stylesheet" href="assets/css/barraDesk.css">-->
     <!-- <link rel="stylesheet" href="assets/css/nav_bar.css"> -->
     <!-- <link rel="stylesheet" href="assets/css/navAM.css">-->
     <!--  <link rel="stylesheet" class="navAB">-->
@@ -32,7 +32,7 @@
     <link rel="stylesheet" class="libroAM">
     <link rel="stylesheet" class="menuCDE">
     <link rel="stylesheet" class="libroCDE">
-    <title>Manuale 2020</title>
+    <title>Manuale 2021</title>
 
 
     <!--<script type="text/javascript">
@@ -162,16 +162,348 @@
             text-align: center;
             color: #999;
         }*/
+        
+        .container-book {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: -120px;
+            left: 45%;
+        }
+        
+        .navbar-book {
+            position: fixed;
+            top: 93%;
+            left: 2%;
+            padding: 10px 30px;
+        }
+        
+        .dots-btn {
+            width: 6rem;
+            height: 6rem;
+            background-color: #3c97de;
+            top: 50%;
+            left: 0%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 1rem 3rem rgba(13, 83, 57, 0.4);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            z-index: 99;
+        }
+        
+        .dot {
+            width: 1rem;
+            height: 1rem;
+            background-color: #fff;
+            border-radius: 50%;
+            transition: all 0.3s;
+        }
+        
+        .change .dot-1 {
+            height: 4rem;
+            width: 0.4rem;
+            border-radius: 1rem;
+            transform: rotate( -45deg) translate(1.2rem, 1.5rem);
+        }
+        
+        .change .dot-2 {
+            opacity: 0;
+        }
+        
+        .change .dot-3 {
+            height: 4rem;
+            width: 0.4rem;
+            border-radius: 1rem;
+            transform: rotate( 45deg) translate(-1rem, 1.3rem);
+        }
+        
+        .nav-menu-book {
+            background-color: #6AA5E1;
+            padding: 3rem 4rem;
+            border-top-right-radius: 5rem;
+            border-bottom-right-radius: 5rem;
+            box-shadow: 0 1rem 3rem rgb(37 172 120 / 40%);
+            transition: width 1.5s;
+            z-index: 1;
+            position: relative;
+            left: -65%;
+            display: none;
+        }
+        
+        .change .nav-menu-book {
+            display: block;
+            width: 63rem;
+            top: -99px;
+            left: 35px;
+            z-index: 1;
+        }
+        
+        .nav-menu-link-book {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s;
+        }
+        
+        .change .nav-menu-link-book {
+            opacity: 1;
+            visibility: visible;
+            transition: all 0.3s 0.3s;
+        }
+        
+        .nav-menu-link-book:nth-child(1) {
+            left: 0.5rem;
+            width: 30%;
+        }
+        
+        .nav-menu-link-book:nth-child(2) {
+            left: 20rem;
+            width: 20rem;
+        }
+        
+        .nav-menu-link-book:nth-child(3) {
+            right: 33rem;
+        }
+        
+        .nav-menu-link-book:nth-child(4) {
+            right: 4rem;
+        }
+        
+        .nav-menu-link-book i {
+            font-size: 4rem;
+            color: #fff;
+        }
+        
+        .img-search3 {
+            left: -10px;
+            position: relative;
+            top: -2px;
+        }
+        
+        .invisible {
+            left: -999px;
+            overflow: hidden;
+            position: absolute;
+            top: -999px;
+        }
+        /* helpers/align.css */
+        
+        .align {
+            display: grid;
+            place-items: center;
+        }
+        /* layout/base.css */
+        
+         :root {
+            --body-background-color: #82a8ee;
+            --body-color: #97adc6;
+        }
+        /* modules/anchor.css */
+        
+        a {
+            color: inherit;
+            outline: 0;
+        }
+        /* modules/icon.css */
+        
+        .icons {
+            display: none;
+        }
+        
+        .icon-book {
+            block-size: 1em;
+            display: inline-block;
+            fill: currentcolor;
+            inline-size: 1em;
+            vertical-align: middle;
+        }
+        
+        .icon--2x-book {
+            font-size: 2rem;
+        }
+        
+        .pls {
+            display: inline-block;
+            text-align: center;
+            border-radius: 4px;
+            margin: 2px;
+            height: 56px;
+            width: 56px;
+            vertical-align: middle;
+        }
+        
+        button.btn-bar-book {
+            background-color: #2f87cc;
+            float: left;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .btn-bar-book:hover {
+            background-color: #2f87cc;
+            opacity: 0.8;
+        }
+        
+        button.btn.btn-secondary.btn-bar-book {
+            border-radius: 5px!important;
+        }
+        
+        button.btn.btn-secondary.btn-bar-book:active {
+            background-color: #2f87cc;
+            box-shadow: 0 3px #3c97de;
+            transform: translateY(2px);
+        }
+        
+        button.btn.btn-secondary.btn-bar-book:focus {
+            outline: none!important;
+        }
+        
+        input#search-in:focus {
+            outline: none!important;
+        }
+        
+        .form-src-book {
+            position: relative;
+        }
+        
+        input.search-argomento {
+            background: #F7F7F7;
+            width: 100%;
+            border: 0;
+            padding: 10px 40px 10px 16px;
+            border-radius: 26px;
+            font-size: 14px;
+            max-width: 420px;
+        }
+        
+        .wrapper-search-book span {
+            position: absolute;
+            top: 7px;
+            left: 355px;
+        }
+        
+        .svg-grey-filter {
+            filter: invert(44%) sepia(4%) saturate(60%) hue-rotate( 338deg) brightness(87%) contrast(89%);
+        }
+        
+        .wrapper-search-book.wrap-src {
+            width: 420px;
+        }
+        
+        button.btn.btn-secondary.btn-bar-book {
+            margin-top: 0px;
+            margin-right: 3px;
+            margin-bottom: 3px;
+            margin-left: 0px;
+            width: 52px;
+            height: 52px;
+        }
+        
+        .pls img {
+            display: inline-block;
+            width: 36px;
+            height: 36px;
+            margin: -5px;
+        }
+        
+        button.btn.btn-secondary.btn-bar-book {
+            border: none;
+        }
+        
+        .btn-secondary:active {
+            background-color: #2f87cc;
+        }
+        
+        .container-book {
+            position: fixed;
+        }
+        
+        .grp-end {
+            display: none;
+        }
+        
+        #search-in {
+            color: black;
+        }
+        
+        header.noBackground.barra_enter.open {
+            background: transparent;
+        }
+        
+        .change .nav-menu-book {
+            display: block;
+            width: 63rem;
+            top: -90px;
+            left: 30px;
+            z-index: 1;
+        }
+        /*/////////////SMARTPHONE BAR//////////////////*/
+        
+        .container-book.animazione3.smartphone-bar {
+            background-color: #6AA5E1;
+            padding: 3rem 4rem;
+            border-radius: 5px;
+            box-shadow: 0 1rem 3rem rgb(37 172 120/ 40%);
+            transition: width 2s;
+            z-index: 1;
+            position: relative;
+            left: -65%;
+            display: none;
+            z-index: 9999;
+            width: 45%;
+            left: 10rem;
+            top: -1rem;
+        }
+        
+        .navbar-book-smart {
+            position: absolute;
+            top: 3%;
+            width: 100%;
+            height: 100%;
+        }
+        
+        img.icon-book.icon--2x-book.x-ico {
+            width: 20px;
+        }
+        
+        .nav-menu-link-book.pls.pls-smart {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: -0.4rem;
+        }
+        
+        .exit-btn-smart {
+            background: rgb(52, 178, 102);
+            width: 50px;
+            height: 50px;
+            /* left: 0.2rem;*/
+        }
+        
+         ::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: white;
+            opacity: 1;
+            /* Firefox */
+        }
+        /*.src-btn-smart {
+            left: 0.1rem;
+        }*/
+        /***********************************************/
     </style>
-
 </head>
 
 <body>
     <!--<div class="scrollbox">-->
-    <!-- <div id="#loader" class="loader">LOADING...</div>-->
+    <!-- <div id="#loader" class="loader">LOADING...</div>
     <header class="noBackground barra_enter">
         <!--<div class="logo "><img class="logo" src="img/man1.png"> </div>-->
-        <nav class="l1 bar1">
+    <!-- <nav class="l1 bar1">
             <ul class="nav_links ">
                 <li><a href="#"><button onClick="indietro()"><img class="su ico" data-src="assets/images/ico/Su.svg"> </button></a></li>
                 <li><a href="#"><button class="indice" id="idx_button2"> <img class="ico" data-src="assets/images/ico/indice.svg">  <span class=" spanM idx">Indice</span></span></img></button></a></li>
@@ -209,9 +541,94 @@
                 <img class="back_all ico" data-src="assets/images/close.svg">
             </button>
         </a>
+    </header>-->
+
+
+    <header class="noBackground barra_enter">
+        <div class="container-book animazione3 desktop-bar">
+            <nav class="navbar-book">
+                <div class="dots-btn">
+                    <div class="dot dot-1"></div>
+                    <div class="dot dot-2"></div>
+                    <div class="dot dot-3"></div>
+                </div>
+                <div class="nav-menu-book">
+                    <a class="nav-menu-link-book pls">
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-secondary btn-bar-book" onClick="indietro()">
+                                <img class="icon-book icon--2x-book" src="assets/images/ico/icon_arrow-up_white.svg" alt="">
+                            </button>
+                            <button type="button" class="btn btn-secondary btn-bar-book indice" id="idx_button2">
+                                <img class="icon-book icon--2x-book" src="assets/images/ico/icon_multimedia-book.svg" alt="">
+                            </button>
+                            <button type="button" class="btn btn-secondary btn-bar-book" onClick="avanti()">
+                                <img class="icon-book icon--2x-book" src="assets/images/ico/icon_arrow-down_white.svg" alt="">
+                            </button>
+                        </div>
+                    </a>
+                    <a class="nav-menu-link-book nav-src">
+                        <div class="form-search form-src">
+                            <div class="wrapper-search-book wrap-src">
+                                <input type="text" class="search-argomento search_box scrivi_cerca" id="search-in" onClick="tastiera()" placeholder="Cerca nel libro..." aria-label="" aria-describedby="">
+                                <span class="src_lens">
+                                    <img class="svg-grey-filter" src="assets/images/ico/Bt_lente.svg" width="24" height="24">
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="nav-menu-link-book pls src_back indietro grp-end">
+                        <button class="btn_prev btn btn-secondary btn-bar-book" onClick="backsearch()"><img class="destra ico" data-src="assets/images/ico/icon_arrow-left_white.svg"></button>
+                    </a>
+                    <a class="l3 src_ok">
+                        <div class="trovati text-area fumetto grp-end" id="text_search"></div>
+                    </a>
+                    <a class="nav-menu-link-book pls src_next avanti grp-end">
+                        <button class="btn_next btn btn-secondary btn-bar-book" onClick="nextsearch()"><img class="sinistra ico " data-src="assets/images/ico/icon_arrow-right_white.svg "></button>
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <div class="container-book animazione3 smartphone-bar" style="display: none;">
+            <nav class="navbar-book navbar-book-smart">
+                <a class="nav-menu-link-book pls pls-smart">
+                    <div class="btn-group btn-group-smart" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary btn-bar-book indice indice-smart" id="idx_button3">
+                            <img class="icon-book icon--2x-book" src="assets/images/ico/icon_multimedia-book.svg" alt="">
+                        </button>
+                        <button type="button" class="btn btn-secondary btn-bar-book src-btn src-btn-smart">
+                            <img class="icon-book icon--2x-book ico-src-smart" src="assets/images/ico/icon_search.svg" alt="">
+                        </button>
+                        <button type="button" class="btn btn-secondary btn-bar-book exit-btn-smart">
+                            <img class="icon-book icon--2x-book x-ico" src="assets/images/ico/close-w.svg" alt="">
+                        </button>
+                    </div>
+                </a>
+                <a class="nav-menu-link-book nav-src nav-src-smart" style="display: none;">
+                    <div class="form-search form-src form-src-smart">
+                        <div class="wrapper-search-book wrap-src wrap-src-smart">
+                            <input type="text" class="search-argomento search_box scrivi_cerca scrivi_cerca_smart" id="search-in-smart" placeholder="Cerca nel libro..." aria-label="" aria-describedby="">
+                        </div>
+                    </div>
+                </a>
+                <!--
+                <a class="nav-menu-link-book pls src_back indietro grp-end src_back_smart" style="display: none;">
+                    <button class="btn_prev btn btn-secondary btn-bar-book" onClick="backsearch()"><img class="destra ico" data-src="assets/images/ico/icon_arrow-left_white.svg"></button>
+                </a>
+                <a class="l3 src_ok src_ok_smart" style="display: none;">
+                    <div class="trovati text-area fumetto grp-end grp-end-smart" id="text_search"></div>
+                </a>
+                <a class="nav-menu-link-book pls src_next avanti grp-end src_next_smart" style="display: none;">
+                    <button class="btn_next btn btn-secondary btn-bar-book" onClick="nextsearch()"><img class="sinistra ico " data-src="assets/images/ico/icon_arrow-right_white.svg "></button>
+                </a>
+                <a class="nav-menu-link-book pls src_next avanti grp-end src_exit2-smart" style="display: none;">
+                    <button class="btn_next btn btn-secondary btn-bar-book"><img class="sinistra ico close2" data-src="assets/images/ico/close-w2.svg"></button>
+                </a>
+                -->
+
+            </nav>
+
+        </div>
     </header>
-
-
     <div id="marginSX" class="margin"></div>
     <div id="genera" class="hyphenate scrollbox-content" lang="it"></div>
     <div id="marginDX" class="margin"></div>

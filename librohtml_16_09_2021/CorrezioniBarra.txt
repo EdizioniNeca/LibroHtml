@@ -14,8 +14,8 @@ PROBLEMI GENERALI
 
 	I "VEICOLI" non apre il primo paragrafo.OK
 
-BARRA DESKTOP
-	La barra di ricerca che esce in un secondo momento occuperà tutto lo spazio e non ci saranno più i pulsanti "Giù", "Su", "Indice" ma sarà dedicata interamente alla ricerca.
+BARRA DESKTOP OK
+	La barra di ricerca che esce in un secondo momento occuperà tutto lo spazio e non ci saranno più i pulsanti "Giù", "Su", "Indice" ma sarà dedicata interamente alla ricerca. 
 
 	La X chiuderà la ricerca mentre la barra si chiuderà con un click sul desktop
 	

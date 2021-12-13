@@ -1,0 +1,21 @@
+<svg id="icon_arrow-right_white" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_2" data-name="Rettangolo 2" width="24" height="24" transform="translate(50.682 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_9" data-name="Raggruppa 9" transform="translate(-50.682)">
+    <g id="Raggruppa_8" data-name="Raggruppa 8" clip-path="url(#clip-path)">
+      <g id="Raggruppa_7" data-name="Raggruppa 7">
+        <g id="Raggruppa_6" data-name="Raggruppa 6" clip-path="url(#clip-path)">
+          <g id="Raggruppa_4" data-name="Raggruppa 4">
+            <path id="Tracciato_1" data-name="Tracciato 1" d="M73.8,12.374H51.392a.5.5,0,0,1,0-1H73.8a.5.5,0,0,1,0,1Z" fill="#fff"/>
+          </g>
+          <g id="Raggruppa_5" data-name="Raggruppa 5">
+            <path id="Tracciato_2" data-name="Tracciato 2" d="M66.026,20.327a.5.5,0,0,1-.354-.853l7.6-7.6-7.95-7.951a.5.5,0,1,1,.707-.707l8.3,8.3a.5.5,0,0,1,0,.707l-7.954,7.954A.5.5,0,0,1,66.026,20.327Z" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

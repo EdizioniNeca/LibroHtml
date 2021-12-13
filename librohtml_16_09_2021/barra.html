@@ -1,0 +1,767 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+    <script src="assets/js/jquery.js"></script>
+
+    <!--META-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="assets/js/jquery.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Link-->
+</head>
+<style>
+    p {
+        margin-left: 300px;
+    }
+    /* helpers/accessibility.css */
+    
+    .invisible {
+        left: -999px;
+        overflow: hidden;
+        position: absolute;
+        top: -999px;
+    }
+    /* helpers/align.css */
+    
+    .align {
+        display: grid;
+        place-items: center;
+    }
+    /* layout/base.css */
+    
+     :root {
+        --body-background-color: #82a8ee;
+        --body-color: #97adc6;
+    }
+    /* modules/anchor.css */
+    
+    a {
+        color: inherit;
+        outline: 0;
+    }
+    /* modules/icon.css */
+    
+    .icons {
+        display: none;
+    }
+    
+    .icon {
+        block-size: 1em;
+        display: inline-block;
+        fill: currentcolor;
+        inline-size: 1em;
+        vertical-align: middle;
+    }
+    
+    .icon--2x {
+        font-size: 2rem;
+    }
+    /* modules/image.css */
+    
+    svg {
+        max-inline-size: 100%;
+    }
+    /* modules/navigation.css */
+    
+     :root {
+        --navigation-background-color: #f0f6ff;
+        --navigation-border-radius: 0.25em;
+        --navigation-anchor-padding: 1.5em;
+    }
+    
+    .navigation {
+        background-color: var(--navigation-background-color);
+        border-radius: var(--navigation-border-radius);
+        box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.3);
+    }
+    
+    .navigation ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navigation a {
+        display: block;
+        padding: var(--navigation-anchor-padding);
+        position: relative;
+        text-decoration: none;
+    }
+    
+    .navigation a:focus::after,
+    .navigation a:hover::after {
+        opacity: 1;
+    }
+    
+    .navigation a::after {
+        block-size: 100%;
+        box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.3);
+        content: '';
+        inline-size: 100%;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        transition: opacity 0.3s;
+    }
+    
+    .navigation--inline ul {
+        display: flex;
+    }
+    
+    .container1 {
+        position: relative;
+        top: -110px;
+        left: 35%;
+    }
+    
+    .nav1 {
+        position: absolute;
+    }
+    
+    .pls {
+        display: inline-block;
+        text-align: center;
+        border-radius: 4 px;
+        background: #3c97de;
+        margin: 2 px;
+        height: 56 px;
+        width: 56 px;
+        vertical-align: middle;
+    }
+    
+    .pls img {
+        display: inline-block;
+        width: 40 px;
+        height: 40 px;
+        margin: 8 px;
+    }
+    
+    input.search-argomento {
+        background: #F7F7F7;
+        width: 100%;
+        border: 0;
+        padding: 10 px 40 px 10 px 16 px;
+        border-radius: 26 px;
+        font-size: 14px;
+        max-width: 300 px;
+    }
+    
+    a.search_a {
+        position: relative;
+        width: 250px;
+        background: #3c97de;
+    }
+    
+    .wrapper-search {
+        position: relative;
+        box-sizing: border-box;
+    }
+    
+    input.search-argomento {
+        background: #F7F7F7;
+        width: 65%;
+        border: 0;
+        padding: 10px 40px 10px 16px;
+        border-radius: 26px;
+        font-size: 14px;
+        max-width: 300px;
+    }
+    
+    .wrapper-search span {
+        position: absolute;
+        top: 6px;
+        right: 25px;
+    }
+    
+    .svg-grey-filter {
+        filter: invert(44%) sepia(4%) saturate(60%) hue-rotate( 338deg) brightness(87%) contrast(89%);
+    }
+    
+    .form-search {
+        height: 32px;
+    }
+    /* .pls-search {
+        -webkit-transition: all, 0.4s, ease-in-out;
+        transition: all, 0.62s, ease-in-out;
+    }*/
+    
+    .pls-search,
+    .li-search,
+    input[type=text] {
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+    
+    input[type=text]:focus {
+        width: 100%;
+    }
+    
+    li.li-search:focus,
+    .pls-search:focus {
+        width: 400px;
+    }
+    /* input[type=text]:focus {
+        width: 100%;
+    }*/
+    
+    .wrapper-search {
+        position: relative;
+        box-sizing: border-box;
+        z-index: 999999999999999999999999999999999;
+    }
+    
+    .pls-up {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+    
+    .pls-close {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    /**************BARRA 2**********************/
+    
+    .container2 {
+        position: relative;
+        top: -100px;
+        left: 36%;
+        opacity: 0.7;
+    }
+    
+    .container2:hover,
+    .container2:focus {
+        position: relative;
+        top: -100px;
+        left: 36%;
+        opacity: 1;
+    }
+    
+    span.span-book {
+        /* border-right: 2
+    px
+     solid; */
+        display: inline-block;
+        margin-left: 6px;
+        margin-right: 5px;
+        padding-right: 10px;
+        border-right: 1px solid rgba(256, 256, 256, 0.2);
+    }
+    
+    span.span-indice {
+        font-size: 18px;
+        font-weight: 600;
+        position: relative;
+        text-size-adjust: auto;
+        color: white;
+        top: 3px;
+    }
+    /*******************************************/
+    /*******************************************/
+    /******************Barra 3******************/
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -120px;
+        left: 45%;
+    }
+    
+    .navbar {
+        position: relative;
+    }
+    
+    .dots-btn {
+        width: 5rem;
+        height: 5rem;
+        background-color: #25ac78;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        box-shadow: 0 1rem 3rem rgba(13, 83, 57, 0.4);
+        cursor: pointer;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .dot {
+        width: 1rem;
+        height: 1rem;
+        background-color: #fff;
+        border-radius: 50%;
+        transition: all 0.3s;
+    }
+    
+    .change .dot-1 {
+        height: 3rem;
+        width: 0.5rem;
+        border-radius: 1rem;
+        transform: rotate( -45deg) translate(1.1rem, 1.1rem);
+    }
+    
+    .change .dot-2 {
+        opacity: 0;
+    }
+    
+    .change .dot-3 {
+        height: 3rem;
+        width: 0.5rem;
+        border-radius: 1rem;
+        transform: rotate( 45deg) translate(-1rem, 1rem);
+    }
+    
+    .nav-menu {
+        background-color: #25ac78;
+        padding: 2rem 3rem;
+        border-radius: 5rem;
+        box-shadow: 0 1rem 3rem rgba(37, 172, 120, 0.4);
+        transition: width 0.3s;
+    }
+    
+    .change .nav-menu {
+        width: 46rem;
+    }
+    
+    .nav-menu-link {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s;
+    }
+    
+    .change .nav-menu-link {
+        opacity: 1;
+        visibility: visible;
+        transition: all 0.3s 0.3s;
+    }
+    
+    .nav-menu-link:nth-child(1) {
+        left: 5rem;
+    }
+    
+    .nav-menu-link:nth-child(2) {
+        left: 11rem;
+    }
+    
+    .nav-menu-link:nth-child(3) {
+        right: 33rem;
+    }
+    
+    .nav-menu-link:nth-child(4) {
+        right: 4rem;
+    }
+    
+    .nav-menu-link i {
+        font-size: 4rem;
+        color: #fff;
+    }
+    
+    .img-search3 {
+        left: -10px;
+        position: relative;
+        top: -2px;
+    }
+    /*******************************************/
+    /********************************************/
+    /*******************Animazioni***************/
+    
+    .animazione1 {
+        position: relative;
+        animation-name: animazione1;
+        animation-duration: 4s;
+        animation-delay: 2s;
+    }
+    
+    @keyframes animazione1 {
+        0% {
+            left: 0;
+            top: -110px;
+        }
+        100% {
+            top: -110px;
+            left: 35%;
+        }
+    }
+    
+    .animazione2 {
+        position: relative;
+        animation-name: animazione2;
+        animation-duration: 4s;
+        animation-delay: 2s;
+    }
+    
+    @keyframes animazione2 {
+        0% {
+            background-color: green;
+            top: 100px;
+            left: 36%;
+        }
+        100% {
+            background-color: green;
+            top: -100px;
+            left: 36%;
+        }
+    }
+    
+    .animazione3 {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        animation-name: animazione3;
+        animation-duration: 4s;
+        animation-delay: 2s;
+    }
+    
+    @keyframes animazione3 {
+        0% {
+            left: 45%;
+            top: -300px;
+        }
+        100% {
+            left: 45%;
+            top: -120px;
+        }
+    }
+    /*******************************************/
+    /********************************************/
+    /*******************Barra 4***************/
+    
+    .container4 {
+        position: relative;
+        width: 40%;
+    }
+    
+    .btn-group {
+        width: 25%;
+        float: left;
+    }
+    
+    .wrapper-search4 {
+        float: left;
+    }
+    /********************************************/
+</style>
+
+<body>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+
+
+    <div class="container1 animazione1">
+        <nav class="navigation navigation--inline nav1">
+            <ul>
+                <li>
+                    <a class="pls pls-up" href="#">
+                        <img class="icon icon--2x" src="assets/images/ico/icon_arrow-up_white.svg" alt="">
+                        <use xlink:href="#icon-home" />
+                        </svg>
+                        <span class="invisible">Su</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="pls pls-book" href="#">
+                        <img class="icon icon--2x" src="assets/images/ico/icon_multimedia-book.svg" alt="">
+                        <use xlink:href="#icon-search" />
+                        </svg>
+                        <span class="invisible">Indice</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="pls pls-down" href="#">
+                        <img class="icon icon--2x" src="assets/images/ico/icon_arrow-down_white.svg" alt="">
+                        <use xlink:href="#icon-cart" />
+                        </svg>
+                        <span class="invisible">Giù</span>
+                    </a>
+                </li>
+                <li class="li-search">
+                    <a class="pls pls-search" href="#">
+                        <!--
+                    <a class="pls pls-search" href="#">
+                        <form class="form-search">
+                            <div class="wrapper-search">
+                                <input name="keyword" type="text" class="search-argomento search-book" placeholder="Cerca nel libro..." aria-label="" aria-describedby="">
+                                <span>
+                                    <img class="svg-grey-filter" src="assets/images/ico/icon_search.svg" width="24" height="24">
+                                </span>
+                            </div>
+                        </form>
+                    </a>-->
+                        <form class="form-search">
+                            <div class="wrapper-search">
+                                <input name="keyword" type="text" class="search-argomento search-book" placeholder="Cerca nel libro..." aria-label="" aria-describedby="">
+                                <span>
+                                <img class="svg-grey-filter img-search" src="assets/images/ico/icon_search.svg" width="24" height="24">
+                            </span>
+                            </div>
+                        </form>
+                    </a>
+                </li>
+                <li class="li-close">
+                    <a class="pls pls-close" href="#">
+                        <img class="icon icon--2x" src="assets/images/ico/icon_close.svg" alt="">
+
+                        <use xlink:href="#icon-bell" />
+                        </svg>
+                        <span class="invisible">X</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+    <br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <div class="container2 animazione2">
+        <nav class="navigation navigation--inline nav1">
+            <ul>
+                <li>
+                    <a class="pls pls-up" href="#">
+                        <img class="icon icon--2x" src="assets/images/ico/icon_arrow-up_white.svg" alt="">
+                        <use xlink:href="#icon-home" />
+                        </svg>
+                        <span class="invisible">Su</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="pls pls-book" href="#">
+                        <span class="span-book">
+                            <img class="icon icon--2x" src="assets/images/ico/icon_multimedia-book.svg" alt="">
+                        </span>
+                        <span class="span-indice">Indice</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="pls pls-down" href="#">
+                        <img class="icon icon--2x" src="assets/images/ico/icon_arrow-down_white.svg" alt="">
+                        <use xlink:href="#icon-cart" />
+                        </svg>
+                        <span class="invisible">Giù</span>
+                    </a>
+                </li>
+                <li class="li-search">
+                    <a class="pls pls-search" href="#">
+                        <!--
+                    <a class="pls pls-search" href="#">
+                        <form class="form-search">
+                            <div class="wrapper-search">
+                                <input name="keyword" type="text" class="search-argomento search-book" placeholder="Cerca nel libro..." aria-label="" aria-describedby="">
+                                <span>
+                                    <img class="svg-grey-filter" src="assets/images/ico/icon_search.svg" width="24" height="24">
+                                </span>
+                            </div>
+                        </form>
+                    </a>-->
+                        <form class="form-search">
+                            <div class="wrapper-search">
+                                <input name="keyword" type="text" class="search-argomento search-book sb2" placeholder="Cerca nel libro..." aria-label="" aria-describedby="">
+                                <span>
+                                <img class="svg-grey-filter img-search" src="assets/images/ico/icon_search.svg" width="24" height="24">
+                            </span>
+                            </div>
+                        </form>
+                    </a>
+                </li>
+                <li class="li-close">
+                    <a class="pls pls-close" href="#">
+                        <img class="icon icon--2x" src="assets/images/ico/icon_close.svg" alt="">
+
+                        <use xlink:href="#icon-bell" />
+                        </svg>
+                        <span class="invisible">X</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+    <br><br><br> <br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <div class="container animazione3">
+        <nav class="navbar">
+            <div class="dots-btn">
+                <div class="dot dot-1"></div>
+                <div class="dot dot-2"></div>
+                <div class="dot dot-3"></div>
+            </div>
+            <div class="nav-menu">
+                <a href="#" class="nav-menu-link"> <img class="icon icon--2x" src="assets/images/ico/icon_arrow-up_white.svg" alt=""></a>
+                <a href="#" class="nav-menu-link"> <img class="icon icon--2x" src="assets/images/ico/icon_multimedia-book.svg" alt=""></a>
+                <a href="#" class="nav-menu-link"> <img class="icon icon--2x" src="assets/images/ico/icon_arrow-down_white.svg" alt=""></a>
+                <a class="nav-menu-link" href="#">
+                    <form class="form-search">
+                        <div class="wrapper-search">
+                            <input name="keyword" type="text" class="search-argomento search-book" placeholder="Cerca nel libro..." aria-label="" aria-describedby="">
+                            <span>
+                            <img class="svg-grey-filter img-search icon icon--2x img-search3" src="assets/images/ico/icon_search.svg" width="24" height="24">
+                        </span>
+                        </div>
+                    </form>
+                </a>
+
+
+                <!--<a href="#" class="nav-menu-link"> <img class="icon icon--2x" src="assets/images/ico/icon_arrow-down_white.svg" alt="">
+
+                </a>-->
+            </div>
+        </nav>
+    </div>
+    <br><br><br> <br><br><br>
+
+    <!--<div class="animazione1">Pippo</div>
+    <div class="animazione2">Pluto</div>
+    <div class="animazione3">Topolino</div>
+    <div class="animazione4">Minnie</div>-->
+
+
+
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo modi iusto pariatur est cupiditate quae optio maxime quo culpa doloremque nam vitae at ratione, possimus ipsa rerum sit illum quod!</p>
+    <div class="container4">
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary">Left</button>
+            <button type="button" class="btn btn-secondary">Middle</button>
+            <button type="button" class="btn btn-secondary">Right</button>
+        </div>
+        <form class="form-search4">
+            <div class="wrapper-search4">
+                <input name="keyword" type="text" class="search-argomento search-book4" placeholder="Cerca nel libro..." aria-label="" aria-describedby="">
+                <span>
+                <img class="svg-grey-filter img-search icon icon--2x img-search3" src="assets/images/ico/icon_search.svg" width="24" height="24">
+            </span>
+            </div>
+        </form>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary">Left</button>
+        </div>
+    </div>
+    <br><br><br> <br><br><br>
+
+</body>
+<script>
+    $(document).ready(function() {
+        $(".pls-search").focusin(function() {
+            $(".wrapper-search span").css("display", "none")
+            $(".pls-close").css("left", "55%");
+            $(".li-search").css("width", " 100%");
+            $(".nav1").css("width", "35%");
+            $(".pls-search").css("width", " 100%");
+            $("img.svg-grey-filter.img-search").css("position", "relative");
+            $("img.svg-grey-filter.img-search").css("left", " -15px");
+        });
+
+        $(".pls-search").focusout(function() {
+            $(".wrapper-search span").css("display", "block")
+            $(".pls-close").css("left", "");
+            $(".li-search").css("width", "");
+            $(".nav1").css("width", "");
+            $(".pls-search").css("width", "");
+        });
+
+    });
+
+    document.querySelector(".dots-btn").addEventListener("click", () => {
+        document.querySelector(".container").classList.toggle("change");
+    });
+</script>
+
+
+</html>
